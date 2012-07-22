@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: city_list_x Class Reference</title>
+<title>Simutrans-Squirrel-API: convoy_list_x Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
@@ -60,33 +60,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pri-methods">Private Member Functions</a>  </div>
   <div class="headertitle">
-<h1>city_list_x Class Reference</h1>  </div>
+<h1>convoy_list_x Class Reference</h1>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="city_list_x" -->
-<p><a href="classcity__list__x-members.html">List of all members.</a></p>
+<!-- doxytag: class="convoy_list_x" -->
+<p><a href="classconvoy__list__x-members.html">List of all members.</a></p>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__list__x.html#a8f8d855c253ec287b81eabf92ad64620">_nexti</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__list__x.html#ac8d868a35769eb0da712f9bcf5a1bf52">_get</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__list__x.html#ace9aada6a779adf7f990f977c586b175">_nexti</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classconvoy__x.html">convoy_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__list__x.html#a613a907fb2b823d90ebe9f9447f7fd30">_get</a> ()</td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>Implements iterator to iterate through the list of all cities on the map.</p>
+<div class="textblock"><p>Implements iterator to iterate through the list of all convoy on the map.</p>
 <p>Usage: </p>
-<div class="fragment"><pre class="fragment"> local list = <a class="code" href="classcity__list__x.html">city_list_x</a>()
- foreach(city in list) {
-     ... <span class="comment">// city is an instance of the city_x class</span>
+<div class="fragment"><pre class="fragment"> local list = <a class="code" href="classconvoy__list__x.html">convoy_list_x</a>()
+ foreach(cnv in list) {
+     ... <span class="comment">// cnv is an instance of the convoy_x class</span>
  }
 </pre></div> 
-<p>Definition at line <a class="el" href="api__city_8cc_source.html#l00013">13</a> of file <a class="el" href="api__city_8cc_source.html">api_city.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__convoy_8cc_source.html#l00013">13</a> of file <a class="el" href="api__convoy_8cc_source.html">api_convoy.cc</a>.</p>
 </div><hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="ac8d868a35769eb0da712f9bcf5a1bf52"></a><!-- doxytag: member="city_list_x::_get" ref="ac8d868a35769eb0da712f9bcf5a1bf52" args="()" -->
+<a class="anchor" id="a613a907fb2b823d90ebe9f9447f7fd30"></a><!-- doxytag: member="convoy_list_x::_get" ref="a613a907fb2b823d90ebe9f9447f7fd30" args="()" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void city_list_x::_get </td>
+          <td class="memname"><a class="el" href="classconvoy__x.html">convoy_x</a> convoy_list_x::_get </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td><code> [private]</code></td>
@@ -98,12 +98,12 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8f8d855c253ec287b81eabf92ad64620"></a><!-- doxytag: member="city_list_x::_nexti" ref="a8f8d855c253ec287b81eabf92ad64620" args="()" -->
+<a class="anchor" id="ace9aada6a779adf7f990f977c586b175"></a><!-- doxytag: member="convoy_list_x::_nexti" ref="ace9aada6a779adf7f990f977c586b175" args="()" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void city_list_x::_nexti </td>
+          <td class="memname">void convoy_list_x::_nexti </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td><code> [private]</code></td>
@@ -116,7 +116,7 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="api__city_8cc_source.html">api_city.cc</a></li>
+<li><a class="el" href="api__convoy_8cc_source.html">api_convoy.cc</a></li>
 </ul>
 </div>
 <!--- window showing the filter options -->
