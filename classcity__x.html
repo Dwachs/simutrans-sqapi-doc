@@ -86,6 +86,13 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#aceb2e0bf4c85b6861f5ce3b9fd0dac98">get_year_generated_pax</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#a679aadb16598bb68d9858d68fe25b094">get_year_transported_mail</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#ada0e0b380db9c99b1709b9156be1b841">get_year_generated_mail</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#aff4c9a34ec135a3f2f6d71b533366085">get_citygrowth_enabled</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#afc1a5526c576b094e8ddaff7baad434f">get_pos</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#a45f5a5923d95f252c8ca3b290c3390f5">get_pos_nw</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#ae4dab05d60e98b3f952105ed45ed46ea">get_pos_se</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#a8dbdb9ff6355507dff258ccb5f00d3f8">change_size</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#aff4c9a34ec135a3f2f6d71b533366085">get_citygrowth_enabled</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#a6c4120103e3ecf15afa12f141d80eb29">set_name</a> ()</td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Class to access cities. </p>
@@ -128,6 +135,24 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a8dbdb9ff6355507dff258ccb5f00d3f8"></a><!-- doxytag: member="city_x::change_size" ref="a8dbdb9ff6355507dff258ccb5f00d3f8" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void city_x::change_size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Change city size. City will immediately grow. </p>
+<dl class="warning"><dt><b>Warning:</b></dt><dd>cannot be used in network games. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a83faae974384d8f1b17a70f8757eea41"></a><!-- doxytag: member="city_x::get_buildings" ref="a83faae974384d8f1b17a70f8757eea41" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -179,6 +204,42 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 <p>Get monthly statistics of number of citycars started. </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>array, index [0] corresponds to current month </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aff4c9a34ec135a3f2f6d71b533366085"></a><!-- doxytag: member="city_x::get_citygrowth_enabled" ref="aff4c9a34ec135a3f2f6d71b533366085" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void city_x::get_citygrowth_enabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Check city growth allowance. </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>whether city growth is enabled for this city </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aff4c9a34ec135a3f2f6d71b533366085"></a><!-- doxytag: member="city_x::get_citygrowth_enabled" ref="aff4c9a34ec135a3f2f6d71b533366085" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void city_x::get_citygrowth_enabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Enable or disable city growth. </p>
+<dl class="warning"><dt><b>Warning:</b></dt><dd>cannot be used in network games. </dd></dl>
 
 </div>
 </div>
@@ -251,6 +312,64 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 <p>Return name of city </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>name </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afc1a5526c576b094e8ddaff7baad434f"></a><!-- doxytag: member="city_x::get_pos" ref="afc1a5526c576b094e8ddaff7baad434f" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void city_x::get_pos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Position of townhall. </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>townhall position </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a45f5a5923d95f252c8ca3b290c3390f5"></a><!-- doxytag: member="city_x::get_pos_nw" ref="a45f5a5923d95f252c8ca3b290c3390f5" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void city_x::get_pos_nw </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>City limits.</p>
+<p>City area is between <a class="el" href="classcity__x.html#a45f5a5923d95f252c8ca3b290c3390f5">get_pos_nw()</a>.x and <a class="el" href="classcity__x.html#ae4dab05d60e98b3f952105ed45ed46ea">get_pos_se()</a>.x, and <a class="el" href="classcity__x.html#a45f5a5923d95f252c8ca3b290c3390f5">get_pos_nw()</a>.y and <a class="el" href="classcity__x.html#ae4dab05d60e98b3f952105ed45ed46ea">get_pos_se()</a>.y.</p>
+<p>It is <b>not</b> guaranteed that <a class="el" href="classcity__x.html#a45f5a5923d95f252c8ca3b290c3390f5">get_pos_nw()</a>.x &lt;= <a class="el" href="classcity__x.html#ae4dab05d60e98b3f952105ed45ed46ea">get_pos_se()</a>.x or <a class="el" href="classcity__x.html#a45f5a5923d95f252c8ca3b290c3390f5">get_pos_nw()</a>.y &lt;= <a class="el" href="classcity__x.html#ae4dab05d60e98b3f952105ed45ed46ea">get_pos_se()</a>.y holds! </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>coordinate of one corner of city limit </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae4dab05d60e98b3f952105ed45ed46ea"></a><!-- doxytag: member="city_x::get_pos_se" ref="ae4dab05d60e98b3f952105ed45ed46ea" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void city_x::get_pos_se </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>City limits.</p>
+<p>City area is between <a class="el" href="classcity__x.html#a45f5a5923d95f252c8ca3b290c3390f5">get_pos_nw()</a>.x and <a class="el" href="classcity__x.html#ae4dab05d60e98b3f952105ed45ed46ea">get_pos_se()</a>.x, and <a class="el" href="classcity__x.html#a45f5a5923d95f252c8ca3b290c3390f5">get_pos_nw()</a>.y and <a class="el" href="classcity__x.html#ae4dab05d60e98b3f952105ed45ed46ea">get_pos_se()</a>.y.</p>
+<p>It is <b>not</b> guaranteed that <a class="el" href="classcity__x.html#a45f5a5923d95f252c8ca3b290c3390f5">get_pos_nw()</a>.x &lt;= <a class="el" href="classcity__x.html#ae4dab05d60e98b3f952105ed45ed46ea">get_pos_se()</a>.x or <a class="el" href="classcity__x.html#a45f5a5923d95f252c8ca3b290c3390f5">get_pos_nw()</a>.y &lt;= <a class="el" href="classcity__x.html#ae4dab05d60e98b3f952105ed45ed46ea">get_pos_se()</a>.y holds! </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>coordinate of another corner of city limit </dd></dl>
 
 </div>
 </div>
@@ -431,6 +550,24 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 <p>Get per year statistics of number of transported passengers. </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>array, index [0] corresponds to current year </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6c4120103e3ecf15afa12f141d80eb29"></a><!-- doxytag: member="city_x::set_name" ref="a6c4120103e3ecf15afa12f141d80eb29" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void city_x::set_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Change city name. </p>
+<dl class="warning"><dt><b>Warning:</b></dt><dd>cannot be used in network games. </dd></dl>
 
 </div>
 </div>
