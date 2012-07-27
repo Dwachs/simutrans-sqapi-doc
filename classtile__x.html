@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: Class List</title>
+<title>Simutrans-Squirrel-API: tile_x Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
@@ -50,30 +50,96 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li class="current"><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div>
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
-<h1>Class List</h1>  </div>
+<h1>tile_x Class Reference</h1>  </div>
 </div>
 <div class="contents">
-<div class="textblock">Here are the classes, structs, unions and interfaces with brief descriptions:</div><table>
-  <tr><td class="indexkey"><a class="el" href="classcity__list__x.html">city_list_x</a></td><td class="indexvalue"></td></tr>
-  <tr><td class="indexkey"><a class="el" href="classcity__x.html">city_x</a></td><td class="indexvalue"></td></tr>
-  <tr><td class="indexkey"><a class="el" href="classconvoy__list__x.html">convoy_list_x</a></td><td class="indexvalue"></td></tr>
-  <tr><td class="indexkey"><a class="el" href="classconvoy__x.html">convoy_x</a></td><td class="indexvalue"></td></tr>
-  <tr><td class="indexkey"><a class="el" href="classfactory__production__x.html">factory_production_x</a></td><td class="indexvalue"></td></tr>
-  <tr><td class="indexkey"><a class="el" href="classfactory__x.html">factory_x</a></td><td class="indexvalue"></td></tr>
-  <tr><td class="indexkey"><a class="el" href="classhalt__x.html">halt_x</a></td><td class="indexvalue"></td></tr>
-  <tr><td class="indexkey"><a class="el" href="classplayer__x.html">player_x</a></td><td class="indexvalue"></td></tr>
-  <tr><td class="indexkey"><a class="el" href="classrules.html">rules</a></td><td class="indexvalue"></td></tr>
-  <tr><td class="indexkey"><a class="el" href="classsquare__x.html">square_x</a></td><td class="indexvalue"></td></tr>
-  <tr><td class="indexkey"><a class="el" href="classtile__x.html">tile_x</a></td><td class="indexvalue"></td></tr>
+<!-- doxytag: class="tile_x" -->
+<p><a href="classtile__x-members.html">List of all members.</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__x.html#a04997a6b2cf1e221b1e947096e216c66">tile_x</a> (integer x, integer y, integer y)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__x.html#a5cf51ad049b6c70f4f19d54b81bb1fed">get_halt</a> ()</td></tr>
 </table>
+<hr/><a name="_details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Class to access tiles on the map. </p>
+
+<p>Definition at line <a class="el" href="api__tiles_8cc_source.html#l00005">5</a> of file <a class="el" href="api__tiles_8cc_source.html">api_tiles.cc</a>.</p>
+</div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a04997a6b2cf1e221b1e947096e216c66"></a><!-- doxytag: member="tile_x::tile_x" ref="a04997a6b2cf1e221b1e947096e216c66" args="(integer x, integer y, integer y)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tile_x::tile_x </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Constructor. Returns tile at particular 3d coordinate. If not tile is found, it returns the ground tile. Raises error, if (<code>x</code>, <code>y</code>) coordinate are out-of-range. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>x-coordinate </td></tr>
+    <tr><td class="paramname">y</td><td>z-coordinate </td></tr>
+    <tr><td class="paramname">y</td><td>z-coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a5cf51ad049b6c70f4f19d54b81bb1fed"></a><!-- doxytag: member="tile_x::get_halt" ref="a5cf51ad049b6c70f4f19d54b81bb1fed" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tile_x::get_halt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Access halt at this tile. </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classhalt__x.html">halt_x</a> instance or null/false if no halt is present </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="api__tiles_8cc_source.html">api_tiles.cc</a></li>
+</ul>
 </div>
 <!--- window showing the filter options -->
 <div id="MSearchSelectWindow"
