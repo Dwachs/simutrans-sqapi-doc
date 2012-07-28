@@ -70,10 +70,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#ab8b99f0eac12865936351997c1a2f4a0">forbid_tool</a> (integer player_nr, integer tool_id)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#ae713f8ad39f4cbc1b54b4a19ecd48017">allow_tool</a> (integer player_nr, integer tool_id)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a6d85ca53041990e5128bdf1d99f6e55a">forbid_way_tool</a> (integer player_nr, integer tool_id, integer wt)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#ae0ae87314db59a77d5716248b83f7d9f">allow_way_tool</a> (integer player_nr, integer tool_id, integer wt)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a800dfc59d2ceade78bcc29483e7e8431">forbid_way_tool_rect</a> (integer player_nr, integer tool_id, integer wt, table pos_nw, table pos_se, string err)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#ab54d8c8042395e4b6b72a6ed87d8cdbe">allow_way_tool_rect</a> (integer player_nr, integer tool_id, integer wt, table pos_nw, table pos_se, any_x err)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a32635665b3561aa32c534bf848b51d30">forbid_way_tool</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#aa1b2a8e1779a4837c3cfad4ef6b469ac">allow_way_tool</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a66dc914e1d4c697c156020f2f31c69b4">forbid_way_tool_rect</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, table pos_nw, table pos_se, string err)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#addce56dccfaded13bdb473bb6cd85941">allow_way_tool_rect</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, table pos_nw, table pos_se, any_x err)</td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Table with methods to forbid and allow tools.</p>
@@ -117,7 +117,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae0ae87314db59a77d5716248b83f7d9f"></a><!-- doxytag: member="rules::allow_way_tool" ref="ae0ae87314db59a77d5716248b83f7d9f" args="(integer player_nr, integer tool_id, integer wt)" -->
+<a class="anchor" id="aa1b2a8e1779a4837c3cfad4ef6b469ac"></a><!-- doxytag: member="rules::allow_way_tool" ref="aa1b2a8e1779a4837c3cfad4ef6b469ac" args="(integer player_nr, integer tool_id, way_types wt)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -136,7 +136,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer&#160;</td>
+          <td class="paramtype"><a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a>&#160;</td>
           <td class="paramname"><em>wt</em>&#160;</td>
         </tr>
         <tr>
@@ -160,7 +160,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab54d8c8042395e4b6b72a6ed87d8cdbe"></a><!-- doxytag: member="rules::allow_way_tool_rect" ref="ab54d8c8042395e4b6b72a6ed87d8cdbe" args="(integer player_nr, integer tool_id, integer wt, table pos_nw, table pos_se, any_x err)" -->
+<a class="anchor" id="addce56dccfaded13bdb473bb6cd85941"></a><!-- doxytag: member="rules::allow_way_tool_rect" ref="addce56dccfaded13bdb473bb6cd85941" args="(integer player_nr, integer tool_id, way_types wt, table pos_nw, table pos_se, any_x err)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -179,7 +179,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer&#160;</td>
+          <td class="paramtype"><a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a>&#160;</td>
           <td class="paramname"><em>wt</em>, </td>
         </tr>
         <tr>
@@ -260,7 +260,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6d85ca53041990e5128bdf1d99f6e55a"></a><!-- doxytag: member="rules::forbid_way_tool" ref="a6d85ca53041990e5128bdf1d99f6e55a" args="(integer player_nr, integer tool_id, integer wt)" -->
+<a class="anchor" id="a32635665b3561aa32c534bf848b51d30"></a><!-- doxytag: member="rules::forbid_way_tool" ref="a32635665b3561aa32c534bf848b51d30" args="(integer player_nr, integer tool_id, way_types wt)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -279,7 +279,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer&#160;</td>
+          <td class="paramtype"><a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a>&#160;</td>
           <td class="paramname"><em>wt</em>&#160;</td>
         </tr>
         <tr>
@@ -303,7 +303,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a800dfc59d2ceade78bcc29483e7e8431"></a><!-- doxytag: member="rules::forbid_way_tool_rect" ref="a800dfc59d2ceade78bcc29483e7e8431" args="(integer player_nr, integer tool_id, integer wt, table pos_nw, table pos_se, string err)" -->
+<a class="anchor" id="a66dc914e1d4c697c156020f2f31c69b4"></a><!-- doxytag: member="rules::forbid_way_tool_rect" ref="a66dc914e1d4c697c156020f2f31c69b4" args="(integer player_nr, integer tool_id, way_types wt, table pos_nw, table pos_se, string err)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -322,7 +322,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer&#160;</td>
+          <td class="paramtype"><a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a>&#160;</td>
           <td class="paramname"><em>wt</em>, </td>
         </tr>
         <tr>
