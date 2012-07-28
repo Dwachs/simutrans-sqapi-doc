@@ -69,9 +69,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#ae341317d0782bddd507e84df5bc25089">square_x</a> (integer x, integer y)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#afbc69d1cfb67ecdd5ca32b63a8337cf1">get_halt</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#a8f35d50521041dbe20732045440942b8">get_tile_at_height</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#a9d28caf659062f4010acc5650248f7d9">get_ground_tile</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classhalt__x.html">halt_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#a41e936269214824e3d8523ea79dd712e">get_halt</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtile__x.html">tile_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#af6d93fe092d34d6c59d221ecb8e5a2b0">get_tile_at_height</a> (integer z)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtile__x.html">tile_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#a6538ad504f6ddb8ef8e00fcbf38b8b2e">get_ground_tile</a> ()</td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Class to map squares, which hold all the tiles on one particular coordinate. </p>
@@ -114,12 +114,12 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a9d28caf659062f4010acc5650248f7d9"></a><!-- doxytag: member="square_x::get_ground_tile" ref="a9d28caf659062f4010acc5650248f7d9" args="()" -->
+<a class="anchor" id="a6538ad504f6ddb8ef8e00fcbf38b8b2e"></a><!-- doxytag: member="square_x::get_ground_tile" ref="a6538ad504f6ddb8ef8e00fcbf38b8b2e" args="()" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void square_x::get_ground_tile </td>
+          <td class="memname"><a class="el" href="classtile__x.html">tile_x</a> square_x::get_ground_tile </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -132,12 +132,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afbc69d1cfb67ecdd5ca32b63a8337cf1"></a><!-- doxytag: member="square_x::get_halt" ref="afbc69d1cfb67ecdd5ca32b63a8337cf1" args="()" -->
+<a class="anchor" id="a41e936269214824e3d8523ea79dd712e"></a><!-- doxytag: member="square_x::get_halt" ref="a41e936269214824e3d8523ea79dd712e" args="()" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void square_x::get_halt </td>
+          <td class="memname"><a class="el" href="classhalt__x.html">halt_x</a> square_x::get_halt </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -150,20 +150,27 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8f35d50521041dbe20732045440942b8"></a><!-- doxytag: member="square_x::get_tile_at_height" ref="a8f35d50521041dbe20732045440942b8" args="()" -->
+<a class="anchor" id="af6d93fe092d34d6c59d221ecb8e5a2b0"></a><!-- doxytag: member="square_x::get_tile_at_height" ref="af6d93fe092d34d6c59d221ecb8e5a2b0" args="(integer z)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void square_x::get_tile_at_height </td>
+          <td class="memname"><a class="el" href="classtile__x.html">tile_x</a> square_x::get_tile_at_height </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>z</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 <p>Access tile at specified height. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">z</td><td>height </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classtile__x.html">tile_x</a> or null/false if nothing found </dd></dl>
 
 </div>
