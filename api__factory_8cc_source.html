@@ -60,8 +60,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="contents">
 <a href="api__factory_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
-<a name="l00006"></a><a class="code" href="classfactory__x.html">00006</a> <span class="keyword">class </span><a class="code" href="classfactory__x.html">factory_x</a> <span class="keyword">extends</span> extend_get {
-<a name="l00012"></a>00012         constructor(x, y);
+<a name="l00006"></a><a class="code" href="classfactory__x.html">00006</a> <span class="keyword">class </span><a class="code" href="classfactory__x.html">factory_x</a> <span class="keyword">extends</span> <a class="code" href="classextend__get.html">extend_get</a>,<a class="code" href="classcoord.html">coord</a> {
+<a name="l00012"></a>00012         constructor(<a class="code" href="classcoord.html#a31d0b44c0bfcea55a67587a3d8fe2348" title="x-coordinate">x</a>, <a class="code" href="classcoord.html#a77e983dd41d55fb0594e983cc1cbcf15" title="y-coordinate">y</a>);
 <a name="l00019"></a>00019         table <a class="code" href="classfactory__x.html#a84b31ff4b0456dfaff29f95d45eda724">input</a>;
 <a name="l00026"></a>00026         table <a class="code" href="classfactory__x.html#a4db50e67209071f74a6468a5edc9be5f">output</a>;
 <a name="l00031"></a>00031         function <a class="code" href="classfactory__x.html#a2db9f8f9c8df0bf7464250411b6536a9">get_consumers</a>();
@@ -78,7 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00086"></a>00086         function <a class="code" href="classfactory__x.html#a12fb764762d1e6bed91d71e0f51186f8">get_mail_departed</a>();
 <a name="l00091"></a>00091         function <a class="code" href="classfactory__x.html#a4fe6d87b458287eff11a35857e08bf05">get_mail_arrived</a>();
 <a name="l00092"></a>00092 }
-<a name="l00097"></a>00097 <span class="keyword">class </span><a class="code" href="classfactory__production__x.html">factory_production_x</a> <span class="keyword">extends</span> extend_get {
+<a name="l00097"></a>00097 <span class="keyword">class </span><a class="code" href="classfactory__production__x.html">factory_production_x</a> <span class="keyword">extends</span> <a class="code" href="classextend__get.html">extend_get</a> {
 <a name="l00101"></a>00101         integer <a class="code" href="classfactory__production__x.html#a691bbd62d08a6c3c5d3a0ba1877579f5">max_storage</a>;
 <a name="l00106"></a>00106         function <a class="code" href="classfactory__production__x.html#a88d41ab1e7413e77323621a48585fd75">get_storage</a>();
 <a name="l00111"></a>00111         function <a class="code" href="classfactory__production__x.html#ae463bd908eca2c6eeff65157b61197df">get_received</a>();

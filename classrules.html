@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -72,8 +73,8 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#ae713f8ad39f4cbc1b54b4a19ecd48017">allow_tool</a> (integer player_nr, integer tool_id)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a32635665b3561aa32c534bf848b51d30">forbid_way_tool</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#aa1b2a8e1779a4837c3cfad4ef6b469ac">allow_way_tool</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a66dc914e1d4c697c156020f2f31c69b4">forbid_way_tool_rect</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, table pos_nw, table pos_se, string err)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#addce56dccfaded13bdb473bb6cd85941">allow_way_tool_rect</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, table pos_nw, table pos_se, any_x err)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#abf8f8c6b1c0064f648e5e0fff83cecf4">forbid_way_tool_rect</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord.html">coord</a> pos_nw, <a class="el" href="classcoord.html">coord</a> pos_se, string err)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a46cb20c5fec1bb1ce521dabcb62d523b">allow_way_tool_rect</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord.html">coord</a> pos_nw, <a class="el" href="classcoord.html">coord</a> pos_se)</td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Table with methods to forbid and allow tools.</p>
@@ -160,7 +161,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="addce56dccfaded13bdb473bb6cd85941"></a><!-- doxytag: member="rules::allow_way_tool_rect" ref="addce56dccfaded13bdb473bb6cd85941" args="(integer player_nr, integer tool_id, way_types wt, table pos_nw, table pos_se, any_x err)" -->
+<a class="anchor" id="a46cb20c5fec1bb1ce521dabcb62d523b"></a><!-- doxytag: member="rules::allow_way_tool_rect" ref="a46cb20c5fec1bb1ce521dabcb62d523b" args="(integer player_nr, integer tool_id, way_types wt, coord pos_nw, coord pos_se)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -185,20 +186,14 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">table&#160;</td>
+          <td class="paramtype"><a class="el" href="classcoord.html">coord</a>&#160;</td>
           <td class="paramname"><em>pos_nw</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">table&#160;</td>
-          <td class="paramname"><em>pos_se</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">any_x&#160;</td>
-          <td class="paramname"><em>err</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classcoord.html">coord</a>&#160;</td>
+          <td class="paramname"><em>pos_se</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -216,7 +211,6 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">wt</td><td>waytype </td></tr>
     <tr><td class="paramname">pos_nw</td><td>coordinate of north-western corner of rectangle </td></tr>
     <tr><td class="paramname">pos_se</td><td>coordinate of south-eastern corner of rectangle </td></tr>
-    <tr><td class="paramname">err</td><td>error message presented to user when trying to apply this tool </td></tr>
   </table>
   </dd>
 </dl>
@@ -303,7 +297,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a66dc914e1d4c697c156020f2f31c69b4"></a><!-- doxytag: member="rules::forbid_way_tool_rect" ref="a66dc914e1d4c697c156020f2f31c69b4" args="(integer player_nr, integer tool_id, way_types wt, table pos_nw, table pos_se, string err)" -->
+<a class="anchor" id="abf8f8c6b1c0064f648e5e0fff83cecf4"></a><!-- doxytag: member="rules::forbid_way_tool_rect" ref="abf8f8c6b1c0064f648e5e0fff83cecf4" args="(integer player_nr, integer tool_id, way_types wt, coord pos_nw, coord pos_se, string err)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -328,13 +322,13 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">table&#160;</td>
+          <td class="paramtype"><a class="el" href="classcoord.html">coord</a>&#160;</td>
           <td class="paramname"><em>pos_nw</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">table&#160;</td>
+          <td class="paramtype"><a class="el" href="classcoord.html">coord</a>&#160;</td>
           <td class="paramname"><em>pos_se</em>, </td>
         </tr>
         <tr>
