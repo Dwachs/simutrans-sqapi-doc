@@ -61,24 +61,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <a href="api__convoy_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
 <a name="l00013"></a><a class="code" href="classconvoy__list__x.html">00013</a> <span class="keyword">class </span><a class="code" href="classconvoy__list__x.html">convoy_list_x</a> {
-<a name="l00017"></a>00017         function <a class="code" href="classconvoy__list__x.html#ace9aada6a779adf7f990f977c586b175">_nexti</a>();
-<a name="l00021"></a>00021         function <a class="code" href="classconvoy__list__x.html#a613a907fb2b823d90ebe9f9447f7fd30">_get</a>();
-<a name="l00022"></a>00022 }
-<a name="l00027"></a>00027 <span class="keyword">class </span><a class="code" href="classconvoy__x.html">convoy_x</a> <span class="keyword">extends</span> <a class="code" href="classextend__get.html">extend_get</a> {
-<a name="l00032"></a><a class="code" href="classconvoy__x.html">00032</a>         function <a class="code" href="classconvoy__x.html#ade690bca60587595ca0fb67394de5988">needs_electrification</a>();
-<a name="l00037"></a>00037         function <a class="code" href="classconvoy__x.html#a963009457974ee916094c78bf290f434">get_name</a>();
-<a name="l00042"></a>00042         function <a class="code" href="classconvoy__x.html#a1c853cd702d07db14b55c0c3bafc6582">get_pos</a>();
-<a name="l00047"></a>00047         function <a class="code" href="classconvoy__x.html#a46d5fdf73c4aad1b4a452a2cbff280b1">get_owner</a>();
-<a name="l00052"></a>00052         function <a class="code" href="classconvoy__x.html#a097fad1dc8c9451df50b318ee2ccdc5f">get_goods_catg_index</a>();
-<a name="l00058"></a>00058         function <a class="code" href="classconvoy__x.html#a56e914bc0d55b009f8bde413d36df9ee">get_waytype</a>();
-<a name="l00063"></a>00063         function <a class="code" href="classconvoy__x.html#a2c4e894cb99441c3e86febca799811bf">get_capacity</a>();
-<a name="l00068"></a>00068         function <a class="code" href="classconvoy__x.html#a2e0aad6a7fa560b133352435c6df904e">get_transported_goods</a>();
-<a name="l00073"></a>00073         function <a class="code" href="classconvoy__x.html#a5e220f02d8356599c67f47616b6cb3c7">get_revenue</a>();
-<a name="l00078"></a>00078         function <a class="code" href="classconvoy__x.html#ae49ff5570f91d18f3e4502e797921eec">get_cost</a>();
-<a name="l00083"></a>00083         function <a class="code" href="classconvoy__x.html#a98163d1fd93109a40c196e867e19b035">get_profit</a>();
-<a name="l00088"></a>00088         function <a class="code" href="classconvoy__x.html#ace460e580244f82b47852912ee83265c">get_travelled_distance</a>();
-<a name="l00089"></a>00089 }
-<a name="l00090"></a>00090 
+<a name="l00014"></a>00014 <span class="keyword">public</span>:
+<a name="l00018"></a>00018 <span class="keyword">private</span>:
+<a name="l00019"></a>00019         <span class="keywordtype">void</span> <a class="code" href="classconvoy__list__x.html#ace9aada6a779adf7f990f977c586b175">_nexti</a>();
+<a name="l00020"></a>00020 <span class="keyword">public</span>:
+<a name="l00024"></a>00024 <span class="keyword">private</span>:
+<a name="l00025"></a>00025         <a class="code" href="classconvoy__x.html">convoy_x</a> <a class="code" href="classconvoy__list__x.html#a613a907fb2b823d90ebe9f9447f7fd30">_get</a>();
+<a name="l00026"></a>00026 <span class="keyword">public</span>:
+<a name="l00027"></a>00027 };
+<a name="l00032"></a><a class="code" href="classconvoy__x.html">00032</a> <span class="keyword">class </span><a class="code" href="classconvoy__x.html">convoy_x</a> : <span class="keyword">public</span> <a class="code" href="classextend__get.html">extend_get</a> {
+<a name="l00033"></a>00033 <span class="keyword">public</span>:
+<a name="l00038"></a>00038         <span class="keywordtype">bool</span> <a class="code" href="classconvoy__x.html#ade690bca60587595ca0fb67394de5988">needs_electrification</a>();
+<a name="l00043"></a>00043         <span class="keywordtype">string</span> <a class="code" href="classconvoy__x.html#a963009457974ee916094c78bf290f434">get_name</a>();
+<a name="l00048"></a>00048         <a class="code" href="classcoord3d.html">coord3d</a> <a class="code" href="classconvoy__x.html#a1c853cd702d07db14b55c0c3bafc6582">get_pos</a>();
+<a name="l00053"></a>00053         <a class="code" href="classplayer__x.html">player_x</a> <a class="code" href="classconvoy__x.html#a46d5fdf73c4aad1b4a452a2cbff280b1">get_owner</a>();
+<a name="l00058"></a>00058         array <a class="code" href="classconvoy__x.html#a097fad1dc8c9451df50b318ee2ccdc5f">get_goods_catg_index</a>();
+<a name="l00064"></a>00064         <a class="code" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> <a class="code" href="classconvoy__x.html#a56e914bc0d55b009f8bde413d36df9ee">get_waytype</a>();
+<a name="l00069"></a>00069         array <a class="code" href="classconvoy__x.html#a2c4e894cb99441c3e86febca799811bf">get_capacity</a>();
+<a name="l00074"></a>00074         array <a class="code" href="classconvoy__x.html#a2e0aad6a7fa560b133352435c6df904e">get_transported_goods</a>();
+<a name="l00079"></a>00079         array <a class="code" href="classconvoy__x.html#a5e220f02d8356599c67f47616b6cb3c7">get_revenue</a>();
+<a name="l00084"></a>00084         array <a class="code" href="classconvoy__x.html#ae49ff5570f91d18f3e4502e797921eec">get_cost</a>();
+<a name="l00089"></a>00089         array <a class="code" href="classconvoy__x.html#a98163d1fd93109a40c196e867e19b035">get_profit</a>();
+<a name="l00094"></a>00094         array <a class="code" href="classconvoy__x.html#ace460e580244f82b47852912ee83265c">get_travelled_distance</a>();
+<a name="l00095"></a>00095 };
+<a name="l00096"></a>00096 
 </pre></div></div>
 </div>
 <!--- window showing the filter options -->

@@ -60,33 +60,35 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="contents">
 <a href="api__factory_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
-<a name="l00006"></a><a class="code" href="classfactory__x.html">00006</a> <span class="keyword">class </span><a class="code" href="classfactory__x.html">factory_x</a> <span class="keyword">extends</span> <a class="code" href="classextend__get.html">extend_get</a>,<a class="code" href="classcoord.html">coord</a> {
-<a name="l00012"></a>00012         constructor(<a class="code" href="classcoord.html#a31d0b44c0bfcea55a67587a3d8fe2348" title="x-coordinate">x</a>, <a class="code" href="classcoord.html#a77e983dd41d55fb0594e983cc1cbcf15" title="y-coordinate">y</a>);
-<a name="l00019"></a>00019         table <a class="code" href="classfactory__x.html#a84b31ff4b0456dfaff29f95d45eda724">input</a>;
-<a name="l00026"></a>00026         table <a class="code" href="classfactory__x.html#a4db50e67209071f74a6468a5edc9be5f">output</a>;
-<a name="l00031"></a>00031         function <a class="code" href="classfactory__x.html#a2db9f8f9c8df0bf7464250411b6536a9">get_consumers</a>();
-<a name="l00036"></a>00036         function <a class="code" href="classfactory__x.html#a06acbc59abd0346c31bff8f240103a09">get_suppliers</a>();
-<a name="l00041"></a>00041         function <a class="code" href="classfactory__x.html#afa05e1bd6d773d91918c6fdb791cc759">get_production</a>();
-<a name="l00046"></a>00046         function <a class="code" href="classfactory__x.html#a9f4afe447c0cc4e5b2f9420a0475be95">get_power</a>();
-<a name="l00051"></a>00051         function <a class="code" href="classfactory__x.html#a7435c9bb404d75af73bd774aa71bd759">get_boost_electric</a>();
-<a name="l00056"></a>00056         function <a class="code" href="classfactory__x.html#a29c50b86789361cd457a8516fb09ff42">get_boost_pax</a>();
-<a name="l00061"></a>00061         function <a class="code" href="classfactory__x.html#ae1901d7d82e8ad93b9a7a9e78106be2b">get_boost_mail</a>();
-<a name="l00066"></a>00066         function <a class="code" href="classfactory__x.html#ae1abf9684528fc94b97c17d5d344da18">get_pax_generated</a>();
-<a name="l00071"></a>00071         function <a class="code" href="classfactory__x.html#a4bbe49ef10c93d01718bddff1e819bcf">get_pax_departed</a>();
-<a name="l00076"></a>00076         function <a class="code" href="classfactory__x.html#aabe9a27fce28ad744504ab23f6474e51">get_pax_arrived</a>();
-<a name="l00081"></a>00081         function <a class="code" href="classfactory__x.html#afdf374054b9300cf99b0c2eaf47841a8">get_mail_generated</a>();
-<a name="l00086"></a>00086         function <a class="code" href="classfactory__x.html#a12fb764762d1e6bed91d71e0f51186f8">get_mail_departed</a>();
-<a name="l00091"></a>00091         function <a class="code" href="classfactory__x.html#a4fe6d87b458287eff11a35857e08bf05">get_mail_arrived</a>();
-<a name="l00092"></a>00092 }
-<a name="l00097"></a>00097 <span class="keyword">class </span><a class="code" href="classfactory__production__x.html">factory_production_x</a> <span class="keyword">extends</span> <a class="code" href="classextend__get.html">extend_get</a> {
-<a name="l00101"></a>00101         integer <a class="code" href="classfactory__production__x.html#a691bbd62d08a6c3c5d3a0ba1877579f5">max_storage</a>;
-<a name="l00106"></a>00106         function <a class="code" href="classfactory__production__x.html#a88d41ab1e7413e77323621a48585fd75">get_storage</a>();
-<a name="l00111"></a>00111         function <a class="code" href="classfactory__production__x.html#ae463bd908eca2c6eeff65157b61197df">get_received</a>();
-<a name="l00116"></a>00116         function <a class="code" href="classfactory__production__x.html#a3e0c8aa544aa0b48299af90154421767">get_consumed</a>();
-<a name="l00121"></a>00121         function <a class="code" href="classfactory__production__x.html#a8da4ad9009c2c30b6226ac9a40babfb5">get_delivered</a>();
-<a name="l00126"></a>00126         function <a class="code" href="classfactory__production__x.html#a3e66fb5b436da2d361bef15bcf066af4">get_produced</a>();
-<a name="l00127"></a>00127 }
-<a name="l00128"></a>00128 
+<a name="l00006"></a><a class="code" href="classfactory__x.html">00006</a> <span class="keyword">class </span><a class="code" href="classfactory__x.html">factory_x</a> : <span class="keyword">public</span> <a class="code" href="classextend__get.html">extend_get</a>,<a class="code" href="classcoord.html">coord</a> {
+<a name="l00007"></a>00007 <span class="keyword">public</span>:
+<a name="l00013"></a>00013         <a class="code" href="classfactory__x.html#a98b2f0806cb15884d5b3d773253877a1">factory_x</a>(integer <a class="code" href="classcoord.html#a31d0b44c0bfcea55a67587a3d8fe2348" title="x-coordinate">x</a>, integer <a class="code" href="classcoord.html#a77e983dd41d55fb0594e983cc1cbcf15" title="y-coordinate">y</a>);
+<a name="l00020"></a><a class="code" href="classfactory__x.html#a84b31ff4b0456dfaff29f95d45eda724">00020</a>         table <a class="code" href="classfactory__x.html#a84b31ff4b0456dfaff29f95d45eda724">input</a>;
+<a name="l00027"></a><a class="code" href="classfactory__x.html#a4db50e67209071f74a6468a5edc9be5f">00027</a>         table <a class="code" href="classfactory__x.html#a4db50e67209071f74a6468a5edc9be5f">output</a>;
+<a name="l00032"></a>00032         array <a class="code" href="classfactory__x.html#a2db9f8f9c8df0bf7464250411b6536a9">get_consumers</a>();
+<a name="l00037"></a>00037         array <a class="code" href="classfactory__x.html#a06acbc59abd0346c31bff8f240103a09">get_suppliers</a>();
+<a name="l00042"></a>00042         array <a class="code" href="classfactory__x.html#afa05e1bd6d773d91918c6fdb791cc759">get_production</a>();
+<a name="l00047"></a>00047         array <a class="code" href="classfactory__x.html#a9f4afe447c0cc4e5b2f9420a0475be95">get_power</a>();
+<a name="l00052"></a>00052         array <a class="code" href="classfactory__x.html#a7435c9bb404d75af73bd774aa71bd759">get_boost_electric</a>();
+<a name="l00057"></a>00057         array <a class="code" href="classfactory__x.html#a29c50b86789361cd457a8516fb09ff42">get_boost_pax</a>();
+<a name="l00062"></a>00062         array <a class="code" href="classfactory__x.html#ae1901d7d82e8ad93b9a7a9e78106be2b">get_boost_mail</a>();
+<a name="l00067"></a>00067         array <a class="code" href="classfactory__x.html#ae1abf9684528fc94b97c17d5d344da18">get_pax_generated</a>();
+<a name="l00072"></a>00072         array <a class="code" href="classfactory__x.html#a4bbe49ef10c93d01718bddff1e819bcf">get_pax_departed</a>();
+<a name="l00077"></a>00077         array <a class="code" href="classfactory__x.html#aabe9a27fce28ad744504ab23f6474e51">get_pax_arrived</a>();
+<a name="l00082"></a>00082         array <a class="code" href="classfactory__x.html#afdf374054b9300cf99b0c2eaf47841a8">get_mail_generated</a>();
+<a name="l00087"></a>00087         array <a class="code" href="classfactory__x.html#a12fb764762d1e6bed91d71e0f51186f8">get_mail_departed</a>();
+<a name="l00092"></a>00092         array <a class="code" href="classfactory__x.html#a4fe6d87b458287eff11a35857e08bf05">get_mail_arrived</a>();
+<a name="l00093"></a>00093 };
+<a name="l00098"></a><a class="code" href="classfactory__production__x.html">00098</a> <span class="keyword">class </span><a class="code" href="classfactory__production__x.html">factory_production_x</a> : <span class="keyword">public</span> <a class="code" href="classextend__get.html">extend_get</a> {
+<a name="l00099"></a>00099 <span class="keyword">public</span>:
+<a name="l00103"></a><a class="code" href="classfactory__production__x.html#a691bbd62d08a6c3c5d3a0ba1877579f5">00103</a>         integer <a class="code" href="classfactory__production__x.html#a691bbd62d08a6c3c5d3a0ba1877579f5">max_storage</a>;
+<a name="l00108"></a>00108         array <a class="code" href="classfactory__production__x.html#a88d41ab1e7413e77323621a48585fd75">get_storage</a>();
+<a name="l00113"></a>00113         array <a class="code" href="classfactory__production__x.html#ae463bd908eca2c6eeff65157b61197df">get_received</a>();
+<a name="l00118"></a>00118         array <a class="code" href="classfactory__production__x.html#a3e0c8aa544aa0b48299af90154421767">get_consumed</a>();
+<a name="l00123"></a>00123         array <a class="code" href="classfactory__production__x.html#a8da4ad9009c2c30b6226ac9a40babfb5">get_delivered</a>();
+<a name="l00128"></a>00128         array <a class="code" href="classfactory__production__x.html#a3e66fb5b436da2d361bef15bcf066af4">get_produced</a>();
+<a name="l00129"></a>00129 };
+<a name="l00130"></a>00130 
 </pre></div></div>
 </div>
 <!--- window showing the filter options -->

@@ -60,31 +60,32 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="contents">
 <a href="api__player_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
-<a name="l00006"></a><a class="code" href="classplayer__x.html">00006</a> <span class="keyword">class </span><a class="code" href="classplayer__x.html">player_x</a> <span class="keyword">extends</span> <a class="code" href="classextend__get.html">extend_get</a> {
-<a name="l00011"></a>00011         constructor(nr);
-<a name="l00016"></a>00016         function <a class="code" href="classplayer__x.html#a85267f3e2774b0dc2c51e1e4ac4d1476">get_headquarter_level</a>();
-<a name="l00021"></a>00021         function <a class="code" href="classplayer__x.html#af7ddc9f3a0fa06f107b4d4a2674d4c84">get_headquarter_pos</a>();
-<a name="l00026"></a>00026         function <a class="code" href="classplayer__x.html#ad3dd5087e020972c197e71a74bc36d30">get_name</a>();
-<a name="l00031"></a>00031         function <a class="code" href="classplayer__x.html#a42957548beae008fa7215ffd1dc3a576">get_construction</a>();
-<a name="l00036"></a>00036         function <a class="code" href="classplayer__x.html#a297e5d75b9d7edafe7b55d8b629fd776">get_vehicle_maint</a>();
-<a name="l00041"></a>00041         function <a class="code" href="classplayer__x.html#a5343d621d7a217042c87d7e27176cfe4">get_new_vehicles</a>();
-<a name="l00046"></a>00046         function <a class="code" href="classplayer__x.html#ad5286d416b9a2f8d617cc0f3331ace5b">get_income</a>();
-<a name="l00051"></a>00051         function <a class="code" href="classplayer__x.html#ae3fb90ccf211b9395dac04f3f8227d00">get_maintenance</a>();
-<a name="l00056"></a>00056         function <a class="code" href="classplayer__x.html#af23f22d19d1060823b05abdab57ef4e1">get_assets</a>();
-<a name="l00061"></a>00061         function <a class="code" href="classplayer__x.html#ad2cb42ee8c6b98c0460cfd9f381cf99e">get_cash</a>();
-<a name="l00066"></a>00066         function <a class="code" href="classplayer__x.html#a737740c78326eda5ea42659679cd60db">get_net_wealth</a>();
-<a name="l00071"></a>00071         function <a class="code" href="classplayer__x.html#a96d70e20e2ed25d781f6306cb2f18b7f">get_profit</a>();
-<a name="l00076"></a>00076         function <a class="code" href="classplayer__x.html#a32813d71f813341c0a66188b02088615">get_operating_profit</a>();
-<a name="l00081"></a>00081         function <a class="code" href="classplayer__x.html#a4fa61732c4865dcf109aad36204becbb">get_margin</a>();
-<a name="l00086"></a>00086         function <a class="code" href="classplayer__x.html#ac1cd7ebcb2098fe9806f31f5e124f67a">get_transported</a>();
-<a name="l00091"></a>00091         function <a class="code" href="classplayer__x.html#a2bd59cc29cbf4e986c21d70d089f5a90">get_powerline</a>();
-<a name="l00096"></a>00096         function <a class="code" href="classplayer__x.html#a7e254e3d4355bce59e74c315320113a8">get_transported_pax</a>();
-<a name="l00101"></a>00101         function <a class="code" href="classplayer__x.html#ae6fa3c443beb40de5bbc85677a890d3f">get_transported_mail</a>();
-<a name="l00106"></a>00106         function <a class="code" href="classplayer__x.html#a6bf6d06ae354ab353df503c18044a209">get_transported_goods</a>();
-<a name="l00111"></a>00111         function <a class="code" href="classplayer__x.html#ad808f075cf5228a4d1c50b58a61208f8">get_convoys</a>();
-<a name="l00116"></a>00116         function <a class="code" href="classplayer__x.html#a2c4539c918e48618a3271aa14a38b8f8">get_way_tolls</a>();
-<a name="l00117"></a>00117 }
-<a name="l00118"></a>00118 
+<a name="l00006"></a><a class="code" href="classplayer__x.html">00006</a> <span class="keyword">class </span><a class="code" href="classplayer__x.html">player_x</a> : <span class="keyword">public</span> <a class="code" href="classextend__get.html">extend_get</a> {
+<a name="l00007"></a>00007 <span class="keyword">public</span>:
+<a name="l00012"></a>00012         <a class="code" href="classplayer__x.html#ad83cc3b4b23060ca0e122370baeaac9e">player_x</a>(integer nr);
+<a name="l00017"></a>00017         integer <a class="code" href="classplayer__x.html#a85267f3e2774b0dc2c51e1e4ac4d1476">get_headquarter_level</a>();
+<a name="l00022"></a>00022         <a class="code" href="classcoord.html">coord</a> <a class="code" href="classplayer__x.html#af7ddc9f3a0fa06f107b4d4a2674d4c84">get_headquarter_pos</a>();
+<a name="l00027"></a>00027         <span class="keywordtype">string</span> <a class="code" href="classplayer__x.html#ad3dd5087e020972c197e71a74bc36d30">get_name</a>();
+<a name="l00032"></a>00032         array <a class="code" href="classplayer__x.html#a42957548beae008fa7215ffd1dc3a576">get_construction</a>();
+<a name="l00037"></a>00037         array <a class="code" href="classplayer__x.html#a297e5d75b9d7edafe7b55d8b629fd776">get_vehicle_maint</a>();
+<a name="l00042"></a>00042         array <a class="code" href="classplayer__x.html#a5343d621d7a217042c87d7e27176cfe4">get_new_vehicles</a>();
+<a name="l00047"></a>00047         array <a class="code" href="classplayer__x.html#ad5286d416b9a2f8d617cc0f3331ace5b">get_income</a>();
+<a name="l00052"></a>00052         array <a class="code" href="classplayer__x.html#ae3fb90ccf211b9395dac04f3f8227d00">get_maintenance</a>();
+<a name="l00057"></a>00057         array <a class="code" href="classplayer__x.html#af23f22d19d1060823b05abdab57ef4e1">get_assets</a>();
+<a name="l00062"></a>00062         array <a class="code" href="classplayer__x.html#ad2cb42ee8c6b98c0460cfd9f381cf99e">get_cash</a>();
+<a name="l00067"></a>00067         array <a class="code" href="classplayer__x.html#a737740c78326eda5ea42659679cd60db">get_net_wealth</a>();
+<a name="l00072"></a>00072         array <a class="code" href="classplayer__x.html#a96d70e20e2ed25d781f6306cb2f18b7f">get_profit</a>();
+<a name="l00077"></a>00077         array <a class="code" href="classplayer__x.html#a32813d71f813341c0a66188b02088615">get_operating_profit</a>();
+<a name="l00082"></a>00082         array <a class="code" href="classplayer__x.html#a4fa61732c4865dcf109aad36204becbb">get_margin</a>();
+<a name="l00087"></a>00087         array <a class="code" href="classplayer__x.html#ac1cd7ebcb2098fe9806f31f5e124f67a">get_transported</a>();
+<a name="l00092"></a>00092         array <a class="code" href="classplayer__x.html#a2bd59cc29cbf4e986c21d70d089f5a90">get_powerline</a>();
+<a name="l00097"></a>00097         array <a class="code" href="classplayer__x.html#a7e254e3d4355bce59e74c315320113a8">get_transported_pax</a>();
+<a name="l00102"></a>00102         array <a class="code" href="classplayer__x.html#ae6fa3c443beb40de5bbc85677a890d3f">get_transported_mail</a>();
+<a name="l00107"></a>00107         array <a class="code" href="classplayer__x.html#a6bf6d06ae354ab353df503c18044a209">get_transported_goods</a>();
+<a name="l00112"></a>00112         array <a class="code" href="classplayer__x.html#ad808f075cf5228a4d1c50b58a61208f8">get_convoys</a>();
+<a name="l00117"></a>00117         array <a class="code" href="classplayer__x.html#a2c4539c918e48618a3271aa14a38b8f8">get_way_tolls</a>();
+<a name="l00118"></a>00118 };
+<a name="l00119"></a>00119 
 </pre></div></div>
 </div>
 <!--- window showing the filter options -->

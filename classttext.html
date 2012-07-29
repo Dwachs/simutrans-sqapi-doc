@@ -64,7 +64,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <h1>ttext Class Reference</h1>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="ttext" --><div class="dynheader">
+<!-- doxytag: class="ttext" -->
+<p><code>#include &lt;<a class="el" href="api__base_8h_source.html">api_base.h</a>&gt;</code></p>
+<div class="dynheader">
 Inheritance diagram for ttext:</div>
 <div class="dyncontent">
  <div class="center">
@@ -88,12 +90,13 @@ Public Member Functions</h2></td></tr>
 <li>the translation of the string will be fetched</li>
 <li>variables will be substituted</li>
 </ol>
+<p>Translated strings will be taken from tab-files inside the scenario_name/ directory.</p>
 <p>Usage: </p>
 <div class="fragment"><pre class="fragment"> local text = <a class="code" href="classttext.html#a3056c75e140ed4673910e43c438e5a42">ttext</a>(<span class="stringliteral">&quot;You have {N} trains running.&quot;</span>)
  text.N = 20;
  <span class="comment">// if returned to simutrans, the output will be &quot;You have 20 trains running.&quot;</span>
 </pre></div> 
-<p>Definition at line <a class="el" href="api__base_8cc_source.html#l00046">46</a> of file <a class="el" href="api__base_8cc_source.html">api_base.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__base_8h_source.html#l00091">91</a> of file <a class="el" href="api__base_8h_source.html">api_base.h</a>.</p>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3056c75e140ed4673910e43c438e5a42"></a><!-- doxytag: member="ttext::ttext" ref="a3056c75e140ed4673910e43c438e5a42" args="(string text)" -->
 <div class="memitem">
@@ -120,7 +123,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="api__base_8cc_source.html">api_base.cc</a></li>
+<li><a class="el" href="api__base_8h_source.html">api_base.h</a></li>
 </ul>
 </div>
 <!--- window showing the filter options -->
