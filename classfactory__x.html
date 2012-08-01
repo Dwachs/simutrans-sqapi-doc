@@ -28,8 +28,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
+      <li><a href="examples.html"><span>Examples</span></a></li>
       <li id="searchli">
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -96,8 +98,8 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__x.html#a4fe6d87b458287eff11a35857e08bf05">get_mail_arrived</a> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__x.html#a84b31ff4b0456dfaff29f95d45eda724">input</a></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__x.html#a4db50e67209071f74a6468a5edc9be5f">output</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">table&lt; <a class="el" href="classfactory__production__x.html">factory_production_x</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__x.html#a12ef2a42dc706f5d519f570de1b5d2d7">input</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">table&lt; <a class="el" href="classfactory__production__x.html">factory_production_x</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__x.html#af68f35c655f0351a50ce6b10c43c7036">output</a></td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Class to access information about factories. Identified by coordinate. </p>
@@ -375,37 +377,46 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Data Documentation</h2>
-<a class="anchor" id="a84b31ff4b0456dfaff29f95d45eda724"></a><!-- doxytag: member="factory_x::input" ref="a84b31ff4b0456dfaff29f95d45eda724" args="" -->
+<a class="anchor" id="a12ef2a42dc706f5d519f570de1b5d2d7"></a><!-- doxytag: member="factory_x::input" ref="a12ef2a42dc706f5d519f570de1b5d2d7" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">table <a class="el" href="classfactory__x.html#a84b31ff4b0456dfaff29f95d45eda724">factory_x::input</a></td>
+          <td class="memname">table&lt;<a class="el" href="classfactory__production__x.html">factory_production_x</a>&gt; <a class="el" href="classfactory__x.html#a12ef2a42dc706f5d519f570de1b5d2d7">factory_x::input</a></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 <p>Table containing input/consumption slots. Entries can be retrieved by raw name of the good (as defined in the associated pak-file).</p>
-<p>Entries are of type <a class="el" href="classfactory__production__x.html">factory_production_x</a>. </p>
+<p>Entries are of type <a class="el" href="classfactory__production__x.html">factory_production_x</a>.</p>
+<p>To print a list of all available goods names use this example: </p>
+<div class="fragment"><pre class="fragment"> <span class="keywordflow">foreach</span>(key,value <span class="keywordflow">in</span> <a class="code" href="classfactory__x.html#a12ef2a42dc706f5d519f570de1b5d2d7">input</a>) {
+        <span class="comment">// print raw name of the good</span>
+        print(<span class="stringliteral">&quot;Input slot key: &quot;</span> + key)
+        <span class="comment">// print current storage</span>
+        print(&quot;Input slot storage: &quot; + value.get_storage()[0])
+ }
+</pre></div><p> To catch the output of this example see <a class="el" href="index.html#sec_err">Logging and error handling</a>. </p>
 
-<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00020">20</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00031">31</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4db50e67209071f74a6468a5edc9be5f"></a><!-- doxytag: member="factory_x::output" ref="a4db50e67209071f74a6468a5edc9be5f" args="" -->
+<a class="anchor" id="af68f35c655f0351a50ce6b10c43c7036"></a><!-- doxytag: member="factory_x::output" ref="af68f35c655f0351a50ce6b10c43c7036" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">table <a class="el" href="classfactory__x.html#a4db50e67209071f74a6468a5edc9be5f">factory_x::output</a></td>
+          <td class="memname">table&lt;<a class="el" href="classfactory__production__x.html">factory_production_x</a>&gt; <a class="el" href="classfactory__x.html#af68f35c655f0351a50ce6b10c43c7036">factory_x::output</a></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 <p>Table containing output/production slots. Entries can be retrieved by raw name of the good (as defined in the associated pak-file).</p>
-<p>Entries are of type <a class="el" href="classfactory__production__x.html">factory_production_x</a>. </p>
+<p>Entries are of type <a class="el" href="classfactory__production__x.html">factory_production_x</a>.</p>
+<p>For an example to retrieve the list of goods, see <a class="el" href="classfactory__x.html#a12ef2a42dc706f5d519f570de1b5d2d7">factory_x::input</a>. </p>
 
-<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00027">27</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00040">40</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
 
 </div>
 </div>
