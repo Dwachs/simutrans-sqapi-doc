@@ -77,7 +77,7 @@ function <a class="code" href="api__skeleton_8cc.html#a40fae968e0f6382017f2632fb
         <span class="keywordflow">return</span> <span class="stringliteral">@&quot;You started a small transport company to become rich. Your grandparents did not have a glue, where all their money flows</span>
 <span class="stringliteral">                 into.&quot;</span>
 }
-</pre></div> The method presenting the result text is a little bit more advances. If the player has enough cash, he has won the scenario. <div class="fragment"><pre class="fragment">
+</pre></div> The method presenting the result text is a little bit more advanced. If the player has enough cash, he has won the scenario. <div class="fragment"><pre class="fragment">
 function <a class="code" href="api__skeleton_8cc.html#a7dd5ed6cedddd109004c47b3dd240f31">get_result_text</a>(pl)
 {
         local cash = get_cash(pl)
@@ -90,7 +90,7 @@ function <a class="code" href="api__skeleton_8cc.html#a7dd5ed6cedddd109004c47b3d
 
         return text
 }
-</pre></div> The get_cash method access the player's bank account via player_x.cash, which is equivalent to calling <a class="el" href="classplayer__x.html#ad2cb42ee8c6b98c0460cfd9f381cf99e">player_x.get_cash()</a>. <div class="fragment"><pre class="fragment">
+</pre></div> The get_cash() method accesses the player's bank account via player_x.cash, which is equivalent to calling <a class="el" href="classplayer__x.html#ad2cb42ee8c6b98c0460cfd9f381cf99e">player_x.get_cash()</a>. <div class="fragment"><pre class="fragment">
 function get_cash(pl)
 {
         <span class="keywordflow">return</span> <a class="code" href="classplayer__x.html">player_x</a>(pl).cash[0]
