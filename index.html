@@ -82,7 +82,7 @@ Network play</h2>
 <h2><a class="anchor" id="sec_err"></a>
 Logging and error handling</h2>
 <p>If simutrans is started with '-debug 2', all errors and warnings are logged to standard output (i.e. terminal). If simutrans is started in addition with '-log 1', all the output is written to the file script.log. In particular, everything that is print-ed by the script, goes into this file.</p>
-<p>In case of error, an error window pops up showing the call stack and the values of local variables. You can then repair your script, and the restart the sceanario via New Game - Scenario. You do not need to restart simutrans to reload your script.</p>
+<p>In case of error, an error window pops up showing the call stack and the values of local variables. You can then repair your script, and the restart the scenario via New Game - Scenario. You do not need to restart simutrans to reload your script.</p>
 <h2><a class="anchor" id="sec_rdwr"></a>
 Load-Save support</h2>
 <p>Such support is available of course. If a running scenario is saved, the information about the scenario is saved within the savegame. Upon loading, the scenario is resumed, by calling the function <a class="el" href="api__skeleton_8cc.html#a8f7187d43d6ca08f59ce949f9c4938f8">resume_game</a>.</p>

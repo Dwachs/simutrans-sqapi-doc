@@ -57,7 +57,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="contents">
 <div class="textblock"><p>Let us inspect another scenario script file. We will have a look into the pak64 Pharmacy-max scenario. The objective is to get the pharmacy selling as much medicine as possible.</p>
-<p>We will learn how to make translation of script output possible.</p>
+<p>We will learn how to make the translation of the script's output possible.</p>
  We do not care about the meta information, and jump right into the <a class="el" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a> method. <div class="fragment"><pre class="fragment">function <a class="code" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a>(pl)
 {
         <span class="keywordflow">return</span> <a class="code" href="classttext.html">ttext</a>(<span class="stringliteral">&quot;You can build everything you like. The sky (and your bank account) is the limit.&quot;</span>)
@@ -78,7 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>When this text is transfered to simutrans (or when <code>text.to_string()</code> is called) the following happens:</p>
 <ol type="1">
 <li>First the translation of the string is searched, which can contain this <code>{med}</code> as well.</li>
-<li>Then the occurrences of <code>{med}</code> are replaced by the concrete number. The user will the hear '<em>The pharmacy sold 11 units of medicine per month.</em>'.</li>
+<li>Then the occurrences of <code>{med}</code> are replaced by the concrete number. The user will then hear '<em>The pharmacy sold 11 units of medicine per month.</em>'.</li>
 </ol>
 <p>Now a second string is created, which features some html-like tags. <div class="fragment"><pre class="fragment">
         local text2 = <span class="stringliteral">&quot;&quot;</span>
