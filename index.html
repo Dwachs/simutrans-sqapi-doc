@@ -67,7 +67,7 @@ Example script</h2>
 <p>There are several commented examples.</p>
 <ol type="1">
 <li><a class="el" href="page_script_mill.html">A simple example script</a></li>
-<li><a class="el" href="page_script_pharm.html">A script showing translateable texts.</a></li>
+<li><a class="el" href="page_script_pharm.html">A script showing translatable texts.</a></li>
 </ol>
 <h2><a class="anchor" id="sec_data_types"></a>
 Squirrel data types</h2>
@@ -78,7 +78,7 @@ Coordinates</h2>
 <p>All coordinates in the script are with respect to the initial rotation of the map. If a player rotates a map, then all coordinates are translated to the original rotation. This effects the classes <a class="el" href="classcoord.html">coord</a> and <a class="el" href="classcoord3d.html">coord3d</a> as well as any functions that expect coordinates as input, as for instance <a class="el" href="classfactory__x.html#a98b2f0806cb15884d5b3d773253877a1">factory_x::factory_x</a> or <a class="el" href="classrules.html#abf8f8c6b1c0064f648e5e0fff83cecf4">rules::forbid_way_tool_rect</a>.</p>
 <h2><a class="anchor" id="sec_network"></a>
 Network play</h2>
-<p>A lot of stuff is possible for network play. There are some limitations of course. These are due to the fact, that the script is solely run on the server, the client does not need to have the script available at all. This implies for instance that all scenarion texts are translated to the server's language.</p>
+<p>A lot of stuff is possible for network play. There are some limitations of course. These are due to the fact, that the script is solely run on the server, the client does not need to have the script available at all. This implies for instance that all scenario texts are translated to the server's language.</p>
 <h2><a class="anchor" id="sec_err"></a>
 Logging and error handling</h2>
 <p>If simutrans is started with '-debug 2', all errors and warnings are logged to standard output (i.e. terminal). If simutrans is started in addition with '-log 1', all the output is written to the file script.log. In particular, everything that is print-ed by the script, goes into this file.</p>

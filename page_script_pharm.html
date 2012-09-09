@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: A script showing translateable texts.</title>
+<title>Simutrans-Squirrel-API: A script showing translatable texts.</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
@@ -53,7 +53,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="headertitle">
-<h1>A script showing translateable texts. </h1>  </div>
+<h1>A script showing translatable texts. </h1>  </div>
 </div>
 <div class="contents">
 <div class="textblock"><p>Let us inspect another scenario script file. We will have a look into the pak64 Pharmacy-max scenario. The objective is to get the pharmacy selling as much medicine as possible.</p>
@@ -75,7 +75,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
         local text = <a class="code" href="classttext.html">ttext</a>(&quot;The pharmacy sold {med} units of medicine per month.<span class="stringliteral">&quot;)</span>
 </pre></div> Do you see the strange <code>{med}</code> string in the text? Here, you can see variable substitution in action: <div class="fragment"><pre class="fragment">        text.med = con
 </pre></div> That means the text now gets to know the precise value of <code>{med}</code>.</p>
-<p>When this text is transfered to simutrans (or when <code>text.to_string()</code> is called) the following happens:</p>
+<p>When this text is transferred to simutrans (or when <code>text.to_string()</code> is called) the following happens:</p>
 <ol type="1">
 <li>First the translation of the string is searched, which can contain this <code>{med}</code> as well.</li>
 <li>Then the occurrences of <code>{med}</code> are replaced by the concrete number. The user will then hear '<em>The pharmacy sold 11 units of medicine per month.</em>'.</li>
@@ -91,7 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
         return text.tostring() + &quot;&lt;br&gt; &lt;br&gt;&quot; + text2.tostring()
 }
 </pre></div> Both of the strings are translated by means of calls to <a class="el" href="classttext.html#af9c8a67eb9b88fefb6954f85e9783916">ttext::to_string</a> and the result is returned.</p>
-<p>Thats it. The remainding parts of this script are plain routine. </p>
+<p>Thats it. The remaining parts of this script are plain routine. </p>
 </div></div>
 <!--- window showing the filter options -->
 <div id="MSearchSelectWindow"
