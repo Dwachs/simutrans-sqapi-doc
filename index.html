@@ -77,7 +77,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><h2><a class="anchor" id="sec_howto"></a>
 How to create a scenario.</h2>
-<p>You first need a <em>idea</em> - a vision what a scenario may look like. Then you have to cast these idea into a <em>savegame</em>. That is, create the world in which your scenario will live. You are the ruler of this toy universe, you are in charge of the rules, which go into the <em>script</em>.</p>
+<p>You first need an <em>idea</em> - a vision what a scenario may look like. Then you have to cast this idea into a <em>savegame</em>. That is, create the world in which your scenario will live. You are the ruler of this toy universe, you are in charge of the rules, which go into the <em>script</em>.</p>
 <h2><a class="anchor" id="sec_sq"></a>
 Scripting language</h2>
 <p>The scripts have to be written in squirrel. The manual can be found at <a href="http://squirrel-lang.org/">Squirrel main page</a>. As squirrels like to crack nuts, understandably the script files get the extension '.nut'.</p>
@@ -100,12 +100,12 @@ Network play</h2>
 <p>A lot of stuff is possible for network play. There are some limitations of course. These are due to the fact, that the script is solely run on the server, the client does not need to have the script available at all. This implies for instance that all scenario texts are translated to the server's language.</p>
 <h2><a class="anchor" id="sec_err"></a>
 Logging and error handling</h2>
-<p>If simutrans is started with '-debug 2', all errors and warnings are logged to standard output (i.e. terminal). If simutrans is started in addition with '-log 1', all the output is written to the file script.log. In particular, everything that is print-ed by the script, goes into this file.</p>
-<p>In case of error, an error window pops up showing the call stack and the values of local variables. You can then repair your script, and the restart the scenario via New Game - Scenario. You do not need to restart simutrans to reload your script.</p>
+<p>If simutrans is started with '-debug 2', all errors and warnings are logged to standard output (i.e. terminal). If simutrans is started in addition with '-log', all the output is written to the file script.log. In particular, everything that is print-ed by the script, goes into this file.</p>
+<p>In case of error, an error window pops up showing the call stack and the values of local variables. You can then repair your script, and restart the scenario via New Game - Scenario. You do not need to restart simutrans to reload your script.</p>
 <h2><a class="anchor" id="sec_rdwr"></a>
 Load-Save support</h2>
 <p>Such support is available of course. If a running scenario is saved, the information about the scenario is saved within the savegame. Upon loading, the scenario is resumed, by calling the function <a class="el" href="api__skeleton_8cc.html#a8f7187d43d6ca08f59ce949f9c4938f8">resume_game</a>.</p>
-<p>You can save data in the savegame. In order to do so, you have to keep these data in the global structure <a class="el" href="api__skeleton_8h.html#a48c699ff842c97fffb74ab077b6d4882" title="Persistent data should go into this table.">persistent</a>. This data is saved and loaded.</p>
+<p>You can save data in the savegame. In order to do so, you have to keep these data in the global table <a class="el" href="api__skeleton_8h.html#a48c699ff842c97fffb74ab077b6d4882" title="Persistent data should go into this table.">persistent</a>. This table is saved and loaded.</p>
 <h2><a class="anchor" id="sec_dir"></a>
 Recommended directory structure</h2>
 <p>The scenario plays in a savegame. This savegame is tied to the pak-set you are using (e.g. pak64, pak128.Britain). Hence, the scenario files have to go into a sub-folder of the pak-set. The pak-set is found in a directory named pak-something, which is in the same directory, where the program itself is located.</p>
