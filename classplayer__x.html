@@ -121,6 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#a165a2d40c95d63d396150eec7419270c">get_transported_goods</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#ad53f705f64661c900b2cb112808f39d4">get_convoys</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#ab879503d21dd82913cb448e7ceb12690">get_way_tolls</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#ad9fc88d35e89f0d3cf833bd297165038">book_cash</a> (integer delta)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Class to access player statistics. Here, a player refers to one transport company, not to an individual playing simutrans. </p>
@@ -152,6 +153,31 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="ad9fc88d35e89f0d3cf833bd297165038"></a><!-- doxytag: member="player_x::book_cash" ref="ad9fc88d35e89f0d3cf833bd297165038" args="(integer delta)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void player_x::book_cash </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>delta</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Change bank account of player by given amount <code>delta</code>. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delta</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="warning"><dt><b>Warning:</b></dt><dd>cannot be used in network games. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="afcf9031b017b542b5a41b864cc20be38"></a><!-- doxytag: member="player_x::get_assets" ref="afcf9031b017b542b5a41b864cc20be38" args="()" -->
 <div class="memitem">
 <div class="memproto">
