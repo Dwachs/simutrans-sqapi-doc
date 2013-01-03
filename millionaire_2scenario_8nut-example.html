@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: A simple example script</title>
+<title>Simutrans-Squirrel-API: millionaire/scenario.nut</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -46,7 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -72,32 +72,34 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="headertitle">
-<div class="title">A simple example script </div>  </div>
+<div class="title">millionaire/scenario.nut</div>  </div>
 </div>
 <div class="contents">
-<div class="textblock"><p>Let us inspect a sample script file. We will have a look into the pak64 Millionaire scenario. The objective of this scenario is to get rich as fast as possible.</p>
- As first the savegame is specified: <div class="fragment"><pre class="fragment"><a class="code" href="api__skeleton_8h.html#a4e02850c975e2b48cde16eed768f43f8" title="Information about game map/world.">map</a>.file = <span class="stringliteral">&quot;../book-empire/book-empire.sve&quot;</span>
-</pre></div> Then we provide some meta-information about the <a class="el" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b" title="Meta information about the scenario.">scenario</a> <div class="fragment"><pre class="fragment"><a class="code" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b" title="Meta information about the scenario.">scenario</a>.short_description = <span class="stringliteral">&quot;Millionaire&quot;</span>
+<p>This example is commented in detail at the page <a class="el" href="page_script_mill.html">A simple example script</a>.</p>
+<div class="fragment"><pre class="fragment">
+<a name="a0"></a><a class="code" href="api__skeleton_8h.html#a4e02850c975e2b48cde16eed768f43f8" title="Information about game map/world.">map</a>.file = <span class="stringliteral">&quot;../book-empire/book-empire.sve&quot;</span>
+
+<a name="a1"></a><a class="code" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b" title="Meta information about the scenario.">scenario</a>.short_description = <span class="stringliteral">&quot;Millionaire&quot;</span>
 <a class="code" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b" title="Meta information about the scenario.">scenario</a>.author = <span class="stringliteral">&quot;prissi (scripting by Dwachs)&quot;</span>
 <a class="code" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b" title="Meta information about the scenario.">scenario</a>.version = <span class="stringliteral">&quot;0.1&quot;</span>
-</pre></div> Rules and goals are not that special. The texts returned in this functions will be shown in the scenario info window. String constants with leading '@' can span multiple lines. <div class="fragment"><pre class="fragment">
-<span class="keyword">function</span> <a class="code" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a>(pl)
+
+<span class="keyword">function</span> <a name="a2"></a><a class="code" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a>(pl)
 {
         <span class="keywordflow">return</span> <span class="stringliteral">&quot;No limits.&quot;</span>
 }
 
-<span class="keyword">function</span> <a class="code" href="api__skeleton_8cc.html#a441ddb63d00df531a03dc1811415ed02">get_goal_text</a>(pl)
+<span class="keyword">function</span> <a name="a3"></a><a class="code" href="api__skeleton_8cc.html#a441ddb63d00df531a03dc1811415ed02">get_goal_text</a>(pl)
 {
         <span class="keywordflow">return</span> <span class="stringliteral">@&quot;Become millionaire as fast as possible.&quot;</span>
 }
 
-<span class="keyword">function</span> <a class="code" href="api__skeleton_8cc.html#a40fae968e0f6382017f2632fb86ef873">get_info_text</a>(pl)
+<span class="keyword">function</span> <a name="a4"></a><a class="code" href="api__skeleton_8cc.html#a40fae968e0f6382017f2632fb86ef873">get_info_text</a>(pl)
 {
         <span class="keywordflow">return</span> <span class="stringliteral">@&quot;You started a small transport company to become rich. Your grandparents did not have a glue, where all their money flows</span>
 <span class="stringliteral">                 into.&quot;</span>
 }
-</pre></div> The method presenting the result text is a little bit more advanced. If the player has enough cash, he has won the scenario. <div class="fragment"><pre class="fragment">
-<span class="keyword">function</span> <a class="code" href="api__skeleton_8cc.html#a7dd5ed6cedddd109004c47b3dd240f31">get_result_text</a>(pl)
+
+<span class="keyword">function</span> <a name="a5"></a><a class="code" href="api__skeleton_8cc.html#a7dd5ed6cedddd109004c47b3dd240f31">get_result_text</a>(pl)
 {
         local cash = get_cash(pl)
 
@@ -109,18 +111,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
         return text
 }
-</pre></div> The get_cash() method accesses the player's bank account via player_x.cash, which is equivalent to calling <a class="el" href="classplayer__x.html#a0408c5da040e3e0ccae4158420d79a03">player_x.get_cash()</a>. <div class="fragment"><pre class="fragment">
-<span class="keyword">function</span> get_cash(pl)
+
+function get_cash(pl)
 {
-        <span class="keywordflow">return</span> <a class="code" href="classplayer__x.html">player_x</a>(pl).cash[0]
+        <span class="keywordflow">return</span> <a name="_a6"></a><a class="code" href="classplayer__x.html">player_x</a>(pl).cash[0]
 }
-</pre></div> Last but not least, the function that computes the actual progress in the scenario. If it returns a negative value, the player has lost. If the return value is larger than 100, this is equivalent to winning the scenario. <div class="fragment"><pre class="fragment">
-<span class="keyword">function</span> <a class="code" href="api__skeleton_8cc.html#acbd2bb976240e0bf782a2eb82acd4f4d">is_scenario_completed</a>(pl)
+
+<span class="keyword">function</span> <a name="a7"></a><a class="code" href="api__skeleton_8cc.html#acbd2bb976240e0bf782a2eb82acd4f4d">is_scenario_completed</a>(pl)
 {
         <span class="keywordflow">return</span>  get_cash(pl) / 10000
 }
-</pre></div> </p>
-</div></div>
+</pre></div> </div>
+</div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
