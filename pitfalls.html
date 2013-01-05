@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: Related Pages</title>
+<title>Simutrans-Squirrel-API: Common pitfalls</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -72,20 +72,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="headertitle">
-<div class="title">Related Pages</div>  </div>
+<div class="title">Common pitfalls </div>  </div>
 </div>
 <div class="contents">
-<div class="textblock">Here is a list of all related documentation pages:</div><ul>
-<li><a class="el" href="page_script_mill.html">A simple example script</a>
-</li>
-<li><a class="el" href="page_script_pharm.html">A script showing translatable texts.</a>
-</li>
-<li><a class="el" href="deprecated_stuff.html">Deprecated stuff</a>
-</li>
-<li><a class="el" href="pitfalls.html">Common pitfalls</a>
-</li>
-</ul>
-</div>
+<div class="textblock"><h2><a class="anchor" id="pitfall_pass_by_reference"></a>
+Tables, arrays, strings, classes, instances etc are passed by reference</h2>
+<div class="fragment"><pre class="fragment"> local a = {}  <span class="comment">// create an empty table</span>
+ local b = a   <span class="comment">// b refers to the same table as a</span>
+ a.x &lt;- 1      <span class="comment">// b.x is now also 1</span>
+ b.x &lt;- 2      <span class="comment">// a.x is changed to 2</span>
+</pre></div><h2><a class="anchor" id="nocalls_in_global_scope"></a>
+Do not call API-functions in global scope in the script</h2>
+<div class="fragment"><pre class="fragment"> local start_time = <a class="code" href="classsettings.html">settings</a>.<a class="code" href="classsettings.html#aaa49cd063b728d5cbd4f4df582377b45">get_start_time</a>() <span class="comment">// this call is executed BEFORE the savegame is loaded -&gt; undefined</span>
+
+ local factory_coalmine = null                <span class="comment">// we can create the variable ...</span>
+ <span class="keyword">function</span> <a class="code" href="api__skeleton_8cc.html#a60de64d75454385b23995437f1d72669">start</a>()
+ {
+        factory_coalmine = <a class="code" href="classfactory__x.html">factory_x</a>(40, 78)  <span class="comment">// ... but we can initialize it safely only in a function</span>
+ }
+</pre></div> </div></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
