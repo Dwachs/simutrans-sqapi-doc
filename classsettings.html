@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
@@ -92,6 +91,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a2e932fab787e12a8bff2f2047784560a">get_industry_increase_every</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#ade3522711290ebdfc09912867f73e1a2">set_industry_increase_every</a> (integer count)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#add675e2dce212ea0e68eff167c44db68">get_traffic_rate</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#ad2242a930ded4c5492fdebe325405c87">set_traffic_rate</a> (any_x rate)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#aaa49cd063b728d5cbd4f4df582377b45">get_start_time</a> ()</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
@@ -135,6 +136,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="add675e2dce212ea0e68eff167c44db68"></a><!-- doxytag: member="settings::get_traffic_rate" ref="add675e2dce212ea0e68eff167c44db68" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void settings::get_traffic_rate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Get traffic rate. </p>
+
+</div>
+</div>
 <a class="anchor" id="ade3522711290ebdfc09912867f73e1a2"></a><!-- doxytag: member="settings::set_industry_increase_every" ref="ade3522711290ebdfc09912867f73e1a2" args="(integer count)" -->
 <div class="memitem">
 <div class="memproto">
@@ -157,6 +175,30 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="warning"><dt><b>Warning:</b></dt><dd>cannot be used in network games. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad2242a930ded4c5492fdebe325405c87"></a><!-- doxytag: member="settings::set_traffic_rate" ref="ad2242a930ded4c5492fdebe325405c87" args="(any_x rate)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void settings::set_traffic_rate </td>
+          <td>(</td>
+          <td class="paramtype">any_x&#160;</td>
+          <td class="paramname"><em>rate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Set traffic rate. The higher the rate the more city cars will be created. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rate</td><td>new traffic rate, must be between 0 and 16 </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

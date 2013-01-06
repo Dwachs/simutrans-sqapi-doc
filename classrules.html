@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
@@ -96,8 +95,8 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#aa1b2a8e1779a4837c3cfad4ef6b469ac">allow_way_tool</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#abf8f8c6b1c0064f648e5e0fff83cecf4">forbid_way_tool_rect</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord.html">coord</a> pos_nw, <a class="el" href="classcoord.html">coord</a> pos_se, string err)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a46cb20c5fec1bb1ce521dabcb62d523b">allow_way_tool_rect</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord.html">coord</a> pos_nw, <a class="el" href="classcoord.html">coord</a> pos_se)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__post-112-1.html#ga2cc677466356d39162991318718023a9">forbid_way_tool_cube</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord3d.html">coord3d</a> pos_nw, <a class="el" href="classcoord3d.html">coord3d</a> pos_se, string err)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__post-112-1.html#ga873e22cec4c9364bb72997c130113d03">allow_way_tool_cube</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord3d.html">coord3d</a> pos_nw, <a class="el" href="classcoord3d.html">coord3d</a> pos_se)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a2cc677466356d39162991318718023a9">forbid_way_tool_cube</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord3d.html">coord3d</a> pos_nw, <a class="el" href="classcoord3d.html">coord3d</a> pos_se, string err)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a873e22cec4c9364bb72997c130113d03">allow_way_tool_cube</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord3d.html">coord3d</a> pos_nw, <a class="el" href="classcoord3d.html">coord3d</a> pos_se)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Table with methods to forbid and allow tools.</p>
@@ -177,6 +176,63 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">player_nr</td><td>number of player this rule applies to, if this is set to player_all then this acts for all players except public player </td></tr>
     <tr><td class="paramname">tool_id</td><td>id of tool </td></tr>
     <tr><td class="paramname">wt</td><td>waytype </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="api__const_8cc.html#af4bb3e2d05b95af700484370ad057fe2">tool_ids</a> <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> <a class="el" href="api__const_8cc.html#a99fb83031ce9923c84392b4e92f956b5a186872cd9a0d90def770c199582be049" title="constant to forbid/allow tools for all players (except public player)">player_all</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a873e22cec4c9364bb72997c130113d03"></a><!-- doxytag: member="rules::allow_way_tool_cube" ref="a873e22cec4c9364bb72997c130113d03" args="(integer player_nr, integer tool_id, way_types wt, coord3d pos_nw, coord3d pos_se)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void rules::allow_way_tool_cube </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>player_nr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>tool_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a>&#160;</td>
+          <td class="paramname"><em>wt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td>
+          <td class="paramname"><em>pos_nw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td>
+          <td class="paramname"><em>pos_se</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Allow tool with certain waytype within cubic region on the map.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player_nr</td><td>number of player this rule applies to, if this is set to player_all then this acts for all players except public player </td></tr>
+    <tr><td class="paramname">tool_id</td><td>id of tool </td></tr>
+    <tr><td class="paramname">wt</td><td>waytype </td></tr>
+    <tr><td class="paramname">pos_nw</td><td>3d-coordinate of north-western corner of cube </td></tr>
+    <tr><td class="paramname">pos_se</td><td>3d-coordinate of south-eastern corner of cube </td></tr>
   </table>
   </dd>
 </dl>
@@ -313,6 +369,70 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">player_nr</td><td>number of player this rule applies to, if this is set to player_all then this acts for all players except public player </td></tr>
     <tr><td class="paramname">tool_id</td><td>id of tool </td></tr>
     <tr><td class="paramname">wt</td><td>waytype </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="api__const_8cc.html#af4bb3e2d05b95af700484370ad057fe2">tool_ids</a> <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> <a class="el" href="api__const_8cc.html#a99fb83031ce9923c84392b4e92f956b5a186872cd9a0d90def770c199582be049" title="constant to forbid/allow tools for all players (except public player)">player_all</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2cc677466356d39162991318718023a9"></a><!-- doxytag: member="rules::forbid_way_tool_cube" ref="a2cc677466356d39162991318718023a9" args="(integer player_nr, integer tool_id, way_types wt, coord3d pos_nw, coord3d pos_se, string err)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void rules::forbid_way_tool_cube </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>player_nr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>tool_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a>&#160;</td>
+          <td class="paramname"><em>wt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td>
+          <td class="paramname"><em>pos_nw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td>
+          <td class="paramname"><em>pos_se</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>err</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Forbid tool with certain waytype within cubic region on the map.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player_nr</td><td>number of player this rule applies to, if this is set to player_all then this acts for all players except public player </td></tr>
+    <tr><td class="paramname">tool_id</td><td>id of tool </td></tr>
+    <tr><td class="paramname">wt</td><td>waytype </td></tr>
+    <tr><td class="paramname">pos_nw</td><td>3d-coordinate of north-western corner of cube </td></tr>
+    <tr><td class="paramname">pos_se</td><td>3d-coordinate of south-eastern corner of cube </td></tr>
+    <tr><td class="paramname">err</td><td>error message presented to user when trying to apply this tool </td></tr>
   </table>
   </dd>
 </dl>
