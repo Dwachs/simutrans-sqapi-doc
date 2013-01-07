@@ -97,6 +97,7 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a46cb20c5fec1bb1ce521dabcb62d523b">allow_way_tool_rect</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord.html">coord</a> pos_nw, <a class="el" href="classcoord.html">coord</a> pos_se)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a2cc677466356d39162991318718023a9">forbid_way_tool_cube</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord3d.html">coord3d</a> pos_nw, <a class="el" href="classcoord3d.html">coord3d</a> pos_se, string err)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#a873e22cec4c9364bb72997c130113d03">allow_way_tool_cube</a> (integer player_nr, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="classcoord3d.html">coord3d</a> pos_nw, <a class="el" href="classcoord3d.html">coord3d</a> pos_se)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrules.html#af3283dba16a9bda9435430300b4d5a16">clear</a> ()</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Table with methods to forbid and allow tools.</p>
@@ -294,6 +295,24 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="api__const_8cc.html#af4bb3e2d05b95af700484370ad057fe2">tool_ids</a> <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> <a class="el" href="api__const_8cc.html#a99fb83031ce9923c84392b4e92f956b5a186872cd9a0d90def770c199582be049" title="constant to forbid/allow tools for all players (except public player)">player_all</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af3283dba16a9bda9435430300b4d5a16"></a><!-- doxytag: member="rules::clear" ref="af3283dba16a9bda9435430300b4d5a16" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void rules::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Clear all forbidding rules, effectively allowing all tools again that were forbidden using functions of the table <a class="el" href="classrules.html">rules</a>.</p>
+<p>Only effects tools forbidden by <a class="el" href="classrules.html#ab8b99f0eac12865936351997c1a2f4a0">rules::forbid_tool</a>, <a class="el" href="classrules.html#a32635665b3561aa32c534bf848b51d30">rules::forbid_way_tool</a>, <a class="el" href="classrules.html#a2cc677466356d39162991318718023a9">rules::forbid_way_tool_cube</a>, <a class="el" href="classrules.html#abf8f8c6b1c0064f648e5e0fff83cecf4">rules::forbid_way_tool_rect</a>. The result of <a class="el" href="api__skeleton_8cc.html#a2585a55a65cf14fb3d0a222552ffc063">is_tool_allowed</a> and <a class="el" href="api__skeleton_8cc.html#a67f167f50ac44e2affeec9b47fd76093">is_work_allowed_here</a> is not influenced. </p>
 
 </div>
 </div>
