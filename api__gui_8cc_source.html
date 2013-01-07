@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: Changelog</title>
+<title>Simutrans-Squirrel-API: api_gui.cc Source File</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -46,9 +46,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -68,25 +68,26 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
-</div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+    </ul>
+  </div>
 <div class="header">
   <div class="headertitle">
-<div class="title">Changelog </div>  </div>
+<div class="title">api_gui.cc</div>  </div>
 </div>
 <div class="contents">
-<div class="textblock"><h2><a class="anchor" id="post-112-1"></a>
-Current trunk</h2>
-<ul>
-<li>Added <a class="el" href="classrules.html#a2cc677466356d39162991318718023a9">rules::forbid_way_tool_cube</a>, <a class="el" href="classrules.html#a873e22cec4c9364bb72997c130113d03">rules::allow_way_tool_cube</a></li>
-<li>Added <a class="el" href="classsettings.html#aaa49cd063b728d5cbd4f4df582377b45">settings::get_start_time</a></li>
-<li>Added <a class="el" href="classplayer__x.html#ad9fc88d35e89f0d3cf833bd297165038">player_x::book_cash</a></li>
-<li>Added <a class="el" href="classsettings.html#a6ad7aa03a69fd5097c18c6d19704f17a">settings::get_traffic_level</a>, <a class="el" href="classsettings.html#ac9d196954d09c505ec107137097a6513">settings::set_traffic_level</a>, tool_set_traffic_level</li>
-<li>Added <a class="el" href="classgui.html#a444a4e20634822fa6b90a3ced8358c25">gui::add_message</a>, <a class="el" href="classgui.html#a03258a8c2561cb0f35f165e7c3ec5196">gui::add_message_at</a></li>
-</ul>
-<h2><a class="anchor" id="api-112-1"></a>
-Releases 112.0 and 112.1</h2>
-<p>Initial release and minor changes. </p>
-</div></div>
+<a href="api__gui_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00005"></a><a class="code" href="classgui.html">00005</a> <span class="keyword">class </span><a class="code" href="classgui.html">gui</a> {
+<a name="l00006"></a>00006 <span class="keyword">public</span>:
+<a name="l00015"></a>00015         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classgui.html#a03258a8c2561cb0f35f165e7c3ec5196">add_message_at</a>(<span class="keywordtype">string</span> text, <a class="code" href="classcoord.html">coord</a> position);
+<a name="l00022"></a>00022         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classgui.html#a444a4e20634822fa6b90a3ced8358c25">add_message</a>(<span class="keywordtype">string</span> text);
+<a name="l00023"></a>00023 };
+<a name="l00024"></a>00024 
+</pre></div></div>
+</div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
