@@ -118,7 +118,7 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Text shown in the 'About' tab in the scenario info window.</p>
-<p>There is a default implementation, which returns concatenation of <a class="el" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b" title="Meta information about the scenario.">scenario</a> author, version, short_description.</p>
+<p>There is a default implementation, which returns concatenation of <a class="el" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b" title="Meta information about the scenario.">scenario</a> author, version, short_description. Html-like tags can be used, see <a class="el" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">pl</td><td>player number of active player </td></tr>
@@ -143,6 +143,7 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Text shown in the 'Goal' tab in the scenario info window.</p>
+<p>Html-like tags can be used, see <a class="el" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">pl</td><td>player number of active player </td></tr>
@@ -168,6 +169,7 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Text shown in the 'Info' tab in the scenario info window.</p>
+<p>Html-like tags can be used, see <a class="el" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">pl</td><td>player number of active player </td></tr>
@@ -193,6 +195,7 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Text shown in the 'Result' tab in the scenario info window.</p>
+<p>Html-like tags can be used, see <a class="el" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">pl</td><td>player number of active player </td></tr>
@@ -218,7 +221,23 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Text shown in the 'Rules' tab in the scenario info window.</p>
-<dl><dt><b>Parameters:</b></dt><dd>
+<p>Text can contain several html-like tag:</p>
+<ul>
+<li>p, hr ... line break</li>
+<li>h1, em, i, st ... text between start and end tag will be colored. It's a matter of taste, of course.</li>
+<li>a ... insert hyper link<ul>
+<li>link to another tab of window: href="tabname", where tabname is one of: info, goal, rules, result, about</li>
+<li>link to position on the map: href="(x,y)", click on link will jump to the map position</li>
+</ul>
+</li>
+</ul>
+<div class="fragment"><pre class="fragment"> &lt;h1&gt;Here is an example.&lt;/h1&gt;
+
+ Do not build anything at the position &lt;a href=&#39;(47,11)&#39;&gt;near Cologne&lt;/a&gt;.
+ The mayor of &lt;a href=&#39;(8,15)&#39;&gt;Berlin&lt;/a&gt; seems to frustrated with your airport building capabilities.
+
+ Your results can be found in &lt;a href=&#39;result&#39;&gt;results&lt;/a&gt; tab.
+</pre></div><dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">pl</td><td>player number of active player </td></tr>
   </table>
