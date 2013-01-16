@@ -93,29 +93,29 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a8a329231a844917d360f8ce84d24d636">translate</a> (string text)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#ac2f8ad18303a3f540f1cdc6a51ce4c68">load_language_file</a> (string <a class="el" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">file</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a587c950c3909a72971bc4b7554d0b5d7">double_to_string</a> (any_x value, any_x decimals)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a0bb486354aceabcc940b3f6e3402367b">integer_to_string</a> (any_x value)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#ad9279e97d9992bde551f323da923941d">money_to_string</a> (any_x value)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a682b94227013fcd47e232a483c39a958">double_to_string</a> (float value, integer decimals)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a99f50d79f9f644496aaf4867fd6fe5bf">integer_to_string</a> (integer value)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a6007d17017da115f0c18188253860228">money_to_string</a> (integer value)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>exports scenario related functions. </p>
 
 <p>Definition in file <a class="el" href="api__scenario_8cc_source.html">api_scenario.cc</a>.</p>
 </div><hr/><h2>Function Documentation</h2>
-<a class="anchor" id="a587c950c3909a72971bc4b7554d0b5d7"></a><!-- doxytag: member="api_scenario.cc::double_to_string" ref="a587c950c3909a72971bc4b7554d0b5d7" args="(any_x value, any_x decimals)" -->
+<a class="anchor" id="a682b94227013fcd47e232a483c39a958"></a><!-- doxytag: member="api_scenario.cc::double_to_string" ref="a682b94227013fcd47e232a483c39a958" args="(float value, integer decimals)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void double_to_string </td>
+          <td class="memname">string double_to_string </td>
           <td>(</td>
-          <td class="paramtype">any_x&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">any_x&#160;</td>
+          <td class="paramtype">integer&#160;</td>
           <td class="paramname"><em>decimals</em>&#160;</td>
         </tr>
         <tr>
@@ -138,14 +138,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0bb486354aceabcc940b3f6e3402367b"></a><!-- doxytag: member="api_scenario.cc::integer_to_string" ref="a0bb486354aceabcc940b3f6e3402367b" args="(any_x value)" -->
+<a class="anchor" id="a99f50d79f9f644496aaf4867fd6fe5bf"></a><!-- doxytag: member="api_scenario.cc::integer_to_string" ref="a99f50d79f9f644496aaf4867fd6fe5bf" args="(integer value)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void integer_to_string </td>
+          <td class="memname">string integer_to_string </td>
           <td>(</td>
-          <td class="paramtype">any_x&#160;</td>
+          <td class="paramtype">integer&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -195,14 +195,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad9279e97d9992bde551f323da923941d"></a><!-- doxytag: member="api_scenario.cc::money_to_string" ref="ad9279e97d9992bde551f323da923941d" args="(any_x value)" -->
+<a class="anchor" id="a6007d17017da115f0c18188253860228"></a><!-- doxytag: member="api_scenario.cc::money_to_string" ref="a6007d17017da115f0c18188253860228" args="(integer value)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void money_to_string </td>
+          <td class="memname">string money_to_string </td>
           <td>(</td>
-          <td class="paramtype">any_x&#160;</td>
+          <td class="paramtype">integer&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
