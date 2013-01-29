@@ -98,6 +98,9 @@ Inheritance diagram for halt_x:</div>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a02513eba539ece194b341389e56c8b90">get_name</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplayer__x.html">player_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a48451ff1a57407e476d0f2cce31d0885">get_owner</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a541608ff334817c2a6eff05d7414df86">accepts_good</a> (<a class="el" href="classgood__desc__x.html">good_desc_x</a>)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a0dc80df297e7430c52b7b918167e4fa9">get_arrived</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a4bf64ff4ee2b74a478720defe0c264f5">get_departed</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a45a3f20d7967cc0931a3aaf4841032a7">get_waiting</a> ()</td></tr>
@@ -112,6 +115,25 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="api__halt_8cc_source.html#l00005">5</a> of file <a class="el" href="api__halt_8cc_source.html">api_halt.cc</a>.</p>
 </div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a541608ff334817c2a6eff05d7414df86"></a><!-- doxytag: member="halt_x::accepts_good" ref="a541608ff334817c2a6eff05d7414df86" args="(good_desc_x)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool halt_x::accepts_good </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgood__desc__x.html">good_desc_x</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Does this station accept this type of good? </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>the answer to this question </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a0dc80df297e7430c52b7b918167e4fa9"></a><!-- doxytag: member="halt_x::get_arrived" ref="a0dc80df297e7430c52b7b918167e4fa9" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -184,6 +206,24 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a02513eba539ece194b341389e56c8b90"></a><!-- doxytag: member="halt_x::get_name" ref="a02513eba539ece194b341389e56c8b90" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string halt_x::get_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Station name. </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>name </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aa618c11b6f4da42ad4a9cb9fcefd36ca"></a><!-- doxytag: member="halt_x::get_noroute" ref="aa618c11b6f4da42ad4a9cb9fcefd36ca" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -200,6 +240,24 @@ Public Member Functions</h2></td></tr>
 <p>Get monthly statistics of number of passengers with no-route.</p>
 <p>These passengers could not start their journey as they find no route to their destination. </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>array, index [0] corresponds to current month </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a48451ff1a57407e476d0f2cce31d0885"></a><!-- doxytag: member="halt_x::get_owner" ref="a48451ff1a57407e476d0f2cce31d0885" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplayer__x.html">player_x</a> halt_x::get_owner </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Station owner. </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>owner </dd></dl>
 
 </div>
 </div>
