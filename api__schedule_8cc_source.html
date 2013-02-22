@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: Class Hierarchy</title>
+<title>Simutrans-Squirrel-API: api_schedule.cc Source File</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -70,55 +70,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li class="current"><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
-</div>
 <div class="header">
   <div class="headertitle">
-<div class="title">Class Hierarchy</div>  </div>
+<div class="title">api_schedule.cc</div>  </div>
 </div>
 <div class="contents">
-<div class="textblock">This inheritance list is sorted roughly, but not completely, alphabetically:</div><ul>
-<li><a class="el" href="classcity__list__x.html">city_list_x</a></li>
-<li><a class="el" href="classconvoy__list__x.html">convoy_list_x</a></li>
-<li><a class="el" href="classcoord.html">coord</a><ul>
-<li><a class="el" href="classcity__x.html">city_x</a></li>
-<li><a class="el" href="classfactory__x.html">factory_x</a></li>
-<li><a class="el" href="classsquare__x.html">square_x</a></li>
-</ul>
-</li>
-<li><a class="el" href="classcoord3d.html">coord3d</a><ul>
-<li><a class="el" href="classschedule__entry__x.html">schedule_entry_x</a></li>
-<li><a class="el" href="classtile__x.html">tile_x</a></li>
-</ul>
-</li>
-<li><a class="el" href="classextend__get.html">extend_get</a><ul>
-<li><a class="el" href="classcity__x.html">city_x</a></li>
-<li><a class="el" href="classconvoy__x.html">convoy_x</a></li>
-<li><a class="el" href="classfactory__production__x.html">factory_production_x</a></li>
-<li><a class="el" href="classfactory__x.html">factory_x</a></li>
-<li><a class="el" href="classhalt__x.html">halt_x</a></li>
-<li><a class="el" href="classplayer__x.html">player_x</a></li>
-<li><a class="el" href="classsquare__x.html">square_x</a></li>
-<li><a class="el" href="classtile__x.html">tile_x</a></li>
-<li><a class="el" href="classworld.html">world</a></li>
-</ul>
-</li>
-<li><a class="el" href="classfactory__list__x.html">factory_list_x</a></li>
-<li><a class="el" href="classgood__desc__x.html">good_desc_x</a></li>
-<li><a class="el" href="classgui.html">gui</a></li>
-<li><a class="el" href="classrules.html">rules</a></li>
-<li><a class="el" href="classschedule__x.html">schedule_x</a></li>
-<li><a class="el" href="classsettings.html">settings</a></li>
-<li><a class="el" href="classttext.html">ttext</a><ul>
-<li><a class="el" href="classttextfile.html">ttextfile</a></li>
-</ul>
-</li>
-</ul>
+<a href="api__schedule_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00005"></a><a class="code" href="classschedule__entry__x.html">00005</a> <span class="keyword">class </span><a class="code" href="classschedule__entry__x.html">schedule_entry_x</a> : <span class="keyword">public</span> <a class="code" href="classcoord3d.html">coord3d</a> {
+<a name="l00006"></a>00006 <span class="keyword">public</span>:
+<a name="l00010"></a><a class="code" href="classschedule__entry__x.html#a5d402323767da5b4d31181d3fb64bc02">00010</a>         integer <a class="code" href="classschedule__entry__x.html#a5d402323767da5b4d31181d3fb64bc02">load</a>;
+<a name="l00014"></a><a class="code" href="classschedule__entry__x.html#a2a5726e37b3a077e99cb70c3a0f433cf">00014</a>         integer <a class="code" href="classschedule__entry__x.html#a2a5726e37b3a077e99cb70c3a0f433cf">wait</a>;
+<a name="l00020"></a>00020         <a class="code" href="classhalt__x.html">halt_x</a> <a class="code" href="classschedule__entry__x.html#a1eca2b84fbc3e5aa9b5cf2dead3a0feb">get_halt</a>(<a class="code" href="classplayer__x.html">player_x</a> pl);
+<a name="l00021"></a>00021 };
+<a name="l00025"></a><a class="code" href="classschedule__x.html">00025</a> <span class="keyword">class </span><a class="code" href="classschedule__x.html">schedule_x</a> : <span class="keyword">public</span>  {
+<a name="l00026"></a>00026 <span class="keyword">public</span>:
+<a name="l00030"></a><a class="code" href="classschedule__x.html#a2c79db95edb1799d892f98f89b7341e8">00030</a>         array&lt; schedule_entry_x &gt; <a class="code" href="classschedule__x.html#a2c79db95edb1799d892f98f89b7341e8">entries</a>;
+<a name="l00031"></a>00031         
+<a name="l00035"></a><a class="code" href="classschedule__x.html#abadddf8b9f9e74e27888839c61704aa4">00035</a>         <a class="code" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> <a class="code" href="classschedule__x.html#abadddf8b9f9e74e27888839c61704aa4">waytype</a>;
+<a name="l00036"></a>00036 };
+<a name="l00037"></a>00037 
+</pre></div></div>
 </div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
