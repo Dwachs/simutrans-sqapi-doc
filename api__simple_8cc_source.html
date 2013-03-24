@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: Class Members</title>
+<title>Simutrans-Squirrel-API: api_simple.cc Source File</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -70,54 +70,28 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
-  <div id="navrow3" class="tabs2">
-    <ul class="tablist">
-      <li class="current"><a href="functions.html"><span>All</span></a></li>
-      <li><a href="functions_func.html"><span>Functions</span></a></li>
-      <li><a href="functions_vars.html"><span>Variables</span></a></li>
-    </ul>
-  </div>
-  <div id="navrow4" class="tabs3">
-    <ul class="tablist">
-      <li><a href="functions.html#index__"><span>_</span></a></li>
-      <li><a href="functions_0x61.html#index_a"><span>a</span></a></li>
-      <li><a href="functions_0x62.html#index_b"><span>b</span></a></li>
-      <li><a href="functions_0x63.html#index_c"><span>c</span></a></li>
-      <li><a href="functions_0x64.html#index_d"><span>d</span></a></li>
-      <li><a href="functions_0x65.html#index_e"><span>e</span></a></li>
-      <li><a href="functions_0x66.html#index_f"><span>f</span></a></li>
-      <li><a href="functions_0x67.html#index_g"><span>g</span></a></li>
-      <li><a href="functions_0x68.html#index_h"><span>h</span></a></li>
-      <li><a href="functions_0x69.html#index_i"><span>i</span></a></li>
-      <li><a href="functions_0x6c.html#index_l"><span>l</span></a></li>
-      <li class="current"><a href="functions_0x6d.html#index_m"><span>m</span></a></li>
-      <li><a href="functions_0x6e.html#index_n"><span>n</span></a></li>
-      <li><a href="functions_0x6f.html#index_o"><span>o</span></a></li>
-      <li><a href="functions_0x70.html#index_p"><span>p</span></a></li>
-      <li><a href="functions_0x72.html#index_r"><span>r</span></a></li>
-      <li><a href="functions_0x73.html#index_s"><span>s</span></a></li>
-      <li><a href="functions_0x74.html#index_t"><span>t</span></a></li>
-      <li><a href="functions_0x77.html#index_w"><span>w</span></a></li>
-      <li><a href="functions_0x78.html#index_x"><span>x</span></a></li>
-      <li><a href="functions_0x79.html#index_y"><span>y</span></a></li>
-      <li><a href="functions_0x7a.html#index_z"><span>z</span></a></li>
-    </ul>
-  </div>
+<div class="header">
+  <div class="headertitle">
+<div class="title">api_simple.cc</div>  </div>
 </div>
 <div class="contents">
-<div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
-
-<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
-<li>max_storage
-: <a class="el" href="classfactory__production__x.html#a691bbd62d08a6c3c5d3a0ba1877579f5">factory_production_x</a>
-</li>
-</ul>
+<a href="api__simple_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00006"></a><a class="code" href="classdir.html">00006</a> <span class="keyword">class </span><a class="code" href="classdir.html">dir</a> {
+<a name="l00007"></a>00007 <span class="keyword">public</span>:
+<a name="l00012"></a>00012         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#abdd5a6e881b3fe2fad153f06430573b7">is_single</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00017"></a>00017         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a4ec446fcb6ff3c66821b8a4dbc1976fe">is_twoway</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00022"></a>00022         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a6fd8624a5d28891b92eff2bdd504e6a5">is_threeway</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00027"></a>00027         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a5c123ab819f6063da8a56d480b11df01">is_curve</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00032"></a>00032         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a12989961a428bc37e964a779420316f1">is_straight</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00037"></a>00037         <span class="keyword">static</span> <a class="code" href="classdir.html">dir</a> <a class="code" href="classdir.html#a3e1d664db7453876eff14b78d4ecd551">double</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00042"></a>00042         <span class="keyword">static</span> <a class="code" href="classdir.html">dir</a> <a class="code" href="classdir.html#afb73e882097e002321849eb8c49e9f53">backward</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00043"></a>00043 };
+<a name="l00044"></a>00044 
+</pre></div></div>
 </div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
