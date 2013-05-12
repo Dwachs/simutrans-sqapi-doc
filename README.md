@@ -3,4 +3,4 @@ simutrans-sqapi-doc
 
 Documentation of squirrel API
 
-http://dwachs.github.com/simutrans-sqapi-doc/
+http://dwachs.github.io/simutrans-sqapi-doc/
