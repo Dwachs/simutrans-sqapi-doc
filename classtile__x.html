@@ -80,7 +80,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a>  </div>
+<a href="#pub-attribs">Public Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">tile_x Class Reference</div>  </div>
 </div>
@@ -114,10 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdir.html">dir</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__x.html#a50184cec8050384b14ea6a16de4deb9d">get_way_dirs</a> (waytypes wt)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdir.html">dir</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__x.html#abe8c34bc24173edd2a98bba2fcfb3d47">get_way_dirs_masked</a> (waytypes wt)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtile__x.html">tile_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__x.html#ab78a9b440e82430565ae17494897f267">get_neighbour</a> (waytypes wt, <a class="el" href="classdir.html">dir</a> d)</td></tr>
-<tr><td colspan="2"><h2><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__x.html#a4b09234e7f11c105102ded662e12ca24">_nexti</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__x.html#a28c9e43c76d7264b2b3318b5600a72d6">_get</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtile__object__list__x.html">tile_object_list_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__x.html#adc5ee48949926d1beb0ba631beb83bd8">objects</a></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Class to access tiles on the map.</p>
@@ -172,40 +171,6 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a28c9e43c76d7264b2b3318b5600a72d6"></a><!-- doxytag: member="tile_x::_get" ref="a28c9e43c76d7264b2b3318b5600a72d6" args="()" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void tile_x::_get </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td><code> [private]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-<p>Meta-method to be used in foreach loops to loop over all objects on the tile. Do not call it directly. </p>
-
-</div>
-</div>
-<a class="anchor" id="a4b09234e7f11c105102ded662e12ca24"></a><!-- doxytag: member="tile_x::_nexti" ref="a4b09234e7f11c105102ded662e12ca24" args="()" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void tile_x::_nexti </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td><code> [private]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-<p>Meta-method to be used in foreach loops to loop over all objects on the tile. Do not call it directly. </p>
-
-</div>
-</div>
 <a class="anchor" id="add66e14421f6503139fb2e47459ea7db"></a><!-- doxytag: member="tile_x::find_object" ref="add66e14421f6503139fb2e47459ea7db" args="(map_objects)" -->
 <div class="memitem">
 <div class="memproto">
@@ -477,6 +442,27 @@ Private Member Functions</h2></td></tr>
 <div class="memdoc">
 <p>Queries tile type. </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>true if tile is an ocean tile </dd></dl>
+
+</div>
+</div>
+<hr/><h2>Member Data Documentation</h2>
+<a class="anchor" id="adc5ee48949926d1beb0ba631beb83bd8"></a><!-- doxytag: member="tile_x::objects" ref="adc5ee48949926d1beb0ba631beb83bd8" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtile__object__list__x.html">tile_object_list_x</a> <a class="el" href="classtile__x.html#adc5ee48949926d1beb0ba631beb83bd8">tile_x::objects</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>List to iterate through all objects on this tile. </p>
+<div class="fragment"><pre class="fragment"> t= <a class="code" href="classtile__x.html#a04997a6b2cf1e221b1e947096e216c66">tile_x</a>(47,11)
+ foreach(obj in t.<a class="code" href="classtile__x.html#adc5ee48949926d1beb0ba631beb83bd8">objects</a>) {
+    ...
+ }
+</pre></div> 
+<p>Definition at line <a class="el" href="api__tiles_8cc_source.html#l00103">103</a> of file <a class="el" href="api__tiles_8cc_source.html">api_tiles.cc</a>.</p>
 
 </div>
 </div>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: api_tiles.cc File Reference</title>
+<title>Simutrans-Squirrel-API: tile_object_list_x Class Reference</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -70,32 +70,81 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div>
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#pri-methods">Private Member Functions</a>  </div>
   <div class="headertitle">
-<div class="title">api_tiles.cc File Reference</div>  </div>
+<div class="title">tile_object_list_x Class Reference</div>  </div>
 </div>
 <div class="contents">
+<!-- doxytag: class="tile_object_list_x" --><!-- doxytag: inherits="coord3d" --><div class="dynheader">
+Inheritance diagram for tile_object_list_x:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classtile__object__list__x.png" usemap="#tile_object_list_x_map" alt=""/>
+  <map id="tile_object_list_x_map" name="tile_object_list_x_map">
+<area href="classcoord3d.html" alt="coord3d" shape="rect" coords="0,0,104,24"/>
+</map>
+ </div></div>
 
-<p><a href="api__tiles_8cc_source.html">Go to the source code of this file.</a></p>
+<p><a href="classtile__object__list__x-members.html">List of all members.</a></p>
 <table class="memberdecls">
-<tr><td colspan="2"><h2><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__x.html">tile_x</a></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__object__list__x.html">tile_object_list_x</a></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html">square_x</a></td></tr>
+<tr><td colspan="2"><h2><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__object__list__x.html#aff69d476e5d64f3e1614cff18baf0c23">_nexti</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtile__object__list__x.html#a3e873aee4e9df72577b59cee63d51c8c">_get</a> ()</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>exports tile related functions. </p>
+<div class="textblock"><p>Class that holds an iterator through the list of objects on a particular tile.</p>
+<p>For an example see <a class="el" href="classtile__x.html#adc5ee48949926d1beb0ba631beb83bd8">tile_x::objects</a>. </p>
 
-<p>Definition in file <a class="el" href="api__tiles_8cc_source.html">api_tiles.cc</a>.</p>
-</div></div>
+<p>Definition at line <a class="el" href="api__tiles_8cc_source.html#l00110">110</a> of file <a class="el" href="api__tiles_8cc_source.html">api_tiles.cc</a>.</p>
+</div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a3e873aee4e9df72577b59cee63d51c8c"></a><!-- doxytag: member="tile_object_list_x::_get" ref="a3e873aee4e9df72577b59cee63d51c8c" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tile_object_list_x::_get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Meta-method to be used in foreach loops to loop over all objects on the tile. Do not call it directly. </p>
+
+</div>
+</div>
+<a class="anchor" id="aff69d476e5d64f3e1614cff18baf0c23"></a><!-- doxytag: member="tile_object_list_x::_nexti" ref="aff69d476e5d64f3e1614cff18baf0c23" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tile_object_list_x::_nexti </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Meta-method to be used in foreach loops to loop over all objects on the tile. Do not call it directly. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="api__tiles_8cc_source.html">api_tiles.cc</a></li>
+</ul>
+</div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
