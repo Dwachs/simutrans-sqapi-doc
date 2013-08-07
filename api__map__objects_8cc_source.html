@@ -80,42 +80,44 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="contents">
 <a href="api__map__objects_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
-<a name="l00006"></a><a class="code" href="classmap__object__x.html">00006</a> <span class="keyword">class </span><a class="code" href="classmap__object__x.html">map_object_x</a> : <span class="keyword">public</span> <a class="code" href="classextend__get.html">extend_get</a>,<a class="code" href="classcoord.html">coord</a> {
-<a name="l00007"></a>00007 <span class="keyword">public</span>:
-<a name="l00011"></a>00011         <a class="code" href="classplayer__x.html">player_x</a> <a class="code" href="classmap__object__x.html#a9605402784899b8e1da176134e70bd7f">get_owner</a>();
-<a name="l00015"></a>00015         <span class="keywordtype">string</span> <a class="code" href="classmap__object__x.html#a2a6165268a508a01c311954463ac9cdc">get_name</a>();
-<a name="l00019"></a>00019         <a class="code" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> <a class="code" href="classmap__object__x.html#a9d3a4b0d73da68bcff7c2de04eefb2cd">get_waytype</a>();
-<a name="l00023"></a>00023         <a class="code" href="classcoord3d.html">coord3d</a> <a class="code" href="classmap__object__x.html#a48a8edba003cc96545ea3586569e9ed5">get_pos</a>();
-<a name="l00028"></a>00028         <span class="keywordtype">string</span> <a class="code" href="classmap__object__x.html#a5954d076a7e1e332cb54d7ababce25c1">is_removable</a>(<a class="code" href="classplayer__x.html">player_x</a> );
-<a name="l00032"></a>00032         <a class="code" href="api__const_8cc.html#af16da98cba4f09b335898bbba756034b">map_objects</a> <a class="code" href="classmap__object__x.html#af41d6fc621f40feeb37724c38376d914">get_type</a>();
-<a name="l00033"></a>00033 };
-<a name="l00037"></a><a class="code" href="classtree__x.html">00037</a> <span class="keyword">class </span><a class="code" href="classtree__x.html">tree_x</a> : <span class="keyword">public</span> <a class="code" href="classmap__object__x.html">map_object_x</a> {
-<a name="l00038"></a>00038 <span class="keyword">public</span>:
-<a name="l00039"></a>00039         <a class="code" href="classtree__x.html">tree_x</a>();
-<a name="l00043"></a>00043         integer <a class="code" href="classtree__x.html#a7bd10cdc338e9982ce503fe70cfc980f">get_age</a>();
-<a name="l00044"></a>00044 };
-<a name="l00048"></a><a class="code" href="classbuilding__x.html">00048</a> <span class="keyword">class </span><a class="code" href="classbuilding__x.html">building_x</a> : <span class="keyword">public</span> <a class="code" href="classmap__object__x.html">map_object_x</a> {
-<a name="l00049"></a>00049 <span class="keyword">public</span>:
-<a name="l00050"></a>00050         <a class="code" href="classbuilding__x.html">building_x</a>();
-<a name="l00054"></a>00054         <a class="code" href="classfactory__x.html">factory_x</a> <a class="code" href="classbuilding__x.html#aa90142a99dfe86c3b1f0dcdbaaf828dd">get_factory</a>();
-<a name="l00058"></a>00058         <a class="code" href="classcity__x.html">city_x</a> <a class="code" href="classbuilding__x.html#a35567180f7d2df577bcde4397863ad46">get_city</a>();
-<a name="l00062"></a>00062         <span class="keywordtype">bool</span> <a class="code" href="classbuilding__x.html#ad1f582e5803330418d5d81623ddfd9b3">is_townhall</a>();
-<a name="l00066"></a>00066         <span class="keywordtype">bool</span> <a class="code" href="classbuilding__x.html#a5c1522b73cd99ed87a53e6517ba520c1">is_headquarter</a>();
-<a name="l00070"></a>00070         <span class="keywordtype">bool</span> <a class="code" href="classbuilding__x.html#a1218c5442024e6a541a3637e5b7d16f9">is_monument</a>();
-<a name="l00075"></a>00075         integer <a class="code" href="classbuilding__x.html#a24020147c378629c5b97e256d8d79f5e">get_passenger_level</a>();
-<a name="l00080"></a>00080         integer <a class="code" href="classbuilding__x.html#a58d558587a6cc698e03c39676774cce8">get_mail_level</a>();
-<a name="l00081"></a>00081 };
-<a name="l00085"></a><a class="code" href="classway__x.html">00085</a> <span class="keyword">class </span><a class="code" href="classway__x.html">way_x</a> : <span class="keyword">public</span> <a class="code" href="classmap__object__x.html">map_object_x</a> {
-<a name="l00086"></a>00086 <span class="keyword">public</span>:
-<a name="l00087"></a>00087         <a class="code" href="classway__x.html">way_x</a>();
-<a name="l00091"></a>00091         <span class="keywordtype">bool</span> <a class="code" href="classway__x.html#afea95b2498e7d97bdea1e7d7456505d8">has_sidewalk</a>();
-<a name="l00095"></a>00095         <span class="keywordtype">bool</span> <a class="code" href="classway__x.html#a93a90908930a556e431eb53462ad4214">is_electrified</a>();
-<a name="l00099"></a>00099         <span class="keywordtype">bool</span> <a class="code" href="classway__x.html#a2202aaf6ffafd766625c32b3497eda0a">has_sign</a>();
-<a name="l00103"></a>00103         <span class="keywordtype">bool</span> <a class="code" href="classway__x.html#ab97be03afb47751db6dad59c2071bca6">has_signal</a>();
-<a name="l00107"></a>00107         <span class="keywordtype">bool</span> <a class="code" href="classway__x.html#a7005d4a8d5a44e1935d6dc9a9f1e7ec9">has_wayobj</a>();
-<a name="l00111"></a>00111         <span class="keywordtype">bool</span> <a class="code" href="classway__x.html#a26bbe58c375fe854c0b11d3243c79524">is_crossing</a>();
-<a name="l00112"></a>00112 };
-<a name="l00113"></a>00113 
+<a name="l00002"></a>00002 class ,  {
+<a name="l00003"></a>00003 <span class="keyword">public</span>:
+<a name="l00008"></a>00008 <span class="keyword">class </span>map_object_x : <span class="keyword">public</span> <a class="code" href="classextend__get.html">extend_get</a>,<a class="code" href="classcoord.html">coord</a> {
+<a name="l00009"></a>00009 <span class="keyword">public</span>:
+<a name="l00013"></a>00013         <a class="code" href="classplayer__x.html">player_x</a> get_owner();
+<a name="l00017"></a>00017         <span class="keywordtype">string</span> get_name();
+<a name="l00021"></a>00021         <a class="code" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> get_waytype();
+<a name="l00025"></a>00025         <a class="code" href="classcoord3d.html">coord3d</a> get_pos();
+<a name="l00030"></a>00030         <span class="keywordtype">string</span> is_removable(<a class="code" href="classplayer__x.html">player_x</a> );
+<a name="l00034"></a>00034         <a class="code" href="api__const_8cc.html#af16da98cba4f09b335898bbba756034b">map_objects</a> get_type();
+<a name="l00035"></a>00035 };
+<a name="l00039"></a>00039 <span class="keyword">class </span>tree_x : <span class="keyword">public</span> map_object_x {
+<a name="l00040"></a>00040 <span class="keyword">public</span>:
+<a name="l00041"></a>00041         tree_x();
+<a name="l00045"></a>00045         integer get_age();
+<a name="l00046"></a>00046 };
+<a name="l00050"></a>00050 <span class="keyword">class </span>building_x : <span class="keyword">public</span> map_object_x {
+<a name="l00051"></a>00051 <span class="keyword">public</span>:
+<a name="l00052"></a>00052         building_x();
+<a name="l00056"></a>00056         <a class="code" href="classfactory__x.html">factory_x</a> get_factory();
+<a name="l00060"></a>00060         <a class="code" href="classcity__x.html">city_x</a> get_city();
+<a name="l00064"></a>00064         <span class="keywordtype">bool</span> is_townhall();
+<a name="l00068"></a>00068         <span class="keywordtype">bool</span> is_headquarter();
+<a name="l00072"></a>00072         <span class="keywordtype">bool</span> is_monument();
+<a name="l00077"></a>00077         integer get_passenger_level();
+<a name="l00082"></a>00082         integer get_mail_level();
+<a name="l00083"></a>00083 };
+<a name="l00087"></a>00087 <span class="keyword">class </span>way_x : <span class="keyword">public</span> map_object_x {
+<a name="l00088"></a>00088 <span class="keyword">public</span>:
+<a name="l00089"></a>00089         way_x();
+<a name="l00093"></a>00093         <span class="keywordtype">bool</span> has_sidewalk();
+<a name="l00097"></a>00097         <span class="keywordtype">bool</span> is_electrified();
+<a name="l00101"></a>00101         <span class="keywordtype">bool</span> has_sign();
+<a name="l00105"></a>00105         <span class="keywordtype">bool</span> has_signal();
+<a name="l00109"></a>00109         <span class="keywordtype">bool</span> has_wayobj();
+<a name="l00113"></a>00113         <span class="keywordtype">bool</span> is_crossing();
+<a name="l00114"></a>00114 };
+<a name="l00115"></a>00115 
 </pre></div></div>
 </div>
 <!-- window showing the filter options -->

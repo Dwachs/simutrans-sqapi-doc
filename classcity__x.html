@@ -121,7 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#aa4e0cdb5fcc8af3aa45320601386cdad">get_pos</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#a389d985a747bcd69918ac183bb99b2c6">get_pos_nw</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#a2a90331e6fe1db739e7ed013657cbe3f">get_pos_se</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#ac00825e1691db977ec7ebf4c6eda425e">change_size</a> (integer)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#a6778d990b0cca73f2d3f5a395f565f95">change_size</a> (integer delta)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#a16aaa8b5a97bc0d697a389397483b5ec">set_citygrowth_enabled</a> (bool)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcity__x.html#a0863c1f13de80fc9b2adb94384f25d18">set_name</a> (string)</td></tr>
 </table>
@@ -166,7 +166,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="ac00825e1691db977ec7ebf4c6eda425e"></a><!-- doxytag: member="city_x::change_size" ref="ac00825e1691db977ec7ebf4c6eda425e" args="(integer)" -->
+<a class="anchor" id="a6778d990b0cca73f2d3f5a395f565f95"></a><!-- doxytag: member="city_x::change_size" ref="a6778d990b0cca73f2d3f5a395f565f95" args="(integer delta)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -174,13 +174,19 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void city_x::change_size </td>
           <td>(</td>
           <td class="paramtype">integer&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>delta</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 <p>Change city size. City will immediately grow. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delta</td><td>City size will change by this number. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="warning"><dt><b>Warning:</b></dt><dd>cannot be used in network games. </dd></dl>
 
 </div>

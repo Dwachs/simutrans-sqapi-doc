@@ -101,6 +101,7 @@ Inheritance diagram for square_x:</div>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#ae341317d0782bddd507e84df5bc25089">square_x</a> (integer <a class="el" href="classcoord.html#a31d0b44c0bfcea55a67587a3d8fe2348">x</a>, integer <a class="el" href="classcoord.html#a77e983dd41d55fb0594e983cc1cbcf15">y</a>)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classhalt__x.html">halt_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#a41e936269214824e3d8523ea79dd712e">get_halt</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classhalt__x.html">halt_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#afbeb5b10a99693e2a92bad9671ac7744">get_player_halt</a> (<a class="el" href="classplayer__x.html">player_x</a> pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtile__x.html">tile_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#af6d93fe092d34d6c59d221ecb8e5a2b0">get_tile_at_height</a> (integer z)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtile__x.html">tile_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#a6538ad504f6ddb8ef8e00fcbf38b8b2e">get_ground_tile</a> ()</td></tr>
 </table>
@@ -176,7 +177,33 @@ Public Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Access halt at this tile. </p>
+<p>Access some halt at this square. </p>
+<dl class="note"><dt><b>Note:</b></dt><dd>Deprecated, use <a class="el" href="classsquare__x.html#afbeb5b10a99693e2a92bad9671ac7744">square_x::get_player_halt</a> or <a class="el" href="classtile__x.html#a9316ed3a8a70a5de02991502a4be7984">tile_x::get_halt</a> instead! </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classhalt__x.html">halt_x</a> instance or null/false if no halt is present </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afbeb5b10a99693e2a92bad9671ac7744"></a><!-- doxytag: member="square_x::get_player_halt" ref="afbeb5b10a99693e2a92bad9671ac7744" args="(player_x pl)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classhalt__x.html">halt_x</a> square_x::get_player_halt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classplayer__x.html">player_x</a>&#160;</td>
+          <td class="paramname"><em>pl</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Access halt of this player at this map position. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pl</td><td>potential owner of halt </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classhalt__x.html">halt_x</a> instance or null/false if no halt is present </dd></dl>
 
 </div>
