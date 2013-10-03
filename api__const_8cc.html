@@ -159,6 +159,10 @@ Enumerations</h2></td></tr>
 <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655afaddc67eab4d1db63613cf2446836a1165">wt_invalid</a>
 <br/>
  }</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9">way_system_types</a> { <a class="el" href="api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9a434d55b82f50c8123c516c7aad0605c7">st_flat</a>, 
+<a class="el" href="api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9a0b85258fca6635323cf4f3be405ee473">st_elevated</a>, 
+<a class="el" href="api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9aceb2e2f3bad8a3b3a2d3a8b850b44ef4">st_tram</a>
+ }</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="api__const_8cc.html#a99fb83031ce9923c84392b4e92f956b5a186872cd9a0d90def770c199582be049">player_all</a>
  }</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__const_8cc.html#af16da98cba4f09b335898bbba756034b">map_objects</a> { <br/>
@@ -232,7 +236,7 @@ Enumerations</h2></td></tr>
 </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="api__const_8cc_source.html#l00121">121</a> of file <a class="el" href="api__const_8cc_source.html">api_const.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__const_8cc_source.html#l00133">133</a> of file <a class="el" href="api__const_8cc_source.html">api_const.cc</a>.</p>
 
 </div>
 </div>
@@ -360,7 +364,7 @@ Enumerations</h2></td></tr>
 </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="api__const_8cc_source.html#l00128">128</a> of file <a class="el" href="api__const_8cc_source.html">api_const.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__const_8cc_source.html#l00140">140</a> of file <a class="el" href="api__const_8cc_source.html">api_const.cc</a>.</p>
 
 </div>
 </div>
@@ -513,6 +517,35 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af3c736e35dbdf1b6f3a18c47df7f5dd9"></a><!-- doxytag: member="api_const.cc::way_system_types" ref="af3c736e35dbdf1b6f3a18c47df7f5dd9" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9">way_system_types</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Constants for different system types of ways. System type could take also other values than the ones defined here. </p>
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="af3c736e35dbdf1b6f3a18c47df7f5dd9a434d55b82f50c8123c516c7aad0605c7"></a><!-- doxytag: member="st_flat" ref="af3c736e35dbdf1b6f3a18c47df7f5dd9a434d55b82f50c8123c516c7aad0605c7" args="" -->st_flat</em>&nbsp;</td><td>
+<p>flat ways </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="af3c736e35dbdf1b6f3a18c47df7f5dd9a0b85258fca6635323cf4f3be405ee473"></a><!-- doxytag: member="st_elevated" ref="af3c736e35dbdf1b6f3a18c47df7f5dd9a0b85258fca6635323cf4f3be405ee473" args="" -->st_elevated</em>&nbsp;</td><td>
+<p>elevated ways </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="af3c736e35dbdf1b6f3a18c47df7f5dd9aceb2e2f3bad8a3b3a2d3a8b850b44ef4"></a><!-- doxytag: member="st_tram" ref="af3c736e35dbdf1b6f3a18c47df7f5dd9aceb2e2f3bad8a3b3a2d3a8b850b44ef4" args="" -->st_tram</em>&nbsp;</td><td>
+<p>tram tracks (here way type has to be wt_tram) </p>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+<p>Definition at line <a class="el" href="api__const_8cc_source.html#l00125">125</a> of file <a class="el" href="api__const_8cc_source.html">api_const.cc</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a54cfd1fb3beb4607096d5c42809655af"></a><!-- doxytag: member="api_const.cc::way_types" ref="a54cfd1fb3beb4607096d5c42809655af" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -523,7 +556,7 @@ Enumerations</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Constants to different way types. </p>
+<p>Constants for different way types. </p>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="a54cfd1fb3beb4607096d5c42809655afa4735de7411541aea54eeca8947c68efa"></a><!-- doxytag: member="wt_all" ref="a54cfd1fb3beb4607096d5c42809655afa4735de7411541aea54eeca8947c68efa" args="" -->wt_all</em>&nbsp;</td><td>
 <p>catch all value: used to forbid tools for all waytypes </p>

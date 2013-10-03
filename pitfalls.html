@@ -82,7 +82,7 @@ Tables, arrays, strings, classes, instances etc are passed by reference</h2>
  b.x &lt;- 2      <span class="comment">// a.x is changed to 2</span>
 </pre></div><h2><a class="anchor" id="nocalls_in_global_scope"></a>
 Do not call API-functions in global scope in the script</h2>
-<div class="fragment"><pre class="fragment"> local start_time = <a class="code" href="classsettings.html">settings</a>.<a class="code" href="classsettings.html#aaa49cd063b728d5cbd4f4df582377b45">get_start_time</a>() <span class="comment">// this call is executed BEFORE the savegame is loaded -&gt; undefined</span>
+<div class="fragment"><pre class="fragment"> local start_time = <a class="code" href="classsettings.html">settings</a>.<a class="code" href="classsettings.html#ad8bd41bb4ed297cdf6e1d86d64cc85d3">get_start_time</a>() <span class="comment">// this call is executed BEFORE the savegame is loaded -&gt; undefined</span>
 
  local factory_coalmine = null                <span class="comment">// we can create the variable ...</span>
  <span class="keyword">function</span> <a class="code" href="api__skeleton_8cc.html#a60de64d75454385b23995437f1d72669">start</a>()

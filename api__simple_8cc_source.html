@@ -80,17 +80,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="contents">
 <a href="api__simple_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
-<a name="l00006"></a><a class="code" href="classdir.html">00006</a> <span class="keyword">class </span><a class="code" href="classdir.html">dir</a> {
-<a name="l00007"></a>00007 <span class="keyword">public</span>:
-<a name="l00012"></a>00012         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#abdd5a6e881b3fe2fad153f06430573b7">is_single</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00017"></a>00017         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a4ec446fcb6ff3c66821b8a4dbc1976fe">is_twoway</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00022"></a>00022         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a6fd8624a5d28891b92eff2bdd504e6a5">is_threeway</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00027"></a>00027         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a5c123ab819f6063da8a56d480b11df01">is_curve</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00032"></a>00032         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a12989961a428bc37e964a779420316f1">is_straight</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00037"></a>00037         <span class="keyword">static</span> <a class="code" href="classdir.html">dir</a> <a class="code" href="classdir.html#a3e1d664db7453876eff14b78d4ecd551">double</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00042"></a>00042         <span class="keyword">static</span> <a class="code" href="classdir.html">dir</a> <a class="code" href="classdir.html#afb73e882097e002321849eb8c49e9f53">backward</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00043"></a>00043 };
-<a name="l00044"></a>00044 
+<a name="l00009"></a><a class="code" href="classtime__x.html">00009</a> <span class="keyword">class </span><a class="code" href="classtime__x.html">time_x</a> {
+<a name="l00010"></a>00010 <span class="keyword">public</span>:
+<a name="l00011"></a><a class="code" href="classtime__x.html#ac8b98fec00a957c558bda54e4e6ff276">00011</a>         integer <a class="code" href="classtime__x.html#ac8b98fec00a957c558bda54e4e6ff276" title="raw integer value of date">raw</a>;   
+<a name="l00012"></a><a class="code" href="classtime__x.html#aca1536a498b55607497ce661d6eaab5c">00012</a>         integer <a class="code" href="classtime__x.html#aca1536a498b55607497ce661d6eaab5c" title="year">year</a>;  
+<a name="l00013"></a><a class="code" href="classtime__x.html#a508e6515130f2b1b4039f789d2180a8f">00013</a>         integer <a class="code" href="classtime__x.html#a508e6515130f2b1b4039f789d2180a8f" title="month in 0..11">month</a>; 
+<a name="l00014"></a>00014 };
+<a name="l00019"></a><a class="code" href="classdir.html">00019</a> <span class="keyword">class </span><a class="code" href="classdir.html">dir</a> {
+<a name="l00020"></a>00020 <span class="keyword">public</span>:
+<a name="l00025"></a>00025         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#abdd5a6e881b3fe2fad153f06430573b7">is_single</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00030"></a>00030         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a4ec446fcb6ff3c66821b8a4dbc1976fe">is_twoway</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00035"></a>00035         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a6fd8624a5d28891b92eff2bdd504e6a5">is_threeway</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00040"></a>00040         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a5c123ab819f6063da8a56d480b11df01">is_curve</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00045"></a>00045         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a12989961a428bc37e964a779420316f1">is_straight</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00050"></a>00050         <span class="keyword">static</span> <a class="code" href="classdir.html">dir</a> <a class="code" href="classdir.html#a3e1d664db7453876eff14b78d4ecd551">double</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00055"></a>00055         <span class="keyword">static</span> <a class="code" href="classdir.html">dir</a> <a class="code" href="classdir.html#afb73e882097e002321849eb8c49e9f53">backward</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00056"></a>00056 };
+<a name="l00057"></a>00057 
 </pre></div></div>
 </div>
 <!-- window showing the filter options -->
