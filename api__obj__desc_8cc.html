@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: api_base.h Source File</title>
+<title>Simutrans-Squirrel-API: api_obj_desc.cc File Reference</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -74,39 +74,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
+</div>
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">api_base.h</div>  </div>
+<div class="title">api_obj_desc.cc File Reference</div>  </div>
 </div>
 <div class="contents">
-<a href="api__base_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
-<a name="l00008"></a><a class="code" href="classcoord.html">00008</a> <span class="keyword">class </span><a class="code" href="classcoord.html">coord</a> {
-<a name="l00009"></a>00009 <span class="keyword">public</span>:
-<a name="l00011"></a><a class="code" href="classcoord.html#a31d0b44c0bfcea55a67587a3d8fe2348">00011</a>         integer <a class="code" href="classcoord.html#a31d0b44c0bfcea55a67587a3d8fe2348" title="x-coordinate">x</a>;
-<a name="l00013"></a><a class="code" href="classcoord.html#a77e983dd41d55fb0594e983cc1cbcf15">00013</a>         integer <a class="code" href="classcoord.html#a77e983dd41d55fb0594e983cc1cbcf15" title="y-coordinate">y</a>;
-<a name="l00014"></a>00014 };
-<a name="l00021"></a><a class="code" href="classcoord3d.html">00021</a> <span class="keyword">class </span><a class="code" href="classcoord3d.html">coord3d</a> {
-<a name="l00022"></a>00022 <span class="keyword">public</span>:
-<a name="l00024"></a><a class="code" href="classcoord3d.html#a52a528d37f4e3a486e4c5ee8e78554d8">00024</a>         integer <a class="code" href="classcoord3d.html#a52a528d37f4e3a486e4c5ee8e78554d8" title="x-coordinate">x</a>;
-<a name="l00026"></a><a class="code" href="classcoord3d.html#a6e16a3a8dc5abbf3ce6cc91f0c3f4494">00026</a>         integer <a class="code" href="classcoord3d.html#a6e16a3a8dc5abbf3ce6cc91f0c3f4494" title="y-coordinate">y</a>;
-<a name="l00028"></a><a class="code" href="classcoord3d.html#ac0605ab7d344f3296bc32666c919a3ef">00028</a>         integer <a class="code" href="classcoord3d.html#ac0605ab7d344f3296bc32666c919a3ef" title="z-coordinate - height">z</a>;
-<a name="l00029"></a>00029 };
-<a name="l00048"></a><a class="code" href="classttext.html">00048</a> <span class="keyword">class </span><a class="code" href="classttext.html">ttext</a> {
-<a name="l00049"></a>00049 <span class="keyword">public</span>:
-<a name="l00054"></a>00054         <a class="code" href="classttext.html#a3056c75e140ed4673910e43c438e5a42">ttext</a>(<span class="keywordtype">string</span> text);
-<a name="l00059"></a>00059         <span class="keywordtype">string</span> <a class="code" href="classttext.html#af9c8a67eb9b88fefb6954f85e9783916">to_string</a>();
-<a name="l00060"></a>00060 };
-<a name="l00066"></a><a class="code" href="classttextfile.html">00066</a> <span class="keyword">class </span><a class="code" href="classttextfile.html">ttextfile</a> : <span class="keyword">public</span> <a class="code" href="classttext.html">ttext</a> {
-<a name="l00067"></a>00067 <span class="keyword">public</span>:
-<a name="l00078"></a>00078         <a class="code" href="classttextfile.html#a3aa1cb8b1dc958489d13876a6186ca18">ttextfile</a>(<span class="keywordtype">string</span> <a class="code" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">file</a>);
-<a name="l00079"></a>00079 };
-<a name="l00103"></a><a class="code" href="classextend__get.html">00103</a> <span class="keyword">class </span><a class="code" href="classextend__get.html">extend_get</a> {
-<a name="l00104"></a>00104 <span class="keyword">public</span>:
-<a name="l00105"></a>00105 };
-<a name="l00106"></a>00106 };
-<a name="l00107"></a>00107 
-</pre></div></div>
-</div>
+
+<p><a href="api__obj__desc_8cc_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobj__desc__x.html">obj_desc_x</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobj__desc__time__x.html">obj_desc_time_x</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobj__desc__transport__x.html">obj_desc_transport_x</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtree__desc__x.html">tree_desc_x</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbuilding__desc__x.html">building_desc_x</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classway__desc__x.html">way_desc_x</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgood__desc__list__x.html">good_desc_list_x</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgood__desc__x.html">good_desc_x</a></td></tr>
+</table>
+<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>exports goods descriptors - *_besch_t. </p>
+
+<p>Definition in file <a class="el" href="api__obj__desc_8cc_source.html">api_obj_desc.cc</a>.</p>
+</div></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"

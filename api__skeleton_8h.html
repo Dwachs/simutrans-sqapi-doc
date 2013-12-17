@@ -100,7 +100,6 @@ struct {</td></tr>
 <tr><td class="memItemLeft" ><a class="anchor" id="a4e02850c975e2b48cde16eed768f43f8"></a><!-- doxytag: member="api_skeleton.h::map" ref="a4e02850c975e2b48cde16eed768f43f8" args="" -->
 struct {</td></tr>
 <tr><td class="memItemLeft" >&#160;&#160;&#160;string&#160;&#160;&#160;<a class="el" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">file</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of savegame. The scenario starts with the world saved there. <br/></td></tr>
 <tr><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8h.html#a4e02850c975e2b48cde16eed768f43f8">map</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Information about game map/world. <br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8h.html#a48c699ff842c97fffb74ab077b6d4882">persistent</a></td></tr>
@@ -111,6 +110,22 @@ struct {</td></tr>
 
 <p>Definition in file <a class="el" href="api__skeleton_8h_source.html">api_skeleton.h</a>.</p>
 </div><hr/><h2>Variable Documentation</h2>
+<a class="anchor" id="ab2c5ab3c7a17f0969cdd40146339903a"></a><!-- doxytag: member="api_skeleton.h::file" ref="ab2c5ab3c7a17f0969cdd40146339903a" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">file</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Name of savegame. The scenario starts with the world saved there. If file == "&lt;attach&gt;" then do not load a saved, attach the scenario to the running world instead. </p>
+
+<p>Definition at line <a class="el" href="api__skeleton_8h_source.html#l00020">20</a> of file <a class="el" href="api__skeleton_8h_source.html">api_skeleton.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a48c699ff842c97fffb74ab077b6d4882"></a><!-- doxytag: member="api_skeleton.h::persistent" ref="a48c699ff842c97fffb74ab077b6d4882" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -123,9 +138,22 @@ struct {</td></tr>
 <div class="memdoc">
 
 <p>Persistent data should go into this table. </p>
-<p>Only this table is saved and reloaded with an savegame. Only plain data is saved: no classes / instances / functions, no cyclic references </p>
+<p>Only this table is saved and reloaded with an savegame. Only plain data is saved: no classes / functions, no cyclic references.</p>
+<p>Instances of classes can be saved if (1) the class implements the function _save that (2) returns something which can reconstruct the instance, i.e. an constructor call, embedded in a string. </p>
+<div class="fragment"><pre class="fragment"> <span class="keyword">class </span>my_class_with_save {
+        foo = 0
 
-<p>Definition at line <a class="el" href="api__skeleton_8h_source.html#l00026">26</a> of file <a class="el" href="api__skeleton_8h_source.html">api_skeleton.h</a>.</p>
+        constructor(f)
+        {
+                foo = f;
+        }
+        <span class="keyword">function</span> _save()
+        {
+                <span class="keywordflow">return</span> <span class="stringliteral">&quot;my_class_with_save(&quot;</span>+ foo + <span class="stringliteral">&quot;)&quot;</span>
+        }
+ }
+</pre></div> 
+<p>Definition at line <a class="el" href="api__skeleton_8h_source.html#l00052">52</a> of file <a class="el" href="api__skeleton_8h_source.html">api_skeleton.h</a>.</p>
 
 </div>
 </div>
