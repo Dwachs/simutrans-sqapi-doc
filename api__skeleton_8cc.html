@@ -89,6 +89,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a60de64d75454385b23995437f1d72669">start</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a8f7187d43d6ca08f59ce949f9c4938f8">resume_game</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#ac954558374aa1d041896a8d6ad7fb617">new_month</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#ae84442cfdd65196b1ddafe3125638913">new_year</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a0bb5d8a37cb2a83f89384a10fd7f1306">get_map_file</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a6922ff4b1be417e1d2ca655018a67306">get_about_text</a> (integer pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a> (integer pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a441ddb63d00df531a03dc1811415ed02">get_goal_text</a> (integer pl)</td></tr>
@@ -179,6 +182,24 @@ Functions</h2></td></tr>
 </dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="millionaire_2scenario_8nut-example.html#a4">millionaire/scenario.nut</a>, and <a class="el" href="pharmacy-max_2scenario_8nut-example.html#a6">pharmacy-max/scenario.nut</a>.</dd>
 </dl>
+</div>
+</div>
+<a class="anchor" id="a0bb5d8a37cb2a83f89384a10fd7f1306"></a><!-- doxytag: member="api_skeleton.cc::get_map_file" ref="a0bb5d8a37cb2a83f89384a10fd7f1306" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string get_map_file </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Called before starting the scenario. Should return filename of the savegame to be used for this scenario. If it returns "&lt;attach&gt;" the scenario is started with the currently running world. By default returns the string <a class="el" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">map::file</a>. </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>filename or "&lt;attach&gt;" </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a7dd5ed6cedddd109004c47b3dd240f31"></a><!-- doxytag: member="api_skeleton.cc::get_result_text" ref="a7dd5ed6cedddd109004c47b3dd240f31" args="(integer pl)" -->
@@ -399,6 +420,40 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>null if allowed, an error message otherwise </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac954558374aa1d041896a8d6ad7fb617"></a><!-- doxytag: member="api_skeleton.cc::new_month" ref="ac954558374aa1d041896a8d6ad7fb617" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void new_month </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Called at the beginning of a new month. Statistics of the last (complete) month is now in position [1] of any statistics array. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae84442cfdd65196b1ddafe3125638913"></a><!-- doxytag: member="api_skeleton.cc::new_year" ref="ae84442cfdd65196b1ddafe3125638913" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void new_year </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Called at the beginning of a new year. Statistics of the last (complete) year is now in position [1] of any statistics array. </p>
 
 </div>
 </div>
