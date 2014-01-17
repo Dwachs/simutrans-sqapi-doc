@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: Class Members - Functions</title>
+<title>Simutrans-Squirrel-API: attraction_list_x Class Reference</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -73,47 +73,72 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
-    </ul>
-  </div>
-  <div id="navrow3" class="tabs2">
-    <ul class="tablist">
-      <li><a href="functions.html"><span>All</span></a></li>
-      <li class="current"><a href="functions_func.html"><span>Functions</span></a></li>
-      <li><a href="functions_vars.html"><span>Variables</span></a></li>
-      <li><a href="functions_enum.html"><span>Enumerations</span></a></li>
-      <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
-    </ul>
-  </div>
-  <div id="navrow4" class="tabs3">
-    <ul class="tablist">
-      <li><a href="functions_func.html#index__"><span>_</span></a></li>
-      <li><a href="functions_func_0x61.html#index_a"><span>a</span></a></li>
-      <li><a href="functions_func_0x62.html#index_b"><span>b</span></a></li>
-      <li><a href="functions_func_0x63.html#index_c"><span>c</span></a></li>
-      <li><a href="functions_func_0x64.html#index_d"><span>d</span></a></li>
-      <li><a href="functions_func_0x65.html#index_e"><span>e</span></a></li>
-      <li><a href="functions_func_0x66.html#index_f"><span>f</span></a></li>
-      <li><a href="functions_func_0x67.html#index_g"><span>g</span></a></li>
-      <li><a href="functions_func_0x68.html#index_h"><span>h</span></a></li>
-      <li><a href="functions_func_0x69.html#index_i"><span>i</span></a></li>
-      <li><a href="functions_func_0x6d.html#index_m"><span>m</span></a></li>
-      <li><a href="functions_func_0x6e.html#index_n"><span>n</span></a></li>
-      <li><a href="functions_func_0x6f.html#index_o"><span>o</span></a></li>
-      <li><a href="functions_func_0x70.html#index_p"><span>p</span></a></li>
-      <li class="current"><a href="functions_func_0x72.html#index_r"><span>r</span></a></li>
-      <li><a href="functions_func_0x73.html#index_s"><span>s</span></a></li>
-      <li><a href="functions_func_0x74.html#index_t"><span>t</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div>
+<div class="header">
+  <div class="summary">
+<a href="#pri-methods">Private Member Functions</a>  </div>
+  <div class="headertitle">
+<div class="title">attraction_list_x Class Reference</div>  </div>
+</div>
 <div class="contents">
-&#160;
+<!-- doxytag: class="attraction_list_x" -->
+<p><a href="classattraction__list__x-members.html">List of all members.</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classattraction__list__x.html#a9265da5aebc29358b2aeb8181ccd72b1">_nexti</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classattraction__list__x.html#a77a3be290f75f6e696624576d5d1ccfc">_get</a> ()</td></tr>
+</table>
+<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Implements iterator to iterate through the list of all attractions on the map.</p>
+<p>Usage: </p>
+<div class="fragment"><pre class="fragment"> local list = <a class="code" href="classworld.html">world</a>.<a class="code" href="classworld.html#afbfcfcee1327466cb36a8b265741e4cb">get_attraction_list</a>()
+ <span class="comment">// list is now of type attraction_list_x</span>
+ <span class="keywordflow">foreach</span>(att <span class="keywordflow">in</span> list) {
+     ... <span class="comment">// att is an instance of the building_x class</span>
+ }
+</pre></div> 
+<p>Definition at line <a class="el" href="api__world_8cc_source.html#l00186">186</a> of file <a class="el" href="api__world_8cc_source.html">api_world.cc</a>.</p>
+</div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a77a3be290f75f6e696624576d5d1ccfc"></a><!-- doxytag: member="attraction_list_x::_get" ref="a77a3be290f75f6e696624576d5d1ccfc" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void attraction_list_x::_get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Meta-method to be used in foreach loops to loop over all attractions on the map. Do not call it directly. </p>
 
-<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>remove_player()
-: <a class="el" href="classworld.html#ac25b7a3d48f7bddc6a57012b496dde02">world</a>
-</li>
+</div>
+</div>
+<a class="anchor" id="a9265da5aebc29358b2aeb8181ccd72b1"></a><!-- doxytag: member="attraction_list_x::_nexti" ref="a9265da5aebc29358b2aeb8181ccd72b1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void attraction_list_x::_nexti </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Meta-method to be used in foreach loops to loop over all attractions on the map. Do not call it directly. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="api__world_8cc_source.html">api_world.cc</a></li>
 </ul>
 </div>
 <!-- window showing the filter options -->
