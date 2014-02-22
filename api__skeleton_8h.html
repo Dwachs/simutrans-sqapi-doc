@@ -87,21 +87,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr><td class="memItemLeft" ><a class="anchor" id="adbdeded7b57ce471a9f97d8e2ae35a1b"></a><!-- doxytag: member="api_skeleton.h::scenario" ref="adbdeded7b57ce471a9f97d8e2ae35a1b" args="" -->
-struct {</td></tr>
+<tr><td class="memItemLeft" >struct {</td></tr>
 <tr><td class="memItemLeft" >&#160;&#160;&#160;string&#160;&#160;&#160;<a class="el" href="api__skeleton_8h.html#a6c51d59aac1deb65fb2be5060013c1e7">short_description</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Short description of scenario, is shown for example in finance window. <br/></td></tr>
 <tr><td class="memItemLeft" >&#160;&#160;&#160;string&#160;&#160;&#160;<a class="el" href="api__skeleton_8h.html#ab873cebb3b7e47db4fe59837d1aaa210">author</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Author(s) of the scenario and/or scripts. <br/></td></tr>
 <tr><td class="memItemLeft" >&#160;&#160;&#160;string&#160;&#160;&#160;<a class="el" href="api__skeleton_8h.html#af9c8593b58583463efe6932e24c9d6e6">version</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Version of script. <br/></td></tr>
+<tr><td class="memItemLeft" >&#160;&#160;&#160;string&#160;&#160;&#160;<a class="el" href="api__skeleton_8h.html#a8ad2f06c592edce1a066c19438a163a6">api</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Required version of api.  <a href="#afb322d78445e91d8cabd74fcebae6cbe"></a><br/></td></tr>
 <tr><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b">scenario</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Meta information about the scenario. <br/></td></tr>
-<tr><td class="memItemLeft" ><a class="anchor" id="a4e02850c975e2b48cde16eed768f43f8"></a><!-- doxytag: member="api_skeleton.h::map" ref="a4e02850c975e2b48cde16eed768f43f8" args="" -->
-struct {</td></tr>
+<tr><td class="memItemLeft" >struct {</td></tr>
 <tr><td class="memItemLeft" >&#160;&#160;&#160;string&#160;&#160;&#160;<a class="el" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">file</a></td></tr>
 <tr><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8h.html#a4e02850c975e2b48cde16eed768f43f8">map</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Information about game map/world. <br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8h.html#a48c699ff842c97fffb74ab077b6d4882">persistent</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Persistent data should go into this table.  <a href="#a48c699ff842c97fffb74ab077b6d4882"></a><br/></td></tr>
 </table>
@@ -110,6 +108,24 @@ struct {</td></tr>
 
 <p>Definition in file <a class="el" href="api__skeleton_8h_source.html">api_skeleton.h</a>.</p>
 </div><hr/><h2>Variable Documentation</h2>
+<a class="anchor" id="a8ad2f06c592edce1a066c19438a163a6"></a><!-- doxytag: member="api_skeleton.h::api" ref="a8ad2f06c592edce1a066c19438a163a6" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="api__skeleton_8h.html#a8ad2f06c592edce1a066c19438a163a6">api</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Required version of api. </p>
+<p>Script requires this version of api. Corresponds to release numbers (e.g. 112.3). Set it to "*" to support nightly versions. If this string is not set, the default "112.3" will be used. </p>
+
+<p>Definition at line <a class="el" href="api__skeleton_8h_source.html#l00017">17</a> of file <a class="el" href="api__skeleton_8h_source.html">api_skeleton.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab2c5ab3c7a17f0969cdd40146339903a"></a><!-- doxytag: member="api_skeleton.h::file" ref="ab2c5ab3c7a17f0969cdd40146339903a" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -122,8 +138,24 @@ struct {</td></tr>
 <div class="memdoc">
 <p>Name of savegame. The scenario starts with the world saved there. If file == "&lt;attach&gt;" then do not load a saved, attach the scenario to the running world instead. </p>
 
-<p>Definition at line <a class="el" href="api__skeleton_8h_source.html#l00020">20</a> of file <a class="el" href="api__skeleton_8h_source.html">api_skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="api__skeleton_8h_source.html#l00030">30</a> of file <a class="el" href="api__skeleton_8h_source.html">api_skeleton.h</a>.</p>
 
+</div>
+</div>
+<a class="anchor" id="a4e02850c975e2b48cde16eed768f43f8"></a><!-- doxytag: member="api_skeleton.h::map" ref="a4e02850c975e2b48cde16eed768f43f8" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct { ... } 
+ <a class="el" href="api__skeleton_8h.html#a4e02850c975e2b48cde16eed768f43f8">map</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Information about game map/world. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="millionaire_2scenario_8nut-example.html#a0">millionaire/scenario.nut</a>, and <a class="el" href="pharmacy-max_2scenario_8nut-example.html#a0">pharmacy-max/scenario.nut</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="a48c699ff842c97fffb74ab077b6d4882"></a><!-- doxytag: member="api_skeleton.h::persistent" ref="a48c699ff842c97fffb74ab077b6d4882" args="" -->
@@ -153,8 +185,24 @@ struct {</td></tr>
         }
  }
 </pre></div> 
-<p>Definition at line <a class="el" href="api__skeleton_8h_source.html#l00052">52</a> of file <a class="el" href="api__skeleton_8h_source.html">api_skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="api__skeleton_8h_source.html#l00064">64</a> of file <a class="el" href="api__skeleton_8h_source.html">api_skeleton.h</a>.</p>
 
+</div>
+</div>
+<a class="anchor" id="adbdeded7b57ce471a9f97d8e2ae35a1b"></a><!-- doxytag: member="api_skeleton.h::scenario" ref="adbdeded7b57ce471a9f97d8e2ae35a1b" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct { ... } 
+ <a class="el" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b">scenario</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Meta information about the scenario. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="millionaire_2scenario_8nut-example.html#a1">millionaire/scenario.nut</a>, and <a class="el" href="pharmacy-max_2scenario_8nut-example.html#a1">pharmacy-max/scenario.nut</a>.</dd>
+</dl>
 </div>
 </div>
 </div>

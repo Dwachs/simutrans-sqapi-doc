@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: api_halt.cc Source File</title>
+<title>Simutrans-Squirrel-API: api_line.cc Source File</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -76,37 +76,36 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 <div class="header">
   <div class="headertitle">
-<div class="title">api_halt.cc</div>  </div>
+<div class="title">api_line.cc</div>  </div>
 </div>
 <div class="contents">
-<a href="api__halt_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
-<a name="l00013"></a><a class="code" href="classhalt__list__x.html">00013</a> <span class="keyword">class </span><a class="code" href="classhalt__list__x.html">halt_list_x</a> {
-<a name="l00014"></a>00014 <span class="keyword">public</span>:
-<a name="l00018"></a>00018 <span class="keyword">private</span>:
-<a name="l00019"></a>00019         <span class="keywordtype">void</span> <a class="code" href="classhalt__list__x.html#aaae79b447fa53748d8319706115df80e">_nexti</a>();
-<a name="l00020"></a>00020 <span class="keyword">public</span>:
-<a name="l00024"></a>00024 <span class="keyword">private</span>:
-<a name="l00025"></a>00025         <a class="code" href="classhalt__x.html">halt_x</a> <a class="code" href="classhalt__list__x.html#a28ef92e75537c382a6cad807d84b1256">_get</a>();
-<a name="l00026"></a>00026 <span class="keyword">public</span>:
-<a name="l00027"></a>00027 };
-<a name="l00031"></a><a class="code" href="classhalt__x.html">00031</a> <span class="keyword">class </span><a class="code" href="classhalt__x.html">halt_x</a> : <span class="keyword">public</span> <a class="code" href="classextend__get.html">extend_get</a> {
-<a name="l00032"></a>00032 <span class="keyword">public</span>:
-<a name="l00037"></a>00037         <span class="keywordtype">string</span> <a class="code" href="classhalt__x.html#a02513eba539ece194b341389e56c8b90">get_name</a>();
-<a name="l00042"></a>00042         <a class="code" href="classplayer__x.html">player_x</a> <a class="code" href="classhalt__x.html#a48451ff1a57407e476d0f2cce31d0885">get_owner</a>();
-<a name="l00049"></a>00049         integer <a class="code" href="classhalt__x.html#afea8463dceb79088cb15e70f5fd6944f">is_connected</a>(<a class="code" href="classhalt__x.html">halt_x</a> halt, <a class="code" href="classgood__desc__x.html">good_desc_x</a> freight_type);
-<a name="l00055"></a>00055         <span class="keywordtype">bool</span> <a class="code" href="classhalt__x.html#aea92b4053a792099bcd9a67c0676239d">accepts_good</a>(<a class="code" href="classgood__desc__x.html">good_desc_x</a> freight_type);
-<a name="l00060"></a>00060         array&lt;integer&gt; <a class="code" href="classhalt__x.html#a0dc80df297e7430c52b7b918167e4fa9">get_arrived</a>();
-<a name="l00065"></a>00065         array&lt;integer&gt; <a class="code" href="classhalt__x.html#a4bf64ff4ee2b74a478720defe0c264f5">get_departed</a>();
-<a name="l00070"></a>00070         array&lt;integer&gt; <a class="code" href="classhalt__x.html#a45a3f20d7967cc0931a3aaf4841032a7">get_waiting</a>();
-<a name="l00075"></a>00075         array&lt;integer&gt; <a class="code" href="classhalt__x.html#a264e5c4ea28a712ea2642e0a1dbaacfe">get_happy</a>();
-<a name="l00082"></a>00082         array&lt;integer&gt; <a class="code" href="classhalt__x.html#a60d1f12cb591b2bf4febde556eaf8418">get_unhappy</a>();
-<a name="l00089"></a>00089         array&lt;integer&gt; <a class="code" href="classhalt__x.html#aa618c11b6f4da42ad4a9cb9fcefd36ca">get_noroute</a>();
-<a name="l00094"></a>00094         array&lt;integer&gt; <a class="code" href="classhalt__x.html#a8f3edec588731dff3b3ea813a8201d7d">get_convoys</a>();
-<a name="l00099"></a>00099         array&lt;integer&gt; <a class="code" href="classhalt__x.html#a6d30e178cdfc649fb432504edae181c4">get_walked</a>();
-<a name="l00103"></a>00103         <a class="code" href="classconvoy__list__x.html">convoy_list_x</a> <a class="code" href="classhalt__x.html#a6824c396865bc4d8aa322ef666fd4ab0">get_convoy_list</a>();
-<a name="l00107"></a>00107         <a class="code" href="classline__list__x.html">line_list_x</a> <a class="code" href="classhalt__x.html#a1522cbcb126dc434d70f63c82958e580">get_line_list</a>();
-<a name="l00108"></a>00108 };
-<a name="l00109"></a>00109 
+<a href="api__line_8cc.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00015"></a><a class="code" href="classline__list__x.html">00015</a> <span class="keyword">class </span><a class="code" href="classline__list__x.html">line_list_x</a> {
+<a name="l00016"></a>00016 <span class="keyword">public</span>:
+<a name="l00020"></a>00020 <span class="keyword">private</span>:
+<a name="l00021"></a>00021         <span class="keywordtype">void</span> <a class="code" href="classline__list__x.html#a974def8bb57af7a8ca1a8c3f908eccea">_nexti</a>();
+<a name="l00022"></a>00022 <span class="keyword">public</span>:
+<a name="l00026"></a>00026 <span class="keyword">private</span>:
+<a name="l00027"></a>00027         <a class="code" href="classline__x.html">line_x</a> <a class="code" href="classline__list__x.html#a7f2486242078c3c1d281a1c4b07eb1e5">_get</a>();
+<a name="l00028"></a>00028 <span class="keyword">public</span>:
+<a name="l00029"></a>00029 };
+<a name="l00033"></a><a class="code" href="classline__x.html">00033</a> <span class="keyword">class </span><a class="code" href="classline__x.html">line_x</a> : <span class="keyword">public</span> <a class="code" href="classextend__get.html">extend_get</a> {
+<a name="l00034"></a>00034 <span class="keyword">public</span>:
+<a name="l00039"></a>00039         <span class="keywordtype">string</span> <a class="code" href="classline__x.html#ae0cc4fbe30ab963b974015b7162fe2b2">get_name</a>();
+<a name="l00044"></a>00044         <a class="code" href="classplayer__x.html">player_x</a> <a class="code" href="classline__x.html#a5443379e9dc6ba825e3cd5695762abbe">get_owner</a>();
+<a name="l00048"></a>00048         <a class="code" href="classschedule__x.html">schedule_x</a> <a class="code" href="classline__x.html#aa020269027579bf6223e5d7c4c666ca5">get_schedule</a>();
+<a name="l00053"></a>00053         array&lt;integer&gt; <a class="code" href="classline__x.html#a2e8d03b156f6737e74d6d2130d2412af">get_goods_catg_index</a>();
+<a name="l00058"></a>00058         array&lt;integer&gt; <a class="code" href="classline__x.html#af86b94be3a705b49beddc3923250e24e">get_capacity</a>();
+<a name="l00063"></a>00063         array&lt;integer&gt; <a class="code" href="classline__x.html#ae66c1b3ac501e45bdc004e89d9b531f4">get_transported_goods</a>();
+<a name="l00068"></a>00068         array&lt;integer&gt; <a class="code" href="classline__x.html#a3f29fb8aa7b84c0926adacc3c5c5bd41">get_convoy_count</a>();
+<a name="l00073"></a>00073         array&lt;integer&gt; <a class="code" href="classline__x.html#a3d48b99827bdab12cbef332ea75c0623">get_revenue</a>();
+<a name="l00078"></a>00078         array&lt;integer&gt; <a class="code" href="classline__x.html#aca7022bf8a9346b0c74516f863ae61bf">get_cost</a>();
+<a name="l00083"></a>00083         array&lt;integer&gt; <a class="code" href="classline__x.html#a3a7815b84a70a31e0b2ca5d05c931c52">get_profit</a>();
+<a name="l00088"></a>00088         array&lt;integer&gt; <a class="code" href="classline__x.html#a094c35e3248ea932606f6308f5a4c6e9">get_traveled_distance</a>();
+<a name="l00093"></a>00093         array&lt;integer&gt; <a class="code" href="classline__x.html#a53f835414d824e44ad3479082e75b388">get_way_tolls</a>();
+<a name="l00097"></a>00097         <a class="code" href="classconvoy__list__x.html">convoy_list_x</a> <a class="code" href="classline__x.html#a9a87f77d3ddcc3d24dfe216b3039c686">get_convoy_list</a>();
+<a name="l00098"></a>00098 };
+<a name="l00099"></a>00099 
 </pre></div></div>
 </div>
 <!-- window showing the filter options -->

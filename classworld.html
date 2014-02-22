@@ -127,7 +127,8 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a247a4a5da1e8d64af57ba4fdd348bf85">get_year_generated_mail</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a5a08d47ee1f7fa7bd0948f65641019b0">get_year_ratio_goods</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#ad36cfae50d941397ac25962133d5fce3">get_year_transported_goods</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#afbfcfcee1327466cb36a8b265741e4cb">get_attraction_list</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classattraction__list__x.html">attraction_list_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#ad5db3d1d57155f67ee7ac42672dbf6d4">get_attraction_list</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classconvoy__list__x.html">convoy_list_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a68633926c5c89aee2ab4f5e4a77e8fe5">get_convoy_list</a> ()</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Table with methods to access the world, the universe, and everything. </p>
@@ -159,12 +160,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afbfcfcee1327466cb36a8b265741e4cb"></a><!-- doxytag: member="world::get_attraction_list" ref="afbfcfcee1327466cb36a8b265741e4cb" args="()" -->
+<a class="anchor" id="ad5db3d1d57155f67ee7ac42672dbf6d4"></a><!-- doxytag: member="world::get_attraction_list" ref="ad5db3d1d57155f67ee7ac42672dbf6d4" args="()" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">static void world::get_attraction_list </td>
+          <td class="memname">static <a class="el" href="classattraction__list__x.html">attraction_list_x</a> world::get_attraction_list </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td><code> [static]</code></td>
@@ -210,6 +211,24 @@ Static Public Member Functions</h2></td></tr>
 <div class="memdoc">
 <p>Get monthly statistics of total number of citycars. </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>array, index [0] corresponds to current month </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a68633926c5c89aee2ab4f5e4a77e8fe5"></a><!-- doxytag: member="world::get_convoy_list" ref="a68633926c5c89aee2ab4f5e4a77e8fe5" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classconvoy__list__x.html">convoy_list_x</a> world::get_convoy_list </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns list of convoys on the map. </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>convoy list </dd></dl>
 
 </div>
 </div>

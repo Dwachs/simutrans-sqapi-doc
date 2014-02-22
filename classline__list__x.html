@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Simutrans-Squirrel-API: millionaire/scenario.nut</title>
+<title>Simutrans-Squirrel-API: line_list_x Class Reference</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -47,7 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
@@ -68,59 +68,78 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
 </div>
 <div class="header">
+  <div class="summary">
+<a href="#pri-methods">Private Member Functions</a>  </div>
   <div class="headertitle">
-<div class="title">millionaire/scenario.nut</div>  </div>
+<div class="title">line_list_x Class Reference</div>  </div>
 </div>
 <div class="contents">
-<p>This example is commented in detail at the page <a class="el" href="page_script_mill.html">A simple example script</a>.</p>
-<div class="fragment"><pre class="fragment">
-<a name="a0"></a><a class="code" href="api__skeleton_8h.html#a4e02850c975e2b48cde16eed768f43f8">map</a>.file = <span class="stringliteral">&quot;millionaire.sve&quot;</span>
+<!-- doxytag: class="line_list_x" -->
+<p><a href="classline__list__x-members.html">List of all members.</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classline__list__x.html#a974def8bb57af7a8ca1a8c3f908eccea">_nexti</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classline__x.html">line_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classline__list__x.html#a7f2486242078c3c1d281a1c4b07eb1e5">_get</a> ()</td></tr>
+</table>
+<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Implements iterator to iterate through lists of lines.</p>
+<p>Usage: </p>
+<div class="fragment"><pre class="fragment"> local list = <a class="code" href="classplayer__x.html">player_x</a>(0).get_line_list_x()
+ <span class="keywordflow">foreach</span>(line <span class="keywordflow">in</span> list) {
+     ... <span class="comment">// line is an instance of the line_x class</span>
+ }
+</pre></div><dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classplayer__x.html#a6659200cdd3054aee15257106737c21f">player_x::get_line_list</a>, <a class="el" href="classhalt__x.html#a1522cbcb126dc434d70f63c82958e580">halt_x::get_line_list</a> </dd></dl>
 
-<a name="a1"></a><a class="code" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b">scenario</a>.short_description = <span class="stringliteral">&quot;Millionaire&quot;</span>
-<a class="code" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b">scenario</a>.author = <span class="stringliteral">&quot;prissi (scripting by Dwachs)&quot;</span>
-<a class="code" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b">scenario</a>.version = <span class="stringliteral">&quot;0.1&quot;</span>
+<p>Definition at line <a class="el" href="api__line_8cc_source.html#l00015">15</a> of file <a class="el" href="api__line_8cc_source.html">api_line.cc</a>.</p>
+</div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a7f2486242078c3c1d281a1c4b07eb1e5"></a><!-- doxytag: member="line_list_x::_get" ref="a7f2486242078c3c1d281a1c4b07eb1e5" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classline__x.html">line_x</a> line_list_x::_get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Meta-method to be used in foreach loops. Do not call them directly. </p>
 
-<span class="keyword">function</span> <a name="a2"></a><a class="code" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a>(pl)
-{
-        <span class="keywordflow">return</span> <span class="stringliteral">&quot;No limits.&quot;</span>
-}
+</div>
+</div>
+<a class="anchor" id="a974def8bb57af7a8ca1a8c3f908eccea"></a><!-- doxytag: member="line_list_x::_nexti" ref="a974def8bb57af7a8ca1a8c3f908eccea" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void line_list_x::_nexti </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Meta-method to be used in foreach loops. Do not call them directly. </p>
 
-<span class="keyword">function</span> <a name="a3"></a><a class="code" href="api__skeleton_8cc.html#a441ddb63d00df531a03dc1811415ed02">get_goal_text</a>(pl)
-{
-        <span class="keywordflow">return</span> <span class="stringliteral">@&quot;Become millionaire as fast as possible.&quot;</span>
-}
-
-<span class="keyword">function</span> <a name="a4"></a><a class="code" href="api__skeleton_8cc.html#a40fae968e0f6382017f2632fb86ef873">get_info_text</a>(pl)
-{
-        <span class="keywordflow">return</span> <span class="stringliteral">@&quot;You started a small transport company to become rich. Your grandparents did not have a glue, where all their money flows</span>
-<span class="stringliteral">                 into.&quot;</span>
-}
-
-<span class="keyword">function</span> <a name="a5"></a><a class="code" href="api__skeleton_8cc.html#a7dd5ed6cedddd109004c47b3dd240f31">get_result_text</a>(pl)
-{
-        local cash = get_cash(pl)
-
-        local text = &quot;Your bank account is worth &quot; + cash + &quot;.&lt;br&gt; &lt;br&gt;&quot;
-        if ( cash &gt;= 1000000 )
-                text += &quot;&lt;it&gt;Congratulation!&lt;/it&gt;&lt;br&gt; &lt;br&gt; You won the <a class="code" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b">scenario</a>!&quot;
-        else
-                text += &quot;You still have to work a little bit harder.&quot;
-
-        return text
-}
-
-function get_cash(pl)
-{
-        <span class="keywordflow">return</span> <a name="_a6"></a><a class="code" href="classplayer__x.html">player_x</a>(pl).cash[0]
-}
-
-<span class="keyword">function</span> <a name="a7"></a><a class="code" href="api__skeleton_8cc.html#acbd2bb976240e0bf782a2eb82acd4f4d">is_scenario_completed</a>(pl)
-{
-        <span class="keywordflow">return</span>  get_cash(pl) / 10000
-}
-</pre></div> </div>
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="api__line_8cc_source.html">api_line.cc</a></li>
+</ul>
 </div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
