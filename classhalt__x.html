@@ -79,7 +79,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">halt_x Class Reference</div>  </div>
 </div>
@@ -112,12 +113,40 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a6d30e178cdfc649fb432504edae181c4">get_walked</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classconvoy__list__x.html">convoy_list_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a6824c396865bc4d8aa322ef666fd4ab0">get_convoy_list</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classline__list__x.html">line_list_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a1522cbcb126dc434d70f63c82958e580">get_line_list</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a9bf4064fefd67647ce729fec854fff6b">_cmp</a> (<a class="el" href="classhalt__x.html">halt_x</a> halt)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Class to access halts. </p>
 
 <p>Definition at line <a class="el" href="api__halt_8cc_source.html#l00031">31</a> of file <a class="el" href="api__halt_8cc_source.html">api_halt.cc</a>.</p>
 </div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a9bf4064fefd67647ce729fec854fff6b"></a><!-- doxytag: member="halt_x::_cmp" ref="a9bf4064fefd67647ce729fec854fff6b" args="(halt_x halt)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer halt_x::_cmp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classhalt__x.html">halt_x</a>&#160;</td>
+          <td class="paramname"><em>halt</em></td><td>)</td>
+          <td><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>compare classes using metamethods </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">halt</td><td>the other halt </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>difference in the unique id of the halthandle </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aea92b4053a792099bcd9a67c0676239d"></a><!-- doxytag: member="halt_x::accepts_good" ref="aea92b4053a792099bcd9a67c0676239d" args="(good_desc_x freight_type)" -->
 <div class="memitem">
 <div class="memproto">
