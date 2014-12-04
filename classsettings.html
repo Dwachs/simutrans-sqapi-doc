@@ -94,12 +94,88 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a6ad7aa03a69fd5097c18c6d19704f17a">get_traffic_level</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#ac9d196954d09c505ec107137097a6513">set_traffic_level</a> (integer rate)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtime__x.html">time_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#ad8bd41bb4ed297cdf6e1d86d64cc85d3">get_start_time</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a5f19d6b659820b9a6cc1080a024311c2">get_station_coverage</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#ab5b50c8cae72f2c322ccba0a04496694">get_passenger_factor</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a48bb62d9306db2f72b2af54251420cda">get_factory_worker_radius</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#af8fc7745d6f27ff7c4d2c2fc3bd2bcb8">get_factory_worker_minimum_towns</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#ad4b32332b09a198b028e3c5fd4d8b0d1">get_factory_worker_maximum_towns</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a34799ea1b442eee59cfdf5932dadc1d6">avoid_overcrowding</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a5c65e3d1c40acfda67fa2b876b23c257">no_routing_over_overcrowding</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#aeaeb0a2ae6d635d95f46e251237df212">separate_halt_capacities</a> ()</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Table with methods to access game settings. </p>
 
 <p>Definition at line <a class="el" href="api__settings_8cc_source.html#l00005">5</a> of file <a class="el" href="api__settings_8cc_source.html">api_settings.cc</a>.</p>
 </div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a34799ea1b442eee59cfdf5932dadc1d6"></a><!-- doxytag: member="settings::avoid_overcrowding" ref="a34799ea1b442eee59cfdf5932dadc1d6" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool settings::avoid_overcrowding </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="return"><dt><b>Returns:</b></dt><dd>freight will not enter convoy if next transfer halt is overcrowded </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad4b32332b09a198b028e3c5fd4d8b0d1"></a><!-- doxytag: member="settings::get_factory_worker_maximum_towns" ref="ad4b32332b09a198b028e3c5fd4d8b0d1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_factory_worker_maximum_towns </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="return"><dt><b>Returns:</b></dt><dd>maximum number of cities to supply workers for a factory </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af8fc7745d6f27ff7c4d2c2fc3bd2bcb8"></a><!-- doxytag: member="settings::get_factory_worker_minimum_towns" ref="af8fc7745d6f27ff7c4d2c2fc3bd2bcb8" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_factory_worker_minimum_towns </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="return"><dt><b>Returns:</b></dt><dd>minimum number of cities to supply workers for a factory </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a48bb62d9306db2f72b2af54251420cda"></a><!-- doxytag: member="settings::get_factory_worker_radius" ref="a48bb62d9306db2f72b2af54251420cda" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_factory_worker_radius </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="return"><dt><b>Returns:</b></dt><dd>maximum distance of city to factory for supplying workers </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a2e932fab787e12a8bff2f2047784560a"></a><!-- doxytag: member="settings::get_industry_increase_every" ref="a2e932fab787e12a8bff2f2047784560a" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -115,6 +191,23 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 <p>New industries will be spawned if cities grow to over 2^n times this setting. </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>number </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab5b50c8cae72f2c322ccba0a04496694"></a><!-- doxytag: member="settings::get_passenger_factor" ref="ab5b50c8cae72f2c322ccba0a04496694" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_passenger_factor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="return"><dt><b>Returns:</b></dt><dd>passenger factors influences passenger generation in cities </dd></dl>
 
 </div>
 </div>
@@ -136,6 +229,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5f19d6b659820b9a6cc1080a024311c2"></a><!-- doxytag: member="settings::get_station_coverage" ref="a5f19d6b659820b9a6cc1080a024311c2" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_station_coverage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="return"><dt><b>Returns:</b></dt><dd>station coverage </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a6ad7aa03a69fd5097c18c6d19704f17a"></a><!-- doxytag: member="settings::get_traffic_level" ref="a6ad7aa03a69fd5097c18c6d19704f17a" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -150,6 +260,40 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Get traffic level. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5c65e3d1c40acfda67fa2b876b23c257"></a><!-- doxytag: member="settings::no_routing_over_overcrowding" ref="a5c65e3d1c40acfda67fa2b876b23c257" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool settings::no_routing_over_overcrowding </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="return"><dt><b>Returns:</b></dt><dd>freight will not start when best route goes through overcrowded halt </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aeaeb0a2ae6d635d95f46e251237df212"></a><!-- doxytag: member="settings::separate_halt_capacities" ref="aeaeb0a2ae6d635d95f46e251237df212" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool settings::separate_halt_capacities </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="return"><dt><b>Returns:</b></dt><dd>true if halt capacity is separated between passengers, mail, freight </dd></dl>
 
 </div>
 </div>
