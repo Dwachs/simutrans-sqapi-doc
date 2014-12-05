@@ -79,27 +79,49 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">coord Class Reference</div>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="coord" -->
-<p><code>#include &lt;<a class="el" href="api__base_8h_source.html">api_base.h</a>&gt;</code></p>
-<div class="dynheader">
+<!-- doxytag: class="coord" --><div class="dynheader">
 Inheritance diagram for coord:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="classcoord.png" usemap="#coord_map" alt=""/>
   <map id="coord_map" name="coord_map">
-<area href="classcity__x.html" alt="city_x" shape="rect" coords="0,56,65,80"/>
-<area href="classfactory__x.html" alt="factory_x" shape="rect" coords="75,56,140,80"/>
-<area href="classsquare__x.html" alt="square_x" shape="rect" coords="150,56,215,80"/>
+<area href="classcity__x.html" alt="city_x" shape="rect" coords="0,56,112,80"/>
+<area href="classcoord3d.html" alt="coord3d" shape="rect" coords="305,56,417,80"/>
+<area href="classfactory__x.html" alt="factory_x" shape="rect" coords="427,56,539,80"/>
+<area href="classsquare__x.html" alt="square_x" shape="rect" coords="549,56,661,80"/>
+<area href="classmap__object__x.html" alt="map_object_x" shape="rect" coords="122,112,234,136"/>
+<area href="classschedule__entry__x.html" alt="schedule_entry_x" shape="rect" coords="244,112,356,136"/>
+<area href="classtile__object__list__x.html" alt="tile_object_list_x" shape="rect" coords="366,112,478,136"/>
+<area href="classtile__x.html" alt="tile_x" shape="rect" coords="488,112,600,136"/>
+<area href="classbuilding__x.html" alt="building_x" shape="rect" coords="0,168,112,192"/>
+<area href="classtree__x.html" alt="tree_x" shape="rect" coords="122,168,234,192"/>
+<area href="classway__x.html" alt="way_x" shape="rect" coords="244,168,356,192"/>
 </map>
  </div></div>
 
 <p><a href="classcoord-members.html">List of all members.</a></p>
 <table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af021b4c3f073f9baeaf1d8f9c4c2847d"></a><!-- doxytag: member="coord::operator+" ref="af021b4c3f073f9baeaf1d8f9c4c2847d" args="(coord other)" -->
+<a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (<a class="el" href="classcoord.html">coord</a> other)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adef25f06f5b2adb67d373adf1157485a"></a><!-- doxytag: member="coord::operator&#45;" ref="adef25f06f5b2adb67d373adf1157485a" args="(coord other)" -->
+<a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator-</b> (<a class="el" href="classcoord.html">coord</a> other)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af395a5da1cdcda17793d4e768807b6ad"></a><!-- doxytag: member="coord::operator&#45;" ref="af395a5da1cdcda17793d4e768807b6ad" args="()" -->
+<a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator-</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1b0453647a1134620a50d0313d8607f"></a><!-- doxytag: member="coord::operator*" ref="ac1b0453647a1134620a50d0313d8607f" args="(integer fac)" -->
+<a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> (integer fac)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a277a6d561f09bb3d51ef4456503515"></a><!-- doxytag: member="coord::operator/" ref="a3a277a6d561f09bb3d51ef4456503515" args="(integer fac)" -->
+<a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator/</b> (integer fac)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7df16d922ba90a06d29f4056afdd972"></a><!-- doxytag: member="coord::_tostring" ref="ab7df16d922ba90a06d29f4056afdd972" args="()" -->
+string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcoord.html#ab7df16d922ba90a06d29f4056afdd972">_tostring</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">converts coordinate to string containing the coordinates in the current rotation of the map <br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31d0b44c0bfcea55a67587a3d8fe2348"></a><!-- doxytag: member="coord::x" ref="a31d0b44c0bfcea55a67587a3d8fe2348" args="" -->
@@ -110,12 +132,12 @@ integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">y-coordinate <br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>Table that holds 2d coordinates.</p>
+<div class="textblock"><p>Class that holds 2d coordinates.</p>
 <p>Coordinates always refer to the original rotation in <a class="el" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">map::file</a>. They will be rotated if transferred between the game engine and squirrel. </p>
 
-<p>Definition at line <a class="el" href="api__base_8h_source.html#l00008">8</a> of file <a class="el" href="api__base_8h_source.html">api_base.h</a>.</p>
+<p>Definition at line <a class="el" href="api__simple_8cc_source.html#l00031">31</a> of file <a class="el" href="api__simple_8cc_source.html">api_simple.cc</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="api__base_8h_source.html">api_base.h</a></li>
+<li><a class="el" href="api__simple_8cc_source.html">api_simple.cc</a></li>
 </ul>
 </div>
 <!-- window showing the filter options -->

@@ -96,6 +96,8 @@ Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a682b94227013fcd47e232a483c39a958">double_to_string</a> (float value, integer decimals)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a99f50d79f9f644496aaf4867fd6fe5bf">integer_to_string</a> (integer value)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a6007d17017da115f0c18188253860228">money_to_string</a> (integer value)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a97216b980ac0adf622444cf6fcb19380">coord_to_string</a> (<a class="el" href="classcoord.html">coord</a> c)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#a64314ec307b98519c815a0df097d3c36">coord3d_to_string</a> (<a class="el" href="classcoord3d.html">coord3d</a> c)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__scenario_8cc.html#aa8fb48789107e181c947b8683fa555fa">get_month_name</a> (integer month)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
@@ -103,6 +105,56 @@ Functions</h2></td></tr>
 
 <p>Definition in file <a class="el" href="api__scenario_8cc_source.html">api_scenario.cc</a>.</p>
 </div><hr/><h2>Function Documentation</h2>
+<a class="anchor" id="a64314ec307b98519c815a0df097d3c36"></a><!-- doxytag: member="api_scenario.cc::coord3d_to_string" ref="a64314ec307b98519c815a0df097d3c36" args="(coord3d c)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string coord3d_to_string </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Print coordinates, does automatic rotation. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>a nice string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a97216b980ac0adf622444cf6fcb19380"></a><!-- doxytag: member="api_scenario.cc::coord_to_string" ref="a97216b980ac0adf622444cf6fcb19380" args="(coord c)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string coord_to_string </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcoord.html">coord</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Print coordinates, does automatic rotation. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>a nice string </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a682b94227013fcd47e232a483c39a958"></a><!-- doxytag: member="api_scenario.cc::double_to_string" ref="a682b94227013fcd47e232a483c39a958" args="(float value, integer decimals)" -->
 <div class="memitem">
 <div class="memproto">
