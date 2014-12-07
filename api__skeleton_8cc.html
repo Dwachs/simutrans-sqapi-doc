@@ -97,6 +97,7 @@ Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a441ddb63d00df531a03dc1811415ed02">get_goal_text</a> (integer pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a40fae968e0f6382017f2632fb86ef873">get_info_text</a> (integer pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a7dd5ed6cedddd109004c47b3dd240f31">get_result_text</a> (integer pl)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#aad826685a2a6868b5d3413739c3c353c">get_debug_text</a> (integer pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#acbd2bb976240e0bf782a2eb82acd4f4d">is_scenario_completed</a> (integer pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a2585a55a65cf14fb3d0a222552ffc063">is_tool_allowed</a> (integer pl, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a67f167f50ac44e2affeec9b47fd76093">is_work_allowed_here</a> (integer pl, integer tool_id, <a class="el" href="classcoord3d.html">coord3d</a> pos)</td></tr>
@@ -123,6 +124,31 @@ Functions</h2></td></tr>
 <div class="memdoc">
 <p>Text shown in the 'About' tab in the scenario info window.</p>
 <p>There is a default implementation, which returns concatenation of <a class="el" href="api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b">scenario</a> author, version, short_description. Html-like tags can be used, see <a class="el" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a>.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pl</td><td>player number of active player </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aad826685a2a6868b5d3413739c3c353c"></a><!-- doxytag: member="api_skeleton.cc::get_debug_text" ref="aad826685a2a6868b5d3413739c3c353c" args="(integer pl)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string get_debug_text </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>pl</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Text shown in the 'Debug' tab in the scenario info window.</p>
+<p>Html-like tags can be used, see <a class="el" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">pl</td><td>player number of active player </td></tr>
