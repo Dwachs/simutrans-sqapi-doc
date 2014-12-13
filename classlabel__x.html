@@ -101,36 +101,36 @@ Inheritance diagram for label_x:</div>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlabel__x.html#ab15fc14dec23b4807aa706c3e195021b">set_text</a> (any_x text)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlabel__x.html#ae11936b019f757a78152cc5eff15230b">set_text</a> (string text)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlabel__x.html#a35b601102c28303eee672692209751f3">create</a> (any_x pos, any_x pl, any_x text)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classlabel__x.html">label_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlabel__x.html#a8838ee823485952741388dff1b35ee67">create</a> (<a class="el" href="classcoord.html">coord</a> pos, <a class="el" href="classplayer__x.html">player_x</a> pl, string text)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Labels. </p>
 
 <p>Definition at line <a class="el" href="api__map__objects_8cc_source.html#l00149">149</a> of file <a class="el" href="api__map__objects_8cc_source.html">api_map_objects.cc</a>.</p>
 </div><hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a35b601102c28303eee672692209751f3"></a><!-- doxytag: member="label_x::create" ref="a35b601102c28303eee672692209751f3" args="(any_x pos, any_x pl, any_x text)" -->
+<a class="anchor" id="a8838ee823485952741388dff1b35ee67"></a><!-- doxytag: member="label_x::create" ref="a8838ee823485952741388dff1b35ee67" args="(coord pos, player_x pl, string text)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">static void label_x::create </td>
+          <td class="memname">static <a class="el" href="classlabel__x.html">label_x</a> label_x::create </td>
           <td>(</td>
-          <td class="paramtype">any_x&#160;</td>
+          <td class="paramtype"><a class="el" href="classcoord.html">coord</a>&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">any_x&#160;</td>
+          <td class="paramtype"><a class="el" href="classplayer__x.html">player_x</a>&#160;</td>
           <td class="paramname"><em>pl</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">any_x&#160;</td>
+          <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>text</em>&#160;</td>
         </tr>
         <tr>
@@ -151,17 +151,18 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classlabel__x.html">label_x</a> instance or null if creation failed </dd></dl>
+<dl class="warning"><dt><b>Warning:</b></dt><dd>cannot be used in network games. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ab15fc14dec23b4807aa706c3e195021b"></a><!-- doxytag: member="label_x::set_text" ref="ab15fc14dec23b4807aa706c3e195021b" args="(any_x text)" -->
+<a class="anchor" id="ae11936b019f757a78152cc5eff15230b"></a><!-- doxytag: member="label_x::set_text" ref="ae11936b019f757a78152cc5eff15230b" args="(string text)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void label_x::set_text </td>
           <td>(</td>
-          <td class="paramtype">any_x&#160;</td>
+          <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>text</em></td><td>)</td>
           <td></td>
         </tr>
@@ -175,6 +176,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="warning"><dt><b>Warning:</b></dt><dd>cannot be used in network games. </dd></dl>
 
 </div>
 </div>
