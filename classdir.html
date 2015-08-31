@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdir.html#abdd5a6e881b3fe2fad153f06430573b7">is_single</a> (<a class="el" href="classdir.html">dir</a> d)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdir.html#a90b101e2b8ff776b45b453c62e5236f6">is_single</a> (<a class="el" href="classdir.html">dir</a> text, any_x text, any_x d)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdir.html#a4ec446fcb6ff3c66821b8a4dbc1976fe">is_twoway</a> (<a class="el" href="classdir.html">dir</a> d)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdir.html#a6fd8624a5d28891b92eff2bdd504e6a5">is_threeway</a> (<a class="el" href="classdir.html">dir</a> d)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdir.html#a5c123ab819f6063da8a56d480b11df01">is_curve</a> (<a class="el" href="classdir.html">dir</a> d)</td></tr>
@@ -100,7 +100,7 @@ Static Public Member Functions</h2></td></tr>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Class holding static methods to work with directions. Directions are just bit-encoded integers. </p>
 
-<p>Definition at line <a class="el" href="api__simple_8cc_source.html#l00075">75</a> of file <a class="el" href="api__simple_8cc_source.html">api_simple.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__simple_8cc_source.html#l00097">97</a> of file <a class="el" href="api__simple_8cc_source.html">api_simple.cc</a>.</p>
 </div><hr/><h2>Member Function Documentation</h2>
 <a class="anchor" id="afb73e882097e002321849eb8c49e9f53"></a><!-- doxytag: member="dir::backward" ref="afb73e882097e002321849eb8c49e9f53" args="(dir d)" -->
 <div class="memitem">
@@ -174,7 +174,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abdd5a6e881b3fe2fad153f06430573b7"></a><!-- doxytag: member="dir::is_single" ref="abdd5a6e881b3fe2fad153f06430573b7" args="(dir d)" -->
+<a class="anchor" id="a90b101e2b8ff776b45b453c62e5236f6"></a><!-- doxytag: member="dir::is_single" ref="a90b101e2b8ff776b45b453c62e5236f6" args="(dir text, any_x text, any_x d)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -182,8 +182,24 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static bool dir::is_single </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classdir.html">dir</a>&#160;</td>
-          <td class="paramname"><em>d</em></td><td>)</td>
-          <td><code> [static]</code></td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">any_x&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">any_x&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
         </tr>
       </table>
 </div>

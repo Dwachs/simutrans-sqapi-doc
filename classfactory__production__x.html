@@ -105,6 +105,8 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__production__x.html#ab05ab0afe780877c6a1d7dd313177ba3">get_in_transit</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__production__x.html#a3f06a2b989d1dc31bb701704fd336ca6">get_delivered</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__production__x.html#ac7b061baad62bb9f4ce6dab5653c3a47">get_produced</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__production__x.html#a1760a86b37cc2871701a97afa108725a">get_base_production</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__production__x.html#ac4fa9cd3bb945a306efc18f36804487a">get_base_consumption</a> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__production__x.html#a691bbd62d08a6c3c5d3a0ba1877579f5">max_storage</a></td></tr>
@@ -112,8 +114,42 @@ Public Attributes</h2></td></tr>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Class to access storage slots of factories. Are automatically instantiated by <a class="el" href="classfactory__x.html">factory_x</a> constructor. </p>
 
-<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00146">146</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00151">151</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
 </div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="ac4fa9cd3bb945a306efc18f36804487a"></a><!-- doxytag: member="factory_production_x::get_base_consumption" ref="ac4fa9cd3bb945a306efc18f36804487a" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer factory_production_x::get_base_consumption </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns base maximum consumption of this good per month. Does not take any productivity boost into account. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1760a86b37cc2871701a97afa108725a"></a><!-- doxytag: member="factory_production_x::get_base_production" ref="a1760a86b37cc2871701a97afa108725a" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer factory_production_x::get_base_production </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns base maximum production of this good per month. Does not take any productivity boost into account. </p>
+
+</div>
+</div>
 <a class="anchor" id="a815f9076bad791bdd9e4f54cd62cb4e1"></a><!-- doxytag: member="factory_production_x::get_consumed" ref="a815f9076bad791bdd9e4f54cd62cb4e1" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +271,7 @@ Public Attributes</h2></td></tr>
 <div class="memdoc">
 <p>Maximum storage of this slot. </p>
 
-<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00151">151</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00156">156</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
 
 </div>
 </div>

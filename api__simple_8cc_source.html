@@ -102,34 +102,36 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00040"></a>00040         <a class="code" href="classcoord.html">coord</a> operator - ();
 <a name="l00041"></a>00041         <a class="code" href="classcoord.html">coord</a> operator * (integer fac);
 <a name="l00042"></a>00042         <a class="code" href="classcoord.html">coord</a> operator / (integer fac);
-<a name="l00044"></a>00044         <span class="keywordtype">string</span> <a class="code" href="classcoord.html#ab7df16d922ba90a06d29f4056afdd972" title="converts coordinate to string containing the coordinates in the current rotation of the map...">_tostring</a>();
-<a name="l00045"></a>00045 };
-<a name="l00052"></a><a class="code" href="classcoord3d.html">00052</a> <span class="keyword">class </span><a class="code" href="classcoord3d.html">coord3d</a> : <span class="keyword">public</span> <a class="code" href="classcoord.html">coord</a> {
-<a name="l00053"></a>00053 <span class="keyword">public</span>:
-<a name="l00055"></a><a class="code" href="classcoord3d.html#a52a528d37f4e3a486e4c5ee8e78554d8">00055</a>         integer <a class="code" href="classcoord3d.html#a52a528d37f4e3a486e4c5ee8e78554d8" title="x-coordinate">x</a>;
-<a name="l00057"></a><a class="code" href="classcoord3d.html#a6e16a3a8dc5abbf3ce6cc91f0c3f4494">00057</a>         integer <a class="code" href="classcoord3d.html#a6e16a3a8dc5abbf3ce6cc91f0c3f4494" title="y-coordinate">y</a>;
-<a name="l00059"></a><a class="code" href="classcoord3d.html#ac0605ab7d344f3296bc32666c919a3ef">00059</a>         integer <a class="code" href="classcoord3d.html#ac0605ab7d344f3296bc32666c919a3ef" title="z-coordinate - height">z</a>;
-<a name="l00060"></a>00060         <span class="comment">// operators are defined in scenario_base.nut</span>
-<a name="l00061"></a>00061         <a class="code" href="classcoord3d.html">coord3d</a> operator + (<a class="code" href="classcoord3d.html">coord3d</a> other);
-<a name="l00062"></a>00062         <a class="code" href="classcoord3d.html">coord3d</a> operator - (<a class="code" href="classcoord.html">coord</a> other);
-<a name="l00063"></a>00063         <a class="code" href="classcoord3d.html">coord3d</a> operator + (<a class="code" href="classcoord3d.html">coord3d</a> other);
-<a name="l00064"></a>00064         <a class="code" href="classcoord3d.html">coord3d</a> operator - (<a class="code" href="classcoord.html">coord</a> other);
-<a name="l00065"></a>00065         <a class="code" href="classcoord3d.html">coord3d</a> operator - ();
-<a name="l00066"></a>00066         <a class="code" href="classcoord3d.html">coord3d</a> operator * (integer fac);
-<a name="l00067"></a>00067         <a class="code" href="classcoord3d.html">coord3d</a> operator / (integer fac);
-<a name="l00069"></a>00069         <span class="keywordtype">string</span> <a class="code" href="classcoord3d.html#a366677c0a4d3affe8ed7d9f8e8c0dd92" title="converts coordinate to string containing the coordinates in the current rotation of the map...">_tostring</a>();
-<a name="l00070"></a>00070 };
-<a name="l00075"></a><a class="code" href="classdir.html">00075</a> <span class="keyword">class </span><a class="code" href="classdir.html">dir</a> {
-<a name="l00076"></a>00076 <span class="keyword">public</span>:
-<a name="l00081"></a>00081         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#abdd5a6e881b3fe2fad153f06430573b7">is_single</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00086"></a>00086         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a4ec446fcb6ff3c66821b8a4dbc1976fe">is_twoway</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00091"></a>00091         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a6fd8624a5d28891b92eff2bdd504e6a5">is_threeway</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00096"></a>00096         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a5c123ab819f6063da8a56d480b11df01">is_curve</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00101"></a>00101         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a12989961a428bc37e964a779420316f1">is_straight</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00106"></a>00106         <span class="keyword">static</span> <a class="code" href="classdir.html">dir</a> <a class="code" href="classdir.html#a3e1d664db7453876eff14b78d4ecd551">double</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00111"></a>00111         <span class="keyword">static</span> <a class="code" href="classdir.html">dir</a> <a class="code" href="classdir.html#afb73e882097e002321849eb8c49e9f53">backward</a>(<a class="code" href="classdir.html">dir</a> d);
-<a name="l00112"></a>00112 };
-<a name="l00113"></a>00113 
+<a name="l00048"></a>00048         <span class="keywordtype">string</span> <a class="code" href="classcoord.html#ab7df16d922ba90a06d29f4056afdd972">_tostring</a>();
+<a name="l00055"></a>00055         <span class="keywordtype">string</span> <a class="code" href="classcoord.html#aa4827cc01e0bde2e7ec51806b410e153">href</a>(<span class="keywordtype">string</span> text);
+<a name="l00056"></a>00056 };
+<a name="l00063"></a><a class="code" href="classcoord3d.html">00063</a> <span class="keyword">class </span><a class="code" href="classcoord3d.html">coord3d</a> : <span class="keyword">public</span> <a class="code" href="classcoord.html">coord</a> {
+<a name="l00064"></a>00064 <span class="keyword">public</span>:
+<a name="l00066"></a><a class="code" href="classcoord3d.html#a52a528d37f4e3a486e4c5ee8e78554d8">00066</a>         integer <a class="code" href="classcoord3d.html#a52a528d37f4e3a486e4c5ee8e78554d8" title="x-coordinate">x</a>;
+<a name="l00068"></a><a class="code" href="classcoord3d.html#a6e16a3a8dc5abbf3ce6cc91f0c3f4494">00068</a>         integer <a class="code" href="classcoord3d.html#a6e16a3a8dc5abbf3ce6cc91f0c3f4494" title="y-coordinate">y</a>;
+<a name="l00070"></a><a class="code" href="classcoord3d.html#ac0605ab7d344f3296bc32666c919a3ef">00070</a>         integer <a class="code" href="classcoord3d.html#ac0605ab7d344f3296bc32666c919a3ef" title="z-coordinate - height">z</a>;
+<a name="l00071"></a>00071         <span class="comment">// operators are defined in scenario_base.nut</span>
+<a name="l00072"></a>00072         <a class="code" href="classcoord3d.html">coord3d</a> operator + (<a class="code" href="classcoord3d.html">coord3d</a> other);
+<a name="l00073"></a>00073         <a class="code" href="classcoord3d.html">coord3d</a> operator - (<a class="code" href="classcoord.html">coord</a> other);
+<a name="l00074"></a>00074         <a class="code" href="classcoord3d.html">coord3d</a> operator + (<a class="code" href="classcoord3d.html">coord3d</a> other);
+<a name="l00075"></a>00075         <a class="code" href="classcoord3d.html">coord3d</a> operator - (<a class="code" href="classcoord.html">coord</a> other);
+<a name="l00076"></a>00076         <a class="code" href="classcoord3d.html">coord3d</a> operator - ();
+<a name="l00077"></a>00077         <a class="code" href="classcoord3d.html">coord3d</a> operator * (integer fac);
+<a name="l00078"></a>00078         <a class="code" href="classcoord3d.html">coord3d</a> operator / (integer fac);
+<a name="l00084"></a>00084         <span class="keywordtype">string</span> <a class="code" href="classcoord3d.html#a366677c0a4d3affe8ed7d9f8e8c0dd92">_tostring</a>();
+<a name="l00091"></a>00091         <span class="keywordtype">string</span> <a class="code" href="classcoord3d.html#a093be4dbed45b6446d05e6e37ded394b">href</a>(<span class="keywordtype">string</span> text);
+<a name="l00092"></a>00092 };
+<a name="l00097"></a><a class="code" href="classdir.html">00097</a> <span class="keyword">class </span><a class="code" href="classdir.html">dir</a> {
+<a name="l00098"></a>00098 <span class="keyword">public</span>:
+<a name="l00103"></a>00103         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a90b101e2b8ff776b45b453c62e5236f6">is_single</a>(<a class="code" href="classdir.html">dir</a> text, any_x text, any_x d);
+<a name="l00108"></a>00108         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a4ec446fcb6ff3c66821b8a4dbc1976fe">is_twoway</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00113"></a>00113         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a6fd8624a5d28891b92eff2bdd504e6a5">is_threeway</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00118"></a>00118         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a5c123ab819f6063da8a56d480b11df01">is_curve</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00123"></a>00123         <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classdir.html#a12989961a428bc37e964a779420316f1">is_straight</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00128"></a>00128         <span class="keyword">static</span> <a class="code" href="classdir.html">dir</a> <a class="code" href="classdir.html#a3e1d664db7453876eff14b78d4ecd551">double</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00133"></a>00133         <span class="keyword">static</span> <a class="code" href="classdir.html">dir</a> <a class="code" href="classdir.html#afb73e882097e002321849eb8c49e9f53">backward</a>(<a class="code" href="classdir.html">dir</a> d);
+<a name="l00134"></a>00134 };
+<a name="l00135"></a>00135 
 </pre></div></div>
 </div>
 <!-- window showing the filter options -->

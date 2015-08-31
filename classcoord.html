@@ -103,6 +103,7 @@ Inheritance diagram for coord:</div>
 <area href="classlabel__x.html" alt="label_x" shape="rect" coords="122,168,234,192"/>
 <area href="classtree__x.html" alt="tree_x" shape="rect" coords="244,168,356,192"/>
 <area href="classway__x.html" alt="way_x" shape="rect" coords="366,168,478,192"/>
+<area href="classdepot__x.html" alt="depot_x" shape="rect" coords="0,224,112,248"/>
 </map>
  </div></div>
 
@@ -120,9 +121,8 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> (integer fac)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a277a6d561f09bb3d51ef4456503515"></a><!-- doxytag: member="coord::operator/" ref="a3a277a6d561f09bb3d51ef4456503515" args="(integer fac)" -->
 <a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator/</b> (integer fac)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7df16d922ba90a06d29f4056afdd972"></a><!-- doxytag: member="coord::_tostring" ref="ab7df16d922ba90a06d29f4056afdd972" args="()" -->
-string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcoord.html#ab7df16d922ba90a06d29f4056afdd972">_tostring</a> ()</td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">converts coordinate to string containing the coordinates in the current rotation of the map <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcoord.html#ab7df16d922ba90a06d29f4056afdd972">_tostring</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcoord.html#aa4827cc01e0bde2e7ec51806b410e153">href</a> (string text)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31d0b44c0bfcea55a67587a3d8fe2348"></a><!-- doxytag: member="coord::x" ref="a31d0b44c0bfcea55a67587a3d8fe2348" args="" -->
@@ -137,7 +137,56 @@ integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Coordinates always refer to the original rotation in <a class="el" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">map::file</a>. They will be rotated if transferred between the game engine and squirrel. </p>
 
 <p>Definition at line <a class="el" href="api__simple_8cc_source.html#l00031">31</a> of file <a class="el" href="api__simple_8cc_source.html">api_simple.cc</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="ab7df16d922ba90a06d29f4056afdd972"></a><!-- doxytag: member="coord::_tostring" ref="ab7df16d922ba90a06d29f4056afdd972" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string coord::_tostring </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Converts coordinate to string containing the coordinates in the current rotation of the map.</p>
+<p>Cannot be used in links in scenario texts. Use <a class="el" href="classcoord.html#aa4827cc01e0bde2e7ec51806b410e153">href</a> instead. </p>
+
+<p>Reimplemented in <a class="el" href="classcoord3d.html#a366677c0a4d3affe8ed7d9f8e8c0dd92">coord3d</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa4827cc01e0bde2e7ec51806b410e153"></a><!-- doxytag: member="coord::href" ref="aa4827cc01e0bde2e7ec51806b410e153" args="(string text)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string coord::href </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Generates text to generate links to coordinates in scenario texts. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>text to be shown in the link </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>a-tag with link in href </dd></dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="api__skeleton_8cc.html#a706b5bd21f80fc116a158dc964a5cfed">get_rule_text</a> </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classcoord3d.html#a093be4dbed45b6446d05e6e37ded394b">coord3d</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="api__simple_8cc_source.html">api_simple.cc</a></li>
 </ul>
 </div>
