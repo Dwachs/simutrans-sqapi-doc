@@ -113,12 +113,14 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a6d30e178cdfc649fb432504edae181c4">get_walked</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classconvoy__list__x.html">convoy_list_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a6824c396865bc4d8aa322ef666fd4ab0">get_convoy_list</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classline__list__x.html">line_list_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a1522cbcb126dc434d70f63c82958e580">get_line_list</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">array&lt; <a class="el" href="classtile__x.html">tile_x</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a53db36ac0e3b12e5f92729642569dd35">get_tile_list</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">array&lt; <a class="el" href="classfactory__x.html">factory_x</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#ad0a13b5192d597f8c56e3975e4b40802">get_factory_list</a> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhalt__x.html#a9bf4064fefd67647ce729fec854fff6b">_cmp</a> (<a class="el" href="classhalt__x.html">halt_x</a> halt)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>Class to access halts. </p>
+<div class="textblock"><p>Class to access halts / stations / bus stops. </p>
 
 <p>Definition at line <a class="el" href="api__halt_8cc_source.html#l00031">31</a> of file <a class="el" href="api__halt_8cc_source.html">api_halt.cc</a>.</p>
 </div><hr/><h2>Member Function Documentation</h2>
@@ -243,6 +245,23 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad0a13b5192d597f8c56e3975e4b40802"></a><!-- doxytag: member="halt_x::get_factory_list" ref="ad0a13b5192d597f8c56e3975e4b40802" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">array&lt;<a class="el" href="classfactory__x.html">factory_x</a>&gt; halt_x::get_factory_list </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Get list of factories connected to this station. </p>
+
+</div>
+</div>
 <a class="anchor" id="a264e5c4ea28a712ea2642e0a1dbaacfe"></a><!-- doxytag: member="halt_x::get_happy" ref="a264e5c4ea28a712ea2642e0a1dbaacfe" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -330,6 +349,23 @@ Private Member Functions</h2></td></tr>
 <div class="memdoc">
 <p>Station owner. </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>owner </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a53db36ac0e3b12e5f92729642569dd35"></a><!-- doxytag: member="halt_x::get_tile_list" ref="a53db36ac0e3b12e5f92729642569dd35" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">array&lt;<a class="el" href="classtile__x.html">tile_x</a>&gt; halt_x::get_tile_list </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Get list of tiles belonging to this station. </p>
 
 </div>
 </div>

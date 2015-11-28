@@ -104,6 +104,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classhalt__x.html">halt_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#afbeb5b10a99693e2a92bad9671ac7744">get_player_halt</a> (<a class="el" href="classplayer__x.html">player_x</a> pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtile__x.html">tile_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#af6d93fe092d34d6c59d221ecb8e5a2b0">get_tile_at_height</a> (integer z)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtile__x.html">tile_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#a6538ad504f6ddb8ef8e00fcbf38b8b2e">get_ground_tile</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">array&lt; <a class="el" href="classhalt__x.html">halt_x</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare__x.html#aa852eeb6e02789a26cfb3af5e70ef87e">get_halt_list</a> ()</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Class to map squares, which holds all the tiles on one particular coordinate. </p>
@@ -180,6 +181,23 @@ Public Member Functions</h2></td></tr>
 <p>Access some halt at this square. </p>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>Use <a class="el" href="classsquare__x.html#afbeb5b10a99693e2a92bad9671ac7744">square_x::get_player_halt</a> or <a class="el" href="classtile__x.html#a9316ed3a8a70a5de02991502a4be7984">tile_x::get_halt</a> instead! </dd></dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classhalt__x.html">halt_x</a> instance or null/false if no halt is present </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa852eeb6e02789a26cfb3af5e70ef87e"></a><!-- doxytag: member="square_x::get_halt_list" ref="aa852eeb6e02789a26cfb3af5e70ef87e" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">array&lt;<a class="el" href="classhalt__x.html">halt_x</a>&gt; square_x::get_halt_list </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns list of stations that cover this tile. </p>
 
 </div>
 </div>
