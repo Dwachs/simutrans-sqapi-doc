@@ -102,6 +102,7 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcity__x.html">city_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a75d44c3167cdb5cf3460dd43e10aa614">find_nearest_city</a> (<a class="el" href="classcoord.html">coord</a> k)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a9e3e9e942876c69099fee2990cfbb2ef">get_season</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#ac25b7a3d48f7bddc6a57012b496dde02">remove_player</a> (<a class="el" href="classplayer__x.html">player_x</a> pl)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a91ebb110a7599658aa702946d0847fdb">get_player</a> (any_x pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classtime__ticks__x.html">time_ticks_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a36b9c287660443552fc7438df7d36b11">get_time</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#af75487208a0194ad78472e8214ab4013">get_citizens</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a058e5542755cf68864ecf5566c4b6ebf">get_growth</a> ()</td></tr>
@@ -321,6 +322,30 @@ Static Public Member Functions</h2></td></tr>
 <div class="memdoc">
 <p>Get monthly statistics of total city growth. </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>array, index [0] corresponds to current month </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a91ebb110a7599658aa702946d0847fdb"></a><!-- doxytag: member="world::get_player" ref="a91ebb110a7599658aa702946d0847fdb" args="(any_x pl)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void world::get_player </td>
+          <td>(</td>
+          <td class="paramtype">any_x&#160;</td>
+          <td class="paramname"><em>pl</em></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns player number <code>pl</code>. If player does not exist, returns null. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pl</td><td>player number </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

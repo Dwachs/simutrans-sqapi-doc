@@ -98,6 +98,7 @@ Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a40fae968e0f6382017f2632fb86ef873">get_info_text</a> (integer pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a7dd5ed6cedddd109004c47b3dd240f31">get_result_text</a> (integer pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#aad826685a2a6868b5d3413739c3c353c">get_debug_text</a> (integer pl)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#ab3933c2368305e7b98f2ee83b2131e1c">get_api_version</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#acbd2bb976240e0bf782a2eb82acd4f4d">is_scenario_completed</a> (integer pl)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a2585a55a65cf14fb3d0a222552ffc063">is_tool_allowed</a> (integer pl, integer tool_id, <a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__skeleton_8cc.html#a67f167f50ac44e2affeec9b47fd76093">is_work_allowed_here</a> (integer pl, integer tool_id, <a class="el" href="classcoord3d.html">coord3d</a> pos)</td></tr>
@@ -130,6 +131,24 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="ab3933c2368305e7b98f2ee83b2131e1c"></a><!-- doxytag: member="api_skeleton.cc::get_api_version" ref="ab3933c2368305e7b98f2ee83b2131e1c" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string get_api_version </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns string containing the version of the api that the scenario supports.</p>
+<p>If it returns "*" then this indicates that the scenario works in the most current api version. Currently "112.3" and "120.1" are supported. </p>
 
 </div>
 </div>
