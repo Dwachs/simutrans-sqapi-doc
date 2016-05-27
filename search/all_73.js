@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['scenario',['scenario',['../api__skeleton_8h.html#adbdeded7b57ce471a9f97d8e2ae35a1b',1,'api_skeleton.h']]],
+  ['schedule_5fentry_5fx',['schedule_entry_x',['../classschedule__entry__x.html',1,'']]],
+  ['schedule_5fx',['schedule_x',['../classschedule__x.html',1,'']]],
+  ['separate_5fhalt_5fcapacities',['separate_halt_capacities',['../classsettings.html#aeaeb0a2ae6d635d95f46e251237df212',1,'settings']]],
+  ['set_5fcitygrowth_5fenabled',['set_citygrowth_enabled',['../classcity__x.html#a16aaa8b5a97bc0d697a389397483b5ec',1,'city_x']]],
+  ['set_5findustry_5fincrease_5fevery',['set_industry_increase_every',['../classsettings.html#ade3522711290ebdfc09912867f73e1a2',1,'settings']]],
+  ['set_5fname',['set_name',['../classfactory__x.html#ae6905fecbcc8a555305cf8eee5db1612',1,'factory_x::set_name()'],['../classcity__x.html#a0863c1f13de80fc9b2adb94384f25d18',1,'city_x::set_name()']]],
+  ['set_5ftext',['set_text',['../classlabel__x.html#ae11936b019f757a78152cc5eff15230b',1,'label_x']]],
+  ['set_5ftraffic_5flevel',['set_traffic_level',['../classsettings.html#ac9d196954d09c505ec107137097a6513',1,'settings']]],
+  ['settings',['settings',['../classsettings.html',1,'']]],
+  ['short_5fdescription',['short_description',['../api__skeleton_8h.html#a6c51d59aac1deb65fb2be5060013c1e7',1,'api_skeleton.h']]],
+  ['square_5fx',['square_x',['../classsquare__x.html',1,'square_x'],['../classsquare__x.html#ae341317d0782bddd507e84df5bc25089',1,'square_x::square_x()']]],
+  ['st_5felevated',['st_elevated',['../api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9a0b85258fca6635323cf4f3be405ee473',1,'api_const.cc']]],
+  ['st_5fflat',['st_flat',['../api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9a434d55b82f50c8123c516c7aad0605c7',1,'api_const.cc']]],
+  ['st_5frunway',['st_runway',['../api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9af12c28a9a943791767d44b7689bd234b',1,'api_const.cc']]],
+  ['st_5ftram',['st_tram',['../api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9aceb2e2f3bad8a3b3a2d3a8b850b44ef4',1,'api_const.cc']]],
+  ['start',['start',['../api__skeleton_8cc.html#a60de64d75454385b23995437f1d72669',1,'api_skeleton.cc']]],
+  ['station',['station',['../classbuilding__desc__x.html#aafb87803aef544a5f0b07f8a5db12140aea13f422307bcd58e5f274aed461972d',1,'building_desc_x']]],
+  ['station_5fextension',['station_extension',['../classbuilding__desc__x.html#aafb87803aef544a5f0b07f8a5db12140a2e2c162c9a835e072a331551757799fc',1,'building_desc_x']]]
+];
