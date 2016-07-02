@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
@@ -72,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -87,7 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classrules-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">rules Class Reference</div>  </div>
+<div class="title">rules Class Reference<div class="ingroups"><a class="el" href="group__scen__only.html">Scenario only functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -114,9 +115,10 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Table with methods to forbid and allow tools.</p>
-<p>Tools that are set to forbidden using the forbid_* methods can be allowed again by calls to the respective allow_* method with exact the same parameters. </p>
+<p>Tools that are set to forbidden using the forbid_* methods can be allowed again by calls to the respective allow_* method with exact the same parameters.</p>
+<dl class="section note"><dt>Note</dt><dd>Only available in scenario mode. </dd></dl>
 
-<p>Definition at line <a class="el" href="api__scenario_8cc_source.html#l00065">65</a> of file <a class="el" href="api__scenario_8cc_source.html">api_scenario.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__scenario_8cc_source.html#l00070">70</a> of file <a class="el" href="api__scenario_8cc_source.html">api_scenario.cc</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ae713f8ad39f4cbc1b54b4a19ecd48017"></a>
 <div class="memitem">
@@ -360,7 +362,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Clear all forbidding rules, effectively allowing all tools again that were forbidden using functions of the table <a class="el" href="classrules.html">rules</a>.</p>
-<p>Only effects tools forbidden by <a class="el" href="classrules.html#ab8b99f0eac12865936351997c1a2f4a0">rules::forbid_tool</a>, <a class="el" href="classrules.html#a32635665b3561aa32c534bf848b51d30">rules::forbid_way_tool</a>, <a class="el" href="classrules.html#a2cc677466356d39162991318718023a9">rules::forbid_way_tool_cube</a>, <a class="el" href="classrules.html#abf8f8c6b1c0064f648e5e0fff83cecf4">rules::forbid_way_tool_rect</a>. The result of <a class="el" href="api__skeleton_8cc.html#a2585a55a65cf14fb3d0a222552ffc063">is_tool_allowed</a> and <a class="el" href="api__skeleton_8cc.html#a67f167f50ac44e2affeec9b47fd76093">is_work_allowed_here</a> is not influenced. </p>
+<p>Only effects tools forbidden by <a class="el" href="classrules.html#ab8b99f0eac12865936351997c1a2f4a0">rules::forbid_tool</a>, <a class="el" href="classrules.html#a32635665b3561aa32c534bf848b51d30">rules::forbid_way_tool</a>, <a class="el" href="classrules.html#a2cc677466356d39162991318718023a9">rules::forbid_way_tool_cube</a>, <a class="el" href="classrules.html#abf8f8c6b1c0064f648e5e0fff83cecf4">rules::forbid_way_tool_rect</a>. The result of <a class="el" href="group__scen__skel.html#ga2585a55a65cf14fb3d0a222552ffc063">is_tool_allowed</a> and <a class="el" href="group__scen__skel.html#ga67f167f50ac44e2affeec9b47fd76093">is_work_allowed_here</a> is not influenced. </p>
 
 </div>
 </div>

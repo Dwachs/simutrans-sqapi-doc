@@ -4,6 +4,7 @@ var searchData=
   ['halt_5fx',['halt_x',['../classhalt__x.html',1,'']]],
   ['harbour',['harbour',['../classbuilding__desc__x.html#aafb87803aef544a5f0b07f8a5db12140a6ed78460bdb0a07a223e8d833ef5d84d',1,'building_desc_x']]],
   ['has_5fdouble_5fslopes',['has_double_slopes',['../classway__desc__x.html#a5ca79b2563ca57f5c48b587f4fdfbfd8',1,'way_desc_x']]],
+  ['has_5fobsolete_5fvehicles',['has_obsolete_vehicles',['../classconvoy__x.html#a4508ee9c66a4ed1bbbc1cc3424164198',1,'convoy_x']]],
   ['has_5fsidewalk',['has_sidewalk',['../classway__x.html#afea95b2498e7d97bdea1e7d7456505d8',1,'way_x']]],
   ['has_5fsign',['has_sign',['../classway__x.html#a2202aaf6ffafd766625c32b3497eda0a',1,'way_x']]],
   ['has_5fsignal',['has_signal',['../classway__x.html#ab97be03afb47751db6dad59c2071bca6',1,'way_x']]],

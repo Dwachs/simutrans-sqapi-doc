@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
@@ -72,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -85,6 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classway__desc__x-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">way_desc_x Class Reference</div>  </div>
@@ -134,12 +136,60 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8749c11fa7628c5827339e4142537e19 inherit pub_methods_classobj__desc__x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae88f1730b8d409b4b8179d2b30573330 inherit pub_methods_classobj__desc__x"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobj__desc__x.html#ae88f1730b8d409b4b8179d2b30573330">is_equal</a> (<a class="el" href="classobj__desc__x.html">obj_desc_x</a> other)</td></tr>
 <tr class="separator:ae88f1730b8d409b4b8179d2b30573330 inherit pub_methods_classobj__desc__x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a733a9b60ba4d3252381099970ce54b10"><td class="memItemLeft" align="right" valign="top">static array&lt; <a class="el" href="classway__desc__x.html">way_desc_x</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classway__desc__x.html#a733a9b60ba4d3252381099970ce54b10">get_available_ways</a> (<a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt, <a class="el" href="api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9">way_system_types</a> st)</td></tr>
+<tr class="separator:a733a9b60ba4d3252381099970ce54b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Object descriptors for ways. </p>
 
-<p>Definition at line <a class="el" href="api__obj__desc_8cc_source.html#l00168">168</a> of file <a class="el" href="api__obj__desc_8cc_source.html">api_obj_desc.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__obj__desc_8cc_source.html#l00243">243</a> of file <a class="el" href="api__obj__desc_8cc_source.html">api_obj_desc.cc</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a733a9b60ba4d3252381099970ce54b10"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static array&lt;<a class="el" href="classway__desc__x.html">way_desc_x</a>&gt; way_desc_x::get_available_ways </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a>&#160;</td>
+          <td class="paramname"><em>wt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9">way_system_types</a>&#160;</td>
+          <td class="paramname"><em>st</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generates a list of all ways available for building. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wt</td><td>waytype </td></tr>
+    <tr><td class="paramname">st</td><td>system type of way </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the list </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a49a42fc5483ff369e0a442dc901c85a7"></a>
 <div class="memitem">
 <div class="memproto">

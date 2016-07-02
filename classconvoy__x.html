@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
@@ -72,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -85,6 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classconvoy__x-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">convoy_x Class Reference</div>  </div>
@@ -106,6 +108,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ade690bca60587595ca0fb67394de5988"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a963009457974ee916094c78bf290f434"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a963009457974ee916094c78bf290f434">get_name</a> ()</td></tr>
 <tr class="separator:a963009457974ee916094c78bf290f434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabedde4f9a4abef0f3b74048a7c9d81ce"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rename__func.html#gabedde4f9a4abef0f3b74048a7c9d81ce">set_name</a> (string)</td></tr>
+<tr class="separator:gabedde4f9a4abef0f3b74048a7c9d81ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c853cd702d07db14b55c0c3bafc6582"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a1c853cd702d07db14b55c0c3bafc6582">get_pos</a> ()</td></tr>
 <tr class="separator:a1c853cd702d07db14b55c0c3bafc6582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46d5fdf73c4aad1b4a452a2cbff280b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplayer__x.html">player_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a46d5fdf73c4aad1b4a452a2cbff280b1">get_owner</a> ()</td></tr>
@@ -132,12 +136,91 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a286a89dd6f485e9d62e50a05fd508dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba84b9d5aa0efa50be25da505683c39f"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#aba84b9d5aa0efa50be25da505683c39f">get_distance_traveled_total</a> ()</td></tr>
 <tr class="separator:aba84b9d5aa0efa50be25da505683c39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4d8d606fe5b2340533f29118a2e0567"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classline__x.html">line_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#ab4d8d606fe5b2340533f29118a2e0567">get_line</a> ()</td></tr>
+<tr class="separator:ab4d8d606fe5b2340533f29118a2e0567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga807d42a9775daabb1976e99006971937"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game__cmd.html#ga807d42a9775daabb1976e99006971937">set_line</a> (<a class="el" href="classplayer__x.html">player_x</a> player, <a class="el" href="classline__x.html">line_x</a> line)</td></tr>
+<tr class="separator:ga807d42a9775daabb1976e99006971937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb3abfddf3629528f4e01f726c68ca7"><td class="memItemLeft" align="right" valign="top">array&lt; <a class="el" href="classvehicle__desc__x.html">vehicle_desc_x</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a5cb3abfddf3629528f4e01f726c68ca7">get_vehicles</a> ()</td></tr>
+<tr class="separator:a5cb3abfddf3629528f4e01f726c68ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91fa127fa472ee1464a4b7e085d08b89"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a91fa127fa472ee1464a4b7e085d08b89">get_speed</a> ()</td></tr>
+<tr class="separator:a91fa127fa472ee1464a4b7e085d08b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c60c54d31c3eece24fb7cd5d0619eb"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a95c60c54d31c3eece24fb7cd5d0619eb">get_loading_limit</a> ()</td></tr>
+<tr class="separator:a95c60c54d31c3eece24fb7cd5d0619eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6287b291a19052ae81caebf7aaf7c99a"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a6287b291a19052ae81caebf7aaf7c99a">get_loading_level</a> ()</td></tr>
+<tr class="separator:a6287b291a19052ae81caebf7aaf7c99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78f60a79a893a6deb2c39f11cd91e70b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a78f60a79a893a6deb2c39f11cd91e70b">get_home_depot</a> ()</td></tr>
+<tr class="separator:a78f60a79a893a6deb2c39f11cd91e70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4508ee9c66a4ed1bbbc1cc3424164198"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a4508ee9c66a4ed1bbbc1cc3424164198">has_obsolete_vehicles</a> ()</td></tr>
+<tr class="separator:a4508ee9c66a4ed1bbbc1cc3424164198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab59711bb4db06a854f026b68336a8717"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game__cmd.html#gab59711bb4db06a854f026b68336a8717">toggle_withdraw</a> (<a class="el" href="classplayer__x.html">player_x</a>)</td></tr>
+<tr class="separator:gab59711bb4db06a854f026b68336a8717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a398b199b628028421359e494f9a8ee90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a398b199b628028421359e494f9a8ee90">is_withdrawn</a> ()</td></tr>
+<tr class="separator:a398b199b628028421359e494f9a8ee90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad897fb650eac8698d111d428a1770f04"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game__cmd.html#gad897fb650eac8698d111d428a1770f04">destroy</a> (<a class="el" href="classplayer__x.html">player_x</a>)</td></tr>
+<tr class="separator:gad897fb650eac8698d111d428a1770f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a50c454c85d66ae578f85ae98d3e52c05"><td class="memItemLeft" align="right" valign="top">static integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#a50c454c85d66ae578f85ae98d3e52c05">calc_max_speed</a> (integer power, integer weight, integer speed_limit)</td></tr>
+<tr class="separator:a50c454c85d66ae578f85ae98d3e52c05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f2733ad93d70ed33cef774e668ccdb"><td class="memItemLeft" align="right" valign="top">static integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconvoy__x.html#aa2f2733ad93d70ed33cef774e668ccdb">speed_to_tiles_per_month</a> (integer speed)</td></tr>
+<tr class="separator:aa2f2733ad93d70ed33cef774e668ccdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to access a convoy. Player vehicles are convoys, which themselves consist of individual vehicles (trucks, trailers, ...). </p>
 
 <p>Definition at line <a class="el" href="api__convoy_8cc_source.html#l00038">38</a> of file <a class="el" href="api__convoy_8cc_source.html">api_convoy.cc</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a50c454c85d66ae578f85ae98d3e52c05"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static integer convoy_x::calc_max_speed </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>power</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>weight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>speed_limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Static method to compute the potential max speed of a convoy with the given parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">power</td><td>total power of convoy </td></tr>
+    <tr><td class="paramname">weight</td><td>weight of convoy </td></tr>
+    <tr><td class="paramname">speed_limit</td><td>speed limit induced by convoy's vehicles </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>max speed </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="abee982e764b85860024a5a744f362f03"></a>
 <div class="memitem">
 <div class="memproto">
@@ -202,6 +285,70 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns array of goods categories that can be transported by this convoy. </p>
 <dl class="section return"><dt>Returns</dt><dd>array </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a78f60a79a893a6deb2c39f11cd91e70b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcoord3d.html">coord3d</a> convoy_x::get_home_depot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>gets location of home depot </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab4d8d606fe5b2340533f29118a2e0567"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classline__x.html">line_x</a> convoy_x::get_line </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the line the convoy belongs to, null if there is no line </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6287b291a19052ae81caebf7aaf7c99a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer convoy_x::get_loading_level </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>get current loading level </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a95c60c54d31c3eece24fb7cd5d0619eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer convoy_x::get_loading_limit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>get current loading limit: waiting for full load gives 100 </dd></dl>
 
 </div>
 </div>
@@ -306,6 +453,22 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a91fa127fa472ee1464a4b7e085d08b89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer convoy_x::get_speed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>current speed of convoy </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a72e9da4af1b06e7c04edb6d64d67714b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -337,6 +500,22 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Get monthly statistics of traveled distance. </p>
 <dl class="section return"><dt>Returns</dt><dd>array, index [0] corresponds to current month </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5cb3abfddf3629528f4e01f726c68ca7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">array&lt;<a class="el" href="classvehicle__desc__x.html">vehicle_desc_x</a>&gt; convoy_x::get_vehicles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>returns an array containing the <a class="el" href="classvehicle__desc__x.html">vehicle_desc_x</a> 's of the vehicles of this convoy </dd></dl>
 
 </div>
 </div>
@@ -375,6 +554,38 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a4508ee9c66a4ed1bbbc1cc3424164198"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool convoy_x::has_obsolete_vehicles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>whether convoi has obsolete vehicles </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a398b199b628028421359e494f9a8ee90"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool convoy_x::is_withdrawn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the flag 'withdraw convoy' </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ade690bca60587595ca0fb67394de5988"></a>
 <div class="memitem">
 <div class="memproto">
@@ -389,6 +600,38 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Does convoy needs electrified ways? </p>
 <dl class="section return"><dt>Returns</dt><dd>true if this is the case </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa2f2733ad93d70ed33cef774e668ccdb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static integer convoy_x::speed_to_tiles_per_month </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>speed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Static method to convert speed (from km per hour) to tiles per month. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">speed</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>tile per month </dd></dl>
 
 </div>
 </div>

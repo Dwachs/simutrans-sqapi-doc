@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
@@ -65,7 +66,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -79,39 +80,40 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Simutrans-Squirrel-API Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="sec_howto"></a>
-How to create a scenario.</h1>
-<p>You first need an <em>idea</em> - a vision what a scenario may look like. Then you have to cast this idea into a <em>savegame</em>. That is, create the world in which your scenario will live. You are the ruler of this toy universe, you are in charge of the rules, which go into the <em>script</em>.</p>
-<h1><a class="anchor" id="sec_sq"></a>
-Scripting language</h1>
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#s_scenarios">Scripted scenarios</a><ul><li class="level2"><a href="#sec_howto">How to create a scenario.</a></li>
+<li class="level2"><a href="#sec_ex">Example scenario scripts</a></li>
+<li class="level2"><a href="#sec_dir">Recommended directory structure</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#s_ai_player">Scripted AI players</a></li>
+<li class="level1"><a href="#s_general_advice">General scripting advice</a><ul><li class="level2"><a href="#sec_data_types">Squirrel data types</a></li>
+<li class="level2"><a href="#sec_coord">Coordinates</a></li>
+<li class="level2"><a href="#sec_network">Network play</a></li>
+<li class="level2"><a href="#sec_err">Logging and error handling</a></li>
+<li class="level2"><a href="#sec_rdwr">Load-Save support</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="textblock"><p>Simutrans offers to possibility to add scripted scenarios and computer-controlled players.</p>
+<h2>Scripting language </h2>
 <p>The scripts have to be written in squirrel. The manual can be found at <a href="http://squirrel-lang.org/">Squirrel main page</a>. As squirrels like to crack nuts, understandably the script files get the extension '.nut'.</p>
-<h1><a class="anchor" id="sec_ex"></a>
-Example script</h1>
+<h1><a class="anchor" id="s_scenarios"></a>
+Scripted scenarios</h1>
+<p>See also <a class="el" href="group__scen__skel.html">Scenario interface</a> and <a class="el" href="group__scen__only.html">Scenario only functions</a>.</p>
+<h2><a class="anchor" id="sec_howto"></a>
+How to create a scenario.</h2>
+<p>You first need an <em>idea</em> - a vision what a scenario may look like. Then you have to cast this idea into a <em>savegame</em>. That is, create the world in which your scenario will live. You are the ruler of this toy universe, you are in charge of the rules, which go into the <em>script</em>.</p>
+<h2><a class="anchor" id="sec_ex"></a>
+Example scenario scripts</h2>
 <p>There are several commented examples.</p>
 <ol type="1">
 <li><a class="el" href="page_script_mill.html">A simple example script</a></li>
 <li><a class="el" href="page_script_pharm.html">A script showing translatable texts.</a></li>
 </ol>
-<h1><a class="anchor" id="sec_data_types"></a>
-Squirrel data types</h1>
-<p>Squirrel has some built-in data types: among them integer, string, tables, and arrays. These are widely used throughout this documentation in the function declarations.</p>
-<p>If tables or arrays carry template parameters, this indicates the expected type of elements of the array or table. See <a class="el" href="classfactory__x.html#a12ef2a42dc706f5d519f570de1b5d2d7">factory_x::input</a> for an example.</p>
-<h1><a class="anchor" id="sec_coord"></a>
-Coordinates</h1>
-<p>All coordinates in the script are with respect to the initial rotation of the map. If a player rotates a map, then all coordinates are translated to the original rotation. This affects the classes <a class="el" href="classcoord.html">coord</a> and <a class="el" href="classcoord3d.html">coord3d</a> as well as any functions that expect coordinates as input, as for instance <a class="el" href="classfactory__x.html#a98b2f0806cb15884d5b3d773253877a1">factory_x::factory_x</a> or <a class="el" href="classrules.html#abf8f8c6b1c0064f648e5e0fff83cecf4">rules::forbid_way_tool_rect</a>.</p>
-<h1><a class="anchor" id="sec_network"></a>
-Network play</h1>
-<p>A lot of stuff is possible for network play. There are some limitations of course. These are due to the fact, that the script is solely run on the server, the client does not need to have the script available at all. This implies for instance that all scenario texts are translated to the server's language.</p>
-<h1><a class="anchor" id="sec_err"></a>
-Logging and error handling</h1>
-<p>If simutrans is started with '-debug 2', all errors and warnings are logged to standard output (i.e. terminal). If simutrans is started in addition with '-log', all the output is written to the file script.log. In particular, everything that is print-ed by the script, goes into this file.</p>
-<p>In case of error, an error window pops up showing the call stack and the values of local variables. You can then repair your script, and restart the scenario via New Game - Scenario. You do not need to restart simutrans to reload your script.</p>
-<h1><a class="anchor" id="sec_rdwr"></a>
-Load-Save support</h1>
-<p>Such support is available of course. If a running scenario is saved, the information about the scenario is saved within the savegame. Upon loading, the scenario is resumed, by calling the function <a class="el" href="api__skeleton_8cc.html#a8f7187d43d6ca08f59ce949f9c4938f8">resume_game</a>.</p>
-<p>You can save data in the savegame. In order to do so, you have to keep these data in the global table <a class="el" href="api__skeleton_8h.html#a48c699ff842c97fffb74ab077b6d4882" title="Persistent data should go into this table. ">persistent</a>. This table is saved and loaded.</p>
-<h1><a class="anchor" id="sec_dir"></a>
-Recommended directory structure</h1>
+<h2><a class="anchor" id="sec_dir"></a>
+Recommended directory structure</h2>
 <p>The scenario plays in a savegame. This savegame is tied to the pak-set you are using (e.g. pak64, pak128.Britain). Hence, the scenario files have to go into a sub-folder of the pak-set. The pak-set is found in a directory named pak-something, which is in the same directory, where the program itself is located.</p>
 <p>Your scenario file goes into the folder</p>
 <p><code> pak-something/scenario/myscenario/ </code></p>
@@ -121,7 +123,41 @@ Recommended directory structure</h1>
 <p><code> pak-something/scenario/myscenario/ </code></p>
 <p>If you need more complex texts, these go into sub-directories named after the language, in which they are written.</p>
 <p><code> pak-something/scenario/myscenario/en/ &lt;- English files go here.</code></p>
-<p><code>pak-something/scenario/myscenario/de/ &lt;- German files go here. </code> </p>
+<p><code>pak-something/scenario/myscenario/de/ &lt;- German files go here. </code></p>
+<p>Scenarios can also be put into the addons folder:</p>
+<p><code> addons/pak-something/scenario/myscenario/ </code></p>
+<h1><a class="anchor" id="s_ai_player"></a>
+Scripted AI players</h1>
+<p>See also <a class="el" href="group__ai__skel.html">AI interface</a>.</p>
+<h2><a class="anchor" id="sec_dir"></a>
+Recommended directory structure</h2>
+<p>Your script file goes into the folder</p>
+<p><code> ai/myai/ </code></p>
+<p>The main script file must be</p>
+<p><code> ai/myai/ai.nut </code></p>
+<p>The ai scripts can also be put into</p>
+<p><code> addons/ai/myai/ </code></p>
+<h1><a class="anchor" id="s_general_advice"></a>
+General scripting advice</h1>
+<p>See also <a class="el" href="pitfalls.html">Common pitfalls</a>.</p>
+<h2><a class="anchor" id="sec_data_types"></a>
+Squirrel data types</h2>
+<p>Squirrel has some built-in data types: among them integer, string, tables, and arrays. These are widely used throughout this documentation in the function declarations.</p>
+<p>If tables or arrays carry template parameters, this indicates the expected type of elements of the array or table. See <a class="el" href="classfactory__x.html#a12ef2a42dc706f5d519f570de1b5d2d7">factory_x::input</a> for an example.</p>
+<h2><a class="anchor" id="sec_coord"></a>
+Coordinates</h2>
+<p>All coordinates in the script are with respect to the initial rotation of the map. If a player rotates a map, then all coordinates are translated to the original rotation. This affects the classes <a class="el" href="classcoord.html">coord</a> and <a class="el" href="classcoord3d.html">coord3d</a> as well as any functions that expect coordinates as input, as for instance <a class="el" href="classfactory__x.html#a98b2f0806cb15884d5b3d773253877a1">factory_x::factory_x</a> or <a class="el" href="classrules.html#abf8f8c6b1c0064f648e5e0fff83cecf4">rules::forbid_way_tool_rect</a>.</p>
+<h2><a class="anchor" id="sec_network"></a>
+Network play</h2>
+<p>A lot of stuff is possible for network play. There are some limitations of course. These are due to the fact, that the scripts are solely run on the server, the client does not need to have the script available at all. This implies for instance that all scenario texts are translated to the server's language.</p>
+<h2><a class="anchor" id="sec_err"></a>
+Logging and error handling</h2>
+<p>If simutrans is started with '-debug 2', all errors and warnings are logged to standard output (i.e. terminal). If simutrans is started in addition with '-log', all the output is written to the file script.log. In particular, everything that is print-ed by the script, goes into this file.</p>
+<p>In case of error, an error window pops up showing the call stack and the values of local variables. You can then repair your script, and restart the scenario via New Game - Scenario. You do not need to restart simutrans to reload your script.</p>
+<h2><a class="anchor" id="sec_rdwr"></a>
+Load-Save support</h2>
+<p>Such support is available of course. If a running scenario is saved, the information about the scenario is saved within the savegame. Upon loading, the scenario is resumed, by calling the function <a class="el" href="group__ai__skel.html#ga7e82c4a303ffc379d846b26ef07b9c81">resume_game</a>.</p>
+<p>You can save data in the savegame. In order to do so, you have to keep these data in the global table <a class="el" href="api__skeleton_8h.html#a48c699ff842c97fffb74ab077b6d4882" title="Persistent data should go into this table. ">persistent</a>. This table is saved and loaded. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

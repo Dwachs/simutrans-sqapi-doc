@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
@@ -72,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -119,6 +120,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1760a86b37cc2871701a97afa108725a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4fa9cd3bb945a306efc18f36804487a"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__production__x.html#ac4fa9cd3bb945a306efc18f36804487a">get_base_consumption</a> ()</td></tr>
 <tr class="separator:ac4fa9cd3bb945a306efc18f36804487a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad165d787b254629894ddbecfbd33eef4"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__production__x.html#ad165d787b254629894ddbecfbd33eef4">get_consumption_factor</a> ()</td></tr>
+<tr class="separator:ad165d787b254629894ddbecfbd33eef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a08f7e93c1b3bcac1575b037739c7a8"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory__production__x.html#a8a08f7e93c1b3bcac1575b037739c7a8">get_production_factor</a> ()</td></tr>
+<tr class="separator:a8a08f7e93c1b3bcac1575b037739c7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -128,7 +133,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to access storage slots of factories. Are automatically instantiated by <a class="el" href="classfactory__x.html">factory_x</a> constructor. </p>
 
-<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00156">156</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00157">157</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ac4fa9cd3bb945a306efc18f36804487a"></a>
 <div class="memitem">
@@ -176,6 +181,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Get monthly statistics of consumed goods (for input slots). </p>
 <dl class="section return"><dt>Returns</dt><dd>array, index [0] corresponds to current month </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad165d787b254629894ddbecfbd33eef4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer factory_production_x::get_consumption_factor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns number of consumed units of this good for the production of 100 units of generic outputs unit. Does not take any productivity boost into account. </p>
 
 </div>
 </div>
@@ -230,6 +251,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8a08f7e93c1b3bcac1575b037739c7a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer factory_production_x::get_production_factor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns number of produced units of this good due to the production of 100 units of generic outputs unit. Does not take any productivity boost into account. </p>
+
+</div>
+</div>
 <a class="anchor" id="a49cd03b6e5190555f5cb068aca65074e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -276,7 +313,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Maximum storage of this slot. </p>
 
-<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00161">161</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__factory_8cc_source.html#l00162">162</a> of file <a class="el" href="api__factory_8cc_source.html">api_factory.cc</a>.</p>
 
 </div>
 </div>

@@ -2,7 +2,9 @@ var searchData=
 [
   ['api_5fbase_2eh',['api_base.h',['../api__base_8h.html',1,'']]],
   ['api_5fcity_2ecc',['api_city.cc',['../api__city_8cc.html',1,'']]],
+  ['api_5fcommand_2ecc',['api_command.cc',['../api__command_8cc.html',1,'']]],
   ['api_5fconst_2ecc',['api_const.cc',['../api__const_8cc.html',1,'']]],
+  ['api_5fcontrol_2ecc',['api_control.cc',['../api__control_8cc.html',1,'']]],
   ['api_5fconvoy_2ecc',['api_convoy.cc',['../api__convoy_8cc.html',1,'']]],
   ['api_5fdoc_2eh',['api_doc.h',['../api__doc_8h.html',1,'']]],
   ['api_5ffactory_2ecc',['api_factory.cc',['../api__factory_8cc.html',1,'']]],

@@ -7,5 +7,6 @@ var searchData=
   ['allow_5fway_5ftool',['allow_way_tool',['../classrules.html#aa1b2a8e1779a4837c3cfad4ef6b469ac',1,'rules']]],
   ['allow_5fway_5ftool_5fcube',['allow_way_tool_cube',['../classrules.html#a873e22cec4c9364bb72997c130113d03',1,'rules']]],
   ['allow_5fway_5ftool_5frect',['allow_way_tool_rect',['../classrules.html#a46cb20c5fec1bb1ce521dabcb62d523b',1,'rules']]],
+  ['append_5fvehicle',['append_vehicle',['../group__game__cmd.html#ga8431ae632f7a18a419f3b00e0ee8d8fc',1,'depot_x']]],
   ['avoid_5fovercrowding',['avoid_overcrowding',['../classsettings.html#a34799ea1b442eee59cfdf5932dadc1d6',1,'settings']]]
 ];

@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
@@ -72,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -162,6 +163,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a5a08d47ee1f7fa7bd0948f65641019b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad36cfae50d941397ac25962133d5fce3"><td class="memItemLeft" align="right" valign="top">static array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#ad36cfae50d941397ac25962133d5fce3">get_year_transported_goods</a> ()</td></tr>
 <tr class="separator:ad36cfae50d941397ac25962133d5fce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae77d8cb746276d8f5c51b61be09bfd6f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#ae77d8cb746276d8f5c51b61be09bfd6f">use_timeline</a> ()</td></tr>
+<tr class="separator:ae77d8cb746276d8f5c51b61be09bfd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5db3d1d57155f67ee7ac42672dbf6d4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classattraction__list__x.html">attraction_list_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#ad5db3d1d57155f67ee7ac42672dbf6d4">get_attraction_list</a> ()</td></tr>
 <tr class="separator:ad5db3d1d57155f67ee7ac42672dbf6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68633926c5c89aee2ab4f5e4a77e8fe5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classconvoy__list__x.html">convoy_list_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a68633926c5c89aee2ab4f5e4a77e8fe5">get_convoy_list</a> ()</td></tr>
@@ -1005,6 +1008,30 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>whether operation was successfull </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae77d8cb746276d8f5c51b61be09bfd6f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool world::use_timeline </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>true if timeline play is active </dd></dl>
 
 </div>
 </div>

@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
@@ -72,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -85,6 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classplayer__x-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">player_x Class Reference</div>  </div>
@@ -110,6 +112,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af7ddc9f3a0fa06f107b4d4a2674d4c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3dd5087e020972c197e71a74bc36d30"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#ad3dd5087e020972c197e71a74bc36d30">get_name</a> ()</td></tr>
 <tr class="separator:ad3dd5087e020972c197e71a74bc36d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga291b29bcd51118c24dc33838da583b61"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rename__func.html#ga291b29bcd51118c24dc33838da583b61">set_name</a> (string name)</td></tr>
+<tr class="separator:ga291b29bcd51118c24dc33838da583b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cdbc53659455dceeadaa7d65cae5a45"><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#a6cdbc53659455dceeadaa7d65cae5a45">get_construction</a> ()</td></tr>
 <tr class="separator:a6cdbc53659455dceeadaa7d65cae5a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2d4d88a5de435eba2d29d90cd6285b5"><td class="memItemLeft" align="right" valign="top">array&lt; integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#ab2d4d88a5de435eba2d29d90cd6285b5">get_vehicle_maint</a> ()</td></tr>
@@ -148,10 +152,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab879503d21dd82913cb448e7ceb12690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9fc88d35e89f0d3cf833bd297165038"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#ad9fc88d35e89f0d3cf833bd297165038">book_cash</a> (integer delta)</td></tr>
 <tr class="separator:ad9fc88d35e89f0d3cf833bd297165038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab231db5162aaf170ff8140103251aa78"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#ab231db5162aaf170ff8140103251aa78">get_current_cash</a> ()</td></tr>
+<tr class="separator:ab231db5162aaf170ff8140103251aa78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac379dadf54e02c323f0bb06a7092f48f"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#ac379dadf54e02c323f0bb06a7092f48f">get_current_net_wealth</a> ()</td></tr>
+<tr class="separator:ac379dadf54e02c323f0bb06a7092f48f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad00274846c41e713158077d330173a65"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#ad00274846c41e713158077d330173a65">get_current_maintenance</a> ()</td></tr>
+<tr class="separator:ad00274846c41e713158077d330173a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f0f56f9144a0f0252d84186f74722e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#a2f0f56f9144a0f0252d84186f74722e5">is_active</a> ()</td></tr>
 <tr class="separator:a2f0f56f9144a0f0252d84186f74722e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6659200cdd3054aee15257106737c21f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classline__list__x.html">line_list_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer__x.html#a6659200cdd3054aee15257106737c21f">get_line_list</a> ()</td></tr>
 <tr class="separator:a6659200cdd3054aee15257106737c21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad463eeb44de3435604676530ddcc0e19"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game__cmd.html#gad463eeb44de3435604676530ddcc0e19">create_line</a> (<a class="el" href="api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af">way_types</a> wt)</td></tr>
+<tr class="separator:gad463eeb44de3435604676530ddcc0e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ga6dac60e88d9c5fc40e9119474f134a72"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classplayer__x.html">player_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ai__only.html#ga6dac60e88d9c5fc40e9119474f134a72">self</a> ()</td></tr>
+<tr class="separator:ga6dac60e88d9c5fc40e9119474f134a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to access player statistics. Here, a player refers to one transport company, not to an individual playing simutrans. </p>
@@ -271,6 +288,54 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Get monthly statistics of number of convoys. </p>
 <dl class="section return"><dt>Returns</dt><dd>array, index [0] corresponds to current month </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab231db5162aaf170ff8140103251aa78"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float player_x::get_current_cash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the current account balance. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad00274846c41e713158077d330173a65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer player_x::get_current_maintenance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the current maintenance [in 1/100 cr]. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac379dadf54e02c323f0bb06a7092f48f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer player_x::get_current_net_wealth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the current net worth [in 1/100 cr]. </p>
 
 </div>
 </div>
@@ -592,7 +657,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns whether the player (still) exists in the game.</p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>Only available for api versions less than 120.1, see <a class="el" href="api__skeleton_8cc.html#ab3933c2368305e7b98f2ee83b2131e1c">get_api_version</a>. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>Only available for api versions less than 120.1, see <a class="el" href="group__scen__skel.html#gab3933c2368305e7b98f2ee83b2131e1c">get_api_version</a>. </dd></dl>
 
 </div>
 </div>

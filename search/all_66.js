@@ -11,5 +11,7 @@ var searchData=
   ['forbid_5ftool',['forbid_tool',['../classrules.html#ab8b99f0eac12865936351997c1a2f4a0',1,'rules']]],
   ['forbid_5fway_5ftool',['forbid_way_tool',['../classrules.html#a32635665b3561aa32c534bf848b51d30',1,'rules']]],
   ['forbid_5fway_5ftool_5fcube',['forbid_way_tool_cube',['../classrules.html#a2cc677466356d39162991318718023a9',1,'rules']]],
-  ['forbid_5fway_5ftool_5frect',['forbid_way_tool_rect',['../classrules.html#abf8f8c6b1c0064f648e5e0fff83cecf4',1,'rules']]]
+  ['forbid_5fway_5ftool_5frect',['forbid_way_tool_rect',['../classrules.html#abf8f8c6b1c0064f648e5e0fff83cecf4',1,'rules']]],
+  ['function_20to_20alter_20the_20state_20of_20the_20game_20and_20map',['Function to alter the state of the game and map',['../group__game__cmd.html',1,'']]],
+  ['functions_20to_20rename_20something_20in_20the_20game',['Functions to rename something in the game',['../group__rename__func.html',1,'']]]
 ];
