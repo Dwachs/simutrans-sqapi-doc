@@ -15,5 +15,6 @@ var searchData=
   ['square_5fx',['square_x',['../classsquare__x.html#ae341317d0782bddd507e84df5bc25089',1,'square_x']]],
   ['start',['start',['../group__scen__skel.html#ga60de64d75454385b23995437f1d72669',1,'start():&#160;api_skeleton.cc'],['../group__ai__skel.html#ga3e366a4f9cad71fb85b134e444690559',1,'start(int pl_num):&#160;api_skeleton.cc']]],
   ['start_5fall_5fconvoys',['start_all_convoys',['../group__game__cmd.html#gab64666bca3f63affeb8748ba27145a22',1,'depot_x']]],
-  ['start_5fconvoy',['start_convoy',['../group__game__cmd.html#ga65d1cd49e044fededfdde1082a1db649',1,'depot_x']]]
+  ['start_5fconvoy',['start_convoy',['../group__game__cmd.html#ga65d1cd49e044fededfdde1082a1db649',1,'depot_x']]],
+  ['step',['step',['../group__ai__skel.html#gac6bf1a12c5c98ddec5b65e07fe74cabe',1,'api_skeleton.cc']]]
 ];

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.5"/>
-<title>Simutrans-Squirrel-API: Modules</title>
+<title>Simutrans-Squirrel-API: Functions that should return quickly.</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
@@ -77,20 +77,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Modules</div>  </div>
+<div class="title">Functions that should return quickly.</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all modules:</div><div class="directory">
-<div class="levels">[detail level <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span>]</div><table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="group__scen__skel.html" target="_self">Scenario interface</a></td><td class="desc"></td></tr>
-<tr id="row_1_"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="group__scen__only.html" target="_self">Scenario only functions</a></td><td class="desc"></td></tr>
-<tr id="row_2_" class="even"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="group__ai__skel.html" target="_self">AI interface</a></td><td class="desc"></td></tr>
-<tr id="row_3_"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="group__ai__only.html" target="_self">AI only functions</a></td><td class="desc"></td></tr>
-<tr id="row_4_" class="even"><td class="entry"><img id="arr_4_" src="ftv2mnode.png" alt="o" width="16" height="22" onclick="toggleFolder('4_')"/><a class="el" href="group__game__cmd.html" target="_self">Functions to alter the state of the game and map</a></td><td class="desc"></td></tr>
-<tr id="row_4_0_"><td class="entry"><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="group__rename__func.html" target="_self">Functions to rename something in the game</a></td><td class="desc"></td></tr>
-<tr id="row_5_" class="even"><td class="entry"><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="group__quick__return__func.html" target="_self">Functions that should return quickly.</a></td><td class="desc"></td></tr>
-</table>
-</div><!-- directory -->
+<p>These functions are intended to quickly return a result. In network games, it is not allowed to call any map-latering tools from within such a function, see the section on <a class="el" href="group__game__cmd.html">Functions to alter the state of the game and map</a>. </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
