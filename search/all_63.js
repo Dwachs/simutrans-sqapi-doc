@@ -14,6 +14,7 @@ var searchData=
   ['city_5flist_5fx',['city_list_x',['../classcity__list__x.html',1,'']]],
   ['city_5fx',['city_x',['../classcity__x.html',1,'city_x'],['../classcity__x.html#a8dc3f7930c7a1705e0b2932d0191ff83',1,'city_x::city_x()']]],
   ['clear',['clear',['../classrules.html#af3283dba16a9bda9435430300b4d5a16',1,'rules']]],
+  ['climates',['climates',['../api__const_8cc.html#a97fbf403f6c108df8703d4022409e844',1,'api_const.cc']]],
   ['command_5fx',['command_x',['../classcommand__x.html',1,'command_x'],['../classcommand__x.html#ae707632331eff471b23c48f02577e120',1,'command_x::command_x()']]],
   ['convoy_5flist_5fx',['convoy_list_x',['../classconvoy__list__x.html',1,'']]],
   ['convoy_5fx',['convoy_x',['../classconvoy__x.html',1,'']]],

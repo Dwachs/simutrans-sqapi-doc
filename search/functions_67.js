@@ -23,6 +23,7 @@ var searchData=
   ['get_5fcity',['get_city',['../classbuilding__x.html#a35567180f7d2df577bcde4397863ad46',1,'building_x']]],
   ['get_5fcitycars',['get_citycars',['../classcity__x.html#a0144e1dd7af1c9809da2d89c13edcb75',1,'city_x::get_citycars()'],['../classworld.html#a7cca9e8b85ed372a5a7644d96d7d1b90',1,'world::get_citycars()']]],
   ['get_5fcitygrowth_5fenabled',['get_citygrowth_enabled',['../classcity__x.html#ad1b1d526b6685bcc1fca44265d76e3e2',1,'city_x']]],
+  ['get_5fclimate',['get_climate',['../classsquare__x.html#af9d75127bf60bd317d7850944e91d58e',1,'square_x']]],
   ['get_5fconstruction',['get_construction',['../classplayer__x.html#a6cdbc53659455dceeadaa7d65cae5a45',1,'player_x']]],
   ['get_5fconsumed',['get_consumed',['../classfactory__production__x.html#a815f9076bad791bdd9e4f54cd62cb4e1',1,'factory_production_x']]],
   ['get_5fconsumers',['get_consumers',['../classfactory__x.html#a6e39f2e83828e1a2d47ab76ceb00c87a',1,'factory_x']]],
