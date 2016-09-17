@@ -245,8 +245,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Called when user clicks on a tile to build or remove something.</p>
-<p>This function is network-aware: Error messages are sent back over network to clients. </p>
-<dl class="section attention"><dt>Attention</dt><dd>Does not work with waybuilding and all tools that need path-finding, use the functions provided in <a class="el" href="classrules.html">rules</a> in this case.</dd></dl>
+<p>This function is network-aware: Error messages are sent back over network to clients.</p>
+<p>The error message can contain a coordinate, which is used to show a location on the map. In order to show the right place, use <a class="el" href="api__scenario_8cc.html#a97216b980ac0adf622444cf6fcb19380">coord_to_string</a>. The must be enclosed in parentheses or prefixed with @ . </p>
+<div class="fragment"><div class="line"><span class="keywordflow">return</span> <span class="stringliteral">&quot;You cannot do this. The guy living at (&quot;</span> + <a class="code" href="api__scenario_8cc.html#a97216b980ac0adf622444cf6fcb19380">coord_to_string</a>({x=47, y=11}) + <span class="stringliteral">&quot;) does not like you!&quot;</span></div>
+</div><!-- fragment --><dl class="section attention"><dt>Attention</dt><dd>Does not work with waybuilding and all tools that need path-finding, use the functions provided in <a class="el" href="classrules.html">rules</a> in this case.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pl</td><td>player number </td></tr>
