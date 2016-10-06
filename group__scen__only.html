@@ -91,6 +91,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga03258a8c2561cb0f35f165e7c3ec5196"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scen__only.html#ga03258a8c2561cb0f35f165e7c3ec5196">gui::add_message_at</a> (string text, <a class="el" href="classcoord.html">coord</a> position)</td></tr>
+<tr class="separator:ga03258a8c2561cb0f35f165e7c3ec5196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga15e0556b540bba833e1b1d8fd66fe2c1"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scen__only.html#ga15e0556b540bba833e1b1d8fd66fe2c1">gui::add_message</a> (<a class="el" href="classplayer__x.html">player_x</a> text, string)</td></tr>
+<tr class="separator:ga15e0556b540bba833e1b1d8fd66fe2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac693b51e18a231ccbbb22c0a8a1e7d6b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scen__only.html#gac693b51e18a231ccbbb22c0a8a1e7d6b">player_x::book_cash</a> (integer delta)</td></tr>
 <tr class="separator:gac693b51e18a231ccbbb22c0a8a1e7d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac2f8ad18303a3f540f1cdc6a51ce4c68"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scen__only.html#gac2f8ad18303a3f540f1cdc6a51ce4c68">load_language_file</a> (string <a class="el" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">file</a>)</td></tr>
@@ -99,6 +103,92 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>These classes and methods are only available for scripted scenarios. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga15e0556b540bba833e1b1d8fd66fe2c1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string gui::add_message </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classplayer__x.html">player_x</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Adds message to the players mailboxes. Will be shown in ticker or as pop-up window depending on players preferences.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Text to be shown. Has to be a translated string or a translatable string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Only available in scenario mode. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga03258a8c2561cb0f35f165e7c3ec5196"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void gui::add_message_at </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcoord.html">coord</a>&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Adds message to the players mailboxes. Will be shown in ticker or as pop-up window depending on players preferences. Message window has small view of world.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Text to be shown. Has to be a translated string or a translatable string. </td></tr>
+    <tr><td class="paramname">position</td><td>Position of the view on the map. Clicking on the message will center viewport at this position. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Warning</dt><dd>Message only shown on server, but stored in savegame. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Only available in scenario mode. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gac693b51e18a231ccbbb22c0a8a1e7d6b"></a>
 <div class="memitem">
 <div class="memproto">
