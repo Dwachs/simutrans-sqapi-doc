@@ -7,5 +7,6 @@ var searchData=
   ['tree_5fdesc_5fx',['tree_desc_x',['../classtree__desc__x.html',1,'']]],
   ['tree_5fx',['tree_x',['../classtree__x.html',1,'']]],
   ['ttext',['ttext',['../classttext.html',1,'']]],
-  ['ttextfile',['ttextfile',['../classttextfile.html',1,'']]]
+  ['ttextfile',['ttextfile',['../classttextfile.html',1,'']]],
+  ['tunnel_5fdesc_5fx',['tunnel_desc_x',['../classtunnel__desc__x.html',1,'']]]
 ];

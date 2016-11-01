@@ -54,5 +54,6 @@ var searchData=
   ['tree_5fdesc_5fx',['tree_desc_x',['../classtree__desc__x.html',1,'']]],
   ['tree_5fx',['tree_x',['../classtree__x.html',1,'']]],
   ['ttext',['ttext',['../classttext.html',1,'ttext'],['../classttext.html#a3056c75e140ed4673910e43c438e5a42',1,'ttext::ttext()']]],
-  ['ttextfile',['ttextfile',['../classttextfile.html',1,'ttextfile'],['../classttextfile.html#a3aa1cb8b1dc958489d13876a6186ca18',1,'ttextfile::ttextfile()']]]
+  ['ttextfile',['ttextfile',['../classttextfile.html',1,'ttextfile'],['../classttextfile.html#a3aa1cb8b1dc958489d13876a6186ca18',1,'ttextfile::ttextfile()']]],
+  ['tunnel_5fdesc_5fx',['tunnel_desc_x',['../classtunnel__desc__x.html',1,'']]]
 ];

@@ -1,6 +1,8 @@
 var searchData=
 [
+  ['has_5fdouble_5framp',['has_double_ramp',['../classbridge__desc__x.html#a528e40614e3289381df5d2f474aaac61',1,'bridge_desc_x']]],
   ['has_5fdouble_5fslopes',['has_double_slopes',['../classway__desc__x.html#a5ca79b2563ca57f5c48b587f4fdfbfd8',1,'way_desc_x']]],
+  ['has_5fdouble_5fstart',['has_double_start',['../classbridge__desc__x.html#afae162ee8165c0711dfd2eb9c2d3ea50',1,'bridge_desc_x']]],
   ['has_5fobsolete_5fvehicles',['has_obsolete_vehicles',['../classconvoy__x.html#a4508ee9c66a4ed1bbbc1cc3424164198',1,'convoy_x']]],
   ['has_5fsidewalk',['has_sidewalk',['../classway__x.html#afea95b2498e7d97bdea1e7d7456505d8',1,'way_x']]],
   ['has_5fsign',['has_sign',['../classway__x.html#a2202aaf6ffafd766625c32b3497eda0a',1,'way_x']]],

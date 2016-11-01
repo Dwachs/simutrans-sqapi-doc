@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['mail',['mail',['../classgood__desc__x.html#af1aff557721ac52683d7f32169b80713',1,'good_desc_x']]],
   ['map',['map',['../api__skeleton_8h.html#a4e02850c975e2b48cde16eed768f43f8',1,'api_skeleton.h']]],
   ['map_5fobject_5fx',['map_object_x',['../classmap__object__x.html',1,'map_object_x'],['../classmap__object__x.html#ab16056fc657a7467779556e9a2eca8f9',1,'map_object_x::map_object_x()']]],
   ['map_5fobjects',['map_objects',['../api__const_8cc.html#af16da98cba4f09b335898bbba756034b',1,'api_const.cc']]],
