@@ -9,7 +9,7 @@ var searchData=
   ['change_5fschedule',['change_schedule',['../group__game__cmd.html#gaedc1aa66c07c976d5f56d4125e109fe8',1,'line_x']]],
   ['change_5fsize',['change_size',['../group__game__cmd.html#ga36c3f9d7c4ae23024aea82dae17cbd53',1,'city_x']]],
   ['city_5fx',['city_x',['../classcity__x.html#a8dc3f7930c7a1705e0b2932d0191ff83',1,'city_x']]],
-  ['clear',['clear',['../classrules.html#af3283dba16a9bda9435430300b4d5a16',1,'rules']]],
+  ['clear',['clear',['../classsimple__heap__x.html#a693b798b1a29f10e512193579fdc0874',1,'simple_heap_x::clear()'],['../classrules.html#af3283dba16a9bda9435430300b4d5a16',1,'rules::clear()']]],
   ['command_5fx',['command_x',['../classcommand__x.html#ae707632331eff471b23c48f02577e120',1,'command_x']]],
   ['coord3d_5fto_5fstring',['coord3d_to_string',['../api__scenario_8cc.html#a64314ec307b98519c815a0df097d3c36',1,'api_scenario.cc']]],
   ['coord_5fto_5fstring',['coord_to_string',['../api__scenario_8cc.html#a97216b980ac0adf622444cf6fcb19380',1,'api_scenario.cc']]],

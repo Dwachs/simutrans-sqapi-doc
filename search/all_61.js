@@ -24,6 +24,7 @@ var searchData=
   ['api_5fline_2ecc',['api_line.cc',['../api__line_8cc.html',1,'']]],
   ['api_5fmap_5fobjects_2ecc',['api_map_objects.cc',['../api__map__objects_8cc.html',1,'']]],
   ['api_5fobj_5fdesc_2ecc',['api_obj_desc.cc',['../api__obj__desc_8cc.html',1,'']]],
+  ['api_5fpathfinding_2ecc',['api_pathfinding.cc',['../api__pathfinding_8cc.html',1,'']]],
   ['api_5fplayer_2ecc',['api_player.cc',['../api__player_8cc.html',1,'']]],
   ['api_5fscenario_2ecc',['api_scenario.cc',['../api__scenario_8cc.html',1,'']]],
   ['api_5fschedule_2ecc',['api_schedule.cc',['../api__schedule_8cc.html',1,'']]],

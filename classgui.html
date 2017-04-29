@@ -96,6 +96,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abeca0cbb67b1a81f1757563e8f3c665b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui.html#abeca0cbb67b1a81f1757563e8f3c665b">open_info_win</a> ()</td></tr>
 <tr class="separator:abeca0cbb67b1a81f1757563e8f3c665b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0301330af295052343584a0d7f9eefb"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui.html#ad0301330af295052343584a0d7f9eefb">open_info_win_at</a> (string tab)</td></tr>
+<tr class="separator:ad0301330af295052343584a0d7f9eefb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03258a8c2561cb0f35f165e7c3ec5196"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scen__only.html#ga03258a8c2561cb0f35f165e7c3ec5196">add_message_at</a> (string text, <a class="el" href="classcoord.html">coord</a> position)</td></tr>
 <tr class="separator:ga03258a8c2561cb0f35f165e7c3ec5196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga15e0556b540bba833e1b1d8fd66fe2c1"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scen__only.html#ga15e0556b540bba833e1b1d8fd66fe2c1">add_message</a> (<a class="el" href="classplayer__x.html">player_x</a> text, string)</td></tr>
@@ -126,7 +128,39 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Opens scenario info window. </p>
+<p>Opens scenario info window and shows 'result' tab. </p>
+<dl class="section note"><dt>Note</dt><dd>Only available in scenario mode. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad0301330af295052343584a0d7f9eefb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool gui::open_info_win_at </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>tab</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Opens scenario info window with specific tab open. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tab</td><td>possible values are "info", "goal", "rules", "result", "about" </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section note"><dt>Note</dt><dd>Only available in scenario mode. </dd></dl>
 
 </div>
