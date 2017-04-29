@@ -10,6 +10,7 @@ var searchData=
   ['is_5favailable',['is_available',['../classobj__desc__time__x.html#a182da16d562c61a7004bc4b7ec1750e9',1,'obj_desc_time_x']]],
   ['is_5fbridge',['is_bridge',['../classtile__x.html#a07534e55888c2cdd5dece372df36eda7',1,'tile_x']]],
   ['is_5fconnected',['is_connected',['../classhalt__x.html#afea8463dceb79088cb15e70f5fd6944f',1,'halt_x']]],
+  ['is_5fconvoy_5fallowed',['is_convoy_allowed',['../group__quick__return__func.html#gac19c629dee5fbff4680ffe0ffde000fd',1,'api_skeleton.cc']]],
   ['is_5fcoord_5fvalid',['is_coord_valid',['../classworld.html#add6d073c8a6d1482c0f36d768552e7ad',1,'world']]],
   ['is_5fcoupling_5fallowed',['is_coupling_allowed',['../classvehicle__desc__x.html#a50faf21cc140703d00e9116b459778ab',1,'vehicle_desc_x']]],
   ['is_5fcrossing',['is_crossing',['../classway__x.html#a26bbe58c375fe854c0b11d3243c79524',1,'way_x']]],

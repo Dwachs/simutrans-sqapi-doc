@@ -97,6 +97,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga67f167f50ac44e2affeec9b47fd76093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0d5799fd17e9149551cf884dba8bc2f8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__quick__return__func.html#ga0d5799fd17e9149551cf884dba8bc2f8">is_schedule_allowed</a> (integer pl, <a class="el" href="classschedule__x.html">schedule_x</a> schedule)</td></tr>
 <tr class="separator:ga0d5799fd17e9149551cf884dba8bc2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac19c629dee5fbff4680ffe0ffde000fd"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__quick__return__func.html#gac19c629dee5fbff4680ffe0ffde000fd">is_convoy_allowed</a> (integer pl, <a class="el" href="classconvoy__x.html">convoy_x</a> convoy, <a class="el" href="classdepot__x.html">depot_x</a> depot)</td></tr>
+<tr class="separator:gac19c629dee5fbff4680ffe0ffde000fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>These functions are intended to quickly return a result. In network games, it is not allowed to call any map-altering tools from within such a function, see the section on <a class="el" href="group__game__cmd.html">Functions to alter the state of the game and map</a>. </p>
@@ -132,6 +134,49 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Called before starting the scenario. Should return filename of the savegame to be used for this scenario. If it returns "&lt;attach&gt;" the scenario is started with the currently running world. By default returns the string <a class="el" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">map::file</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>filename or "&lt;attach&gt;" </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac19c629dee5fbff4680ffe0ffde000fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string is_convoy_allowed </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>pl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classconvoy__x.html">convoy_x</a>&#160;</td>
+          <td class="paramname"><em>convoy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdepot__x.html">depot_x</a>&#160;</td>
+          <td class="paramname"><em>depot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Called when user wants to start convoy.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Function will NOT be called in network games.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pl</td><td>player number </td></tr>
+    <tr><td class="paramname">convoy</td><td>convoy to start </td></tr>
+    <tr><td class="paramname">depot</td><td>convoy is in this depot</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>null if allowed, an error message otherwise </dd></dl>
 
 </div>
 </div>
