@@ -89,6 +89,9 @@ Current trunk</h1>
 <li>Added <a class="el" href="group__quick__return__func.html#gac19c629dee5fbff4680ffe0ffde000fd">is_convoy_allowed</a></li>
 <li>Added <a class="el" href="classconvoy__x.html#aef37eaed1de5aa32aa81820d3020e224">convoy_x::is_in_depot</a></li>
 <li>Added scriptable hyperlinks in scenario info window</li>
+<li>Added <a class="el" href="classslope.html">slope</a></li>
+<li>Added functions to build stuff: <a class="el" href="classcommand__x.html#a1881d81fa6116af1227429b1c7f7699c">command_x::build_way</a>, <a class="el" href="classcommand__x.html#ad073cf9de860e5a6b1d122d211847fe2">command_x::build_depot</a>, <a class="el" href="classcommand__x.html#ae5ae3a07226e310ab174ace98ad85baf">command_x::build_station</a>, <a class="el" href="classcommand__x.html#a36da06662ec437f617a95812752a5324">command_x::build_bridge</a>, <a class="el" href="classcommand__x.html#a74043c2a6801a099ba185fc6d5365471">command_x::build_bridge_at</a>, <a class="el" href="classcommand__x.html#af1e09f3baadc144d7b8b40033a19ee41">command_x::set_slope</a>, <a class="el" href="classcommand__x.html#a496bdf05e9831fa3267248b9a2108f94">command_x::restore_slope</a></li>
+<li>Added <a class="el" href="classsign__x.html">sign_x</a>, <a class="el" href="classsign__desc__x.html">sign_desc_x</a>, <a class="el" href="classcommand__x.html#a571b3665d2f32d5f83fd8621d260fd64">command_x::build_sign_at</a></li>
 </ul>
 <h1><a class="anchor" id="api-120-2-2"></a>
 Release 120.2.2</h1>
@@ -119,7 +122,7 @@ Release 120.1.2</h1>
 Release 120.1</h1>
 <ul>
 <li>Added <a class="el" href="classdepot__x.html">depot_x</a>, <a class="el" href="classdepot__x.html#af8d784a5d99daa53fc4b079bb9c1379d">depot_x::get_convoy_list</a></li>
-<li>Added <a class="el" href="classline__x.html#a419effb0988feef904a2fbc2ee1c6320">line_x::get_waytype</a>, <a class="el" href="classtile__x.html#afd79d02b1c040e51dcc30b000b37e2bd">tile_x::get_slope</a></li>
+<li>Added <a class="el" href="classline__x.html#a419effb0988feef904a2fbc2ee1c6320">line_x::get_waytype</a>, <a class="el" href="classtile__x.html#aec1df1d17224df6277b68a4fd6b779ee">tile_x::get_slope</a></li>
 <li>Added <a class="el" href="classfactory__production__x.html#a1760a86b37cc2871701a97afa108725a">factory_production_x::get_base_production</a>, <a class="el" href="classfactory__production__x.html#ac4fa9cd3bb945a306efc18f36804487a">factory_production_x::get_base_consumption</a>, <a class="el" href="classfactory__x.html#a59a5d79eac6ae4618c34f382c616b4d3">factory_x::get_tile_list</a></li>
 <li>Added <a class="el" href="classcoord.html#aa4827cc01e0bde2e7ec51806b410e153">coord::href</a>, <a class="el" href="classcoord3d.html#a093be4dbed45b6446d05e6e37ded394b">coord3d::href</a></li>
 <li>Added <a class="el" href="classlabel__x.html">label_x</a>, <a class="el" href="group__game__cmd.html#ga89fc4097e502862e9efb0a7c726da383">tile_x::remove_object</a></li>
@@ -167,7 +170,7 @@ Release 112.3</h1>
 <li>Added map_objects, <a class="el" href="classmap__object__x.html">map_object_x</a>, <a class="el" href="classbuilding__x.html">building_x</a>, <a class="el" href="classtree__x.html">tree_x</a>, <a class="el" href="classway__x.html">way_x</a></li>
 <li>Added iterator tile_x::objects to loop over all objects on the tile</li>
 <li>Added <a class="el" href="classdir.html">dir</a></li>
-<li>Added <a class="el" href="classtile__x.html#a50184cec8050384b14ea6a16de4deb9d">tile_x::get_way_dirs</a>, <a class="el" href="classtile__x.html#abe8c34bc24173edd2a98bba2fcfb3d47">tile_x::get_way_dirs_masked</a>, <a class="el" href="classtile__x.html#ab78a9b440e82430565ae17494897f267">tile_x::get_neighbour</a></li>
+<li>Added <a class="el" href="classtile__x.html#a50184cec8050384b14ea6a16de4deb9d">tile_x::get_way_dirs</a>, <a class="el" href="classtile__x.html#abe8c34bc24173edd2a98bba2fcfb3d47">tile_x::get_way_dirs_masked</a>, <a class="el" href="classtile__x.html#a2232f037080b85263ce9d0541b4a0730">tile_x::get_neighbour</a></li>
 </ul>
 <h1><a class="anchor" id="api-112-2"></a>
 Release 112.2</h1>

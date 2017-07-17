@@ -6,6 +6,7 @@ var searchData=
   ['tile_5fx',['tile_x',['../classtile__x.html',1,'tile_x'],['../classtile__x.html#a3c8438e4e3d64604e7ac0f98f1fe3491',1,'tile_x::tile_x()']]],
   ['time_5fticks_5fx',['time_ticks_x',['../classtime__ticks__x.html',1,'']]],
   ['time_5fx',['time_x',['../classtime__x.html',1,'']]],
+  ['to_5fslope',['to_slope',['../classdir.html#ae1de7f3d5607444cc70117f65af00435',1,'dir']]],
   ['to_5fstring',['to_string',['../classttext.html#af9c8a67eb9b88fefb6954f85e9783916',1,'ttext']]],
   ['toggle_5fwithdraw',['toggle_withdraw',['../group__game__cmd.html#gab59711bb4db06a854f026b68336a8717',1,'convoy_x']]],
   ['tool_5fadd_5fcity',['tool_add_city',['../api__const_8cc.html#af4bb3e2d05b95af700484370ad057fe2aab98049364b44857816717cc8e179a5a',1,'api_const.cc']]],
