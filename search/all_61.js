@@ -42,5 +42,6 @@ var searchData=
   ['author',['author',['../api__skeleton_8h.html#ab873cebb3b7e47db4fe59837d1aaa210',1,'api_skeleton.h']]],
   ['avoid_5fovercrowding',['avoid_overcrowding',['../classsettings.html#a34799ea1b442eee59cfdf5932dadc1d6',1,'settings']]],
   ['a_20simple_20example_20script',['A simple example script',['../page_script_mill.html',1,'']]],
-  ['a_20script_20showing_20translatable_20texts_2e',['A script showing translatable texts.',['../page_script_pharm.html',1,'']]]
+  ['a_20script_20showing_20translatable_20texts_2e',['A script showing translatable texts.',['../page_script_pharm.html',1,'']]],
+  ['available_20functions_20from_20the_20squirrel_20standard_20lib',['Available functions from the squirrel standard lib',['../page_sqstdlib.html',1,'']]]
 ];
