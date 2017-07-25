@@ -1,6 +1,7 @@
 var searchData=
 [
   ['debug',['debug',['../classdebug.html',1,'']]],
+  ['delete',['delete',['../group__game__cmd.html#gabadeae7d1842cc412fe173448b23a9aa',1,'line_x']]],
   ['depot',['depot',['../classbuilding__desc__x.html#aafb87803aef544a5f0b07f8a5db12140a2f0a45081ccb6039e05ca5840b1ef3cf',1,'building_desc_x']]],
   ['depot_5fx',['depot_x',['../classdepot__x.html',1,'']]],
   ['deprecated_20list',['Deprecated List',['../deprecated.html',1,'']]],
