@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['raised',['raised',['../classslope.html#a239364ae4366266c5696307ae01fdcc3',1,'slope']]],
   ['raw',['raw',['../classtime__x.html#ac8b98fec00a957c558bda54e4e6ff276',1,'time_x']]],
   ['remove_5fobject',['remove_object',['../group__game__cmd.html#ga89fc4097e502862e9efb0a7c726da383',1,'tile_x']]],
   ['remove_5fplayer',['remove_player',['../classworld.html#ac25b7a3d48f7bddc6a57012b496dde02',1,'world']]],

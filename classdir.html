@@ -110,6 +110,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:afb73e882097e002321849eb8c49e9f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1de7f3d5607444cc70117f65af00435"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classslope.html">slope</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdir.html#ae1de7f3d5607444cc70117f65af00435">to_slope</a> (<a class="el" href="classdir.html">dir</a> d)</td></tr>
 <tr class="separator:ae1de7f3d5607444cc70117f65af00435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc083cd841af31e422a012b7b1672ac"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcoord.html">coord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdir.html#a2bc083cd841af31e422a012b7b1672ac">to_coord</a> ()</td></tr>
+<tr class="separator:a2bc083cd841af31e422a012b7b1672ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -166,7 +168,7 @@ static const <a class="el" href="classdir.html">dir</a>&#160;</td><td class="mem
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class holding static methods to work with directions. Directions are just bit-encoded integers. </p>
 
-<p>Definition at line <a class="el" href="api__simple_8cc_source.html#l00101">101</a> of file <a class="el" href="api__simple_8cc_source.html">api_simple.cc</a>.</p>
+<p>Definition at line <a class="el" href="api__simple_8cc_source.html#l00110">110</a> of file <a class="el" href="api__simple_8cc_source.html">api_simple.cc</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="afb73e882097e002321849eb8c49e9f53"></a>
 <div class="memitem">
@@ -382,6 +384,30 @@ static const <a class="el" href="classdir.html">dir</a>&#160;</td><td class="mem
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>whether direction is double direction, e.g. n+e, n+s. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2bc083cd841af31e422a012b7b1672ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcoord.html">coord</a> dir::to_coord </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Helper function to convert direction vector to dir type. </p>
 
 </div>
 </div>

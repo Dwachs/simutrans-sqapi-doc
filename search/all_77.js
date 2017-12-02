@@ -8,6 +8,7 @@ var searchData=
   ['way_5fx',['way_x',['../classway__x.html',1,'']]],
   ['waytype',['waytype',['../classschedule__x.html#abadddf8b9f9e74e27888839c61704aa4',1,'schedule_x']]],
   ['weight',['weight',['../classsimple__heap__x_1_1node__x.html#a65364493826939e22ea83eaa70929a74',1,'simple_heap_x::node_x']]],
+  ['west',['west',['../classslope.html#aa81e8df72f647d94ec725f0d8b1e8563',1,'slope']]],
   ['work',['work',['../classcommand__x.html#a1caeb312c1f26e254831ed90e375fb97',1,'command_x::work(player_x pl, coord3d pos)'],['../classcommand__x.html#a9f4c7c16b89f4737e21e9223491817e7',1,'command_x::work(player_x pl, coord3d pos, string param)'],['../classcommand__x.html#ac7870ddbdeafe4e110c7d8efcc224627',1,'command_x::work(player_x pl, coord3d start, coord3d end, string param)']]],
   ['world',['world',['../classworld.html',1,'']]],
   ['wt_5fair',['wt_air',['../api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655afa28f741ba75a5abdabe88d3692ce58839',1,'api_const.cc']]],

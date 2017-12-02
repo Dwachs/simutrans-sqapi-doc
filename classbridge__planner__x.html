@@ -94,15 +94,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab6afe82cb44e6c074ccf5b982cdc4d96"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcoord3d.html">coord3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbridge__planner__x.html#ab6afe82cb44e6c074ccf5b982cdc4d96">find_end</a> (<a class="el" href="classplayer__x.html">player_x</a> pl, <a class="el" href="classcoord3d.html">coord3d</a> pos, integer ribi, <a class="el" href="classbridge__desc__x.html">bridge_desc_x</a> bridge, integer min_length)</td></tr>
-<tr class="separator:ab6afe82cb44e6c074ccf5b982cdc4d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35183692f2ec61c74847e9600478e052"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcoord3d.html">coord3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbridge__planner__x.html#a35183692f2ec61c74847e9600478e052">find_end</a> (<a class="el" href="classplayer__x.html">player_x</a> pl, <a class="el" href="classcoord3d.html">coord3d</a> pos, integer <a class="el" href="classdir.html">dir</a>, <a class="el" href="classbridge__desc__x.html">bridge_desc_x</a> bridge, integer min_length)</td></tr>
+<tr class="separator:a35183692f2ec61c74847e9600478e052"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class with helper methods for bridge planning. </p>
 
 <p>Definition at line <a class="el" href="api__pathfinding_8cc_source.html#l00063">63</a> of file <a class="el" href="api__pathfinding_8cc_source.html">api_pathfinding.cc</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab6afe82cb44e6c074ccf5b982cdc4d96"></a>
+<a class="anchor" id="a35183692f2ec61c74847e9600478e052"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -125,7 +125,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>ribi</em>, </td>
+          <td class="paramname"><em>dir</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -151,12 +151,12 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Find suitable end tile for bridge starting at <code>pos</code> going into direction . </p>
+<p>Find suitable end tile for bridge starting at <code>pos</code> going into direction <code>dir</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pl</td><td>who wants to build a bridge </td></tr>
     <tr><td class="paramname">pos</td><td>start tile for bridge </td></tr>
-    <tr><td class="paramname">ribi</td><td>direction </td></tr>
+    <tr><td class="paramname">dir</td><td>direction </td></tr>
     <tr><td class="paramname">bridge</td><td>bridge descriptor </td></tr>
     <tr><td class="paramname">min_length</td><td>bridge should have this minimal length </td></tr>
   </table>
