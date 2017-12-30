@@ -1,6 +1,7 @@
 var searchData=
 [
   ['include',['include',['../api__include_8cc.html#a3f75a4a361860c91884223aafc12b943',1,'api_include.cc']]],
+  ['ingame_5fobject',['ingame_object',['../classingame__object.html',1,'']]],
   ['input',['input',['../classfactory__x.html#a12ef2a42dc706f5d519f570de1b5d2d7',1,'factory_x']]],
   ['insert',['insert',['../classsimple__heap__x.html#a186b3431c8276916b1d1031bd90d3c3c',1,'simple_heap_x']]],
   ['integer_5fto_5fstring',['integer_to_string',['../api__scenario_8cc.html#a99f50d79f9f644496aaf4867fd6fe5bf',1,'api_scenario.cc']]],
@@ -46,7 +47,7 @@ var searchData=
   ['is_5ftraffic_5flight',['is_traffic_light',['../classsign__desc__x.html#afa348b56b362eed54ba5f43e5ef3f2d3',1,'sign_desc_x']]],
   ['is_5ftunnel',['is_tunnel',['../classtile__x.html#a8eea804aee9ae14d4ab9e0a1e576ac54',1,'tile_x']]],
   ['is_5ftwoway',['is_twoway',['../classdir.html#a4ec446fcb6ff3c66821b8a4dbc1976fe',1,'dir']]],
-  ['is_5fvalid',['is_valid',['../classline__x.html#afbb2246a432a9926334b8cc5ca63c33f',1,'line_x']]],
+  ['is_5fvalid',['is_valid',['../classfactory__x.html#a51f38cd574627b40ea72d4429507ec29',1,'factory_x::is_valid()'],['../classcity__x.html#a5ac784ba19884725b0d64478fed0dc40',1,'city_x::is_valid()'],['../classconvoy__x.html#ac005ea54578eb51fcaf68190fb6d499f',1,'convoy_x::is_valid()'],['../classhalt__x.html#a9f5fb7036ccd648880c2317d3504e262',1,'halt_x::is_valid()'],['../classline__x.html#afbb2246a432a9926334b8cc5ca63c33f',1,'line_x::is_valid()'],['../classmap__object__x.html#aa758145a1cbe5859cc6f1e99998debed',1,'map_object_x::is_valid()'],['../classobj__desc__x.html#ada014263f2c708f08e0caf75e27bdf8d',1,'obj_desc_x::is_valid()'],['../classplayer__x.html#af5e6323402783561e7e74d21d35d423b',1,'player_x::is_valid()'],['../classingame__object.html#a6b0d393ea95417f6cc7d47816f56ca19',1,'ingame_object::is_valid()'],['../classtile__x.html#ac56a031b8a836c6c3d67425abeb02283',1,'tile_x::is_valid()'],['../classsquare__x.html#a49187dfdc1603c62aa7a505baee11417',1,'square_x::is_valid()']]],
   ['is_5fwater',['is_water',['../classtile__x.html#aea808fde64d1d7fb0e8f5e3fb7de0edb',1,'tile_x']]],
   ['is_5fwithdrawn',['is_withdrawn',['../classconvoy__x.html#a398b199b628028421359e494f9a8ee90',1,'convoy_x']]],
   ['is_5fwork_5fallowed_5fhere',['is_work_allowed_here',['../group__quick__return__func.html#ga67f167f50ac44e2affeec9b47fd76093',1,'api_skeleton.cc']]]

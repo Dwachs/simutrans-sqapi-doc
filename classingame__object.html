@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.5"/>
-<title>Simutrans-Squirrel-API: api_simple.cc File Reference</title>
+<title>Simutrans-Squirrel-API: ingame_object Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,8 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -62,8 +62,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -83,65 +85,67 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="classingame__object-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">api_simple.cc File Reference</div>  </div>
+<div class="title">ingame_object Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p><a href="api__simple_8cc_source.html">Go to the source code of this file.</a></p>
+<div class="dynheader">
+Inheritance diagram for ingame_object:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classingame__object.png" usemap="#ingame_object_map" alt=""/>
+  <map id="ingame_object_map" name="ingame_object_map">
+<area href="classcity__x.html" alt="city_x" shape="rect" coords="103,56,196,80"/>
+<area href="classconvoy__x.html" alt="convoy_x" shape="rect" coords="103,112,196,136"/>
+<area href="classfactory__x.html" alt="factory_x" shape="rect" coords="103,168,196,192"/>
+<area href="classhalt__x.html" alt="halt_x" shape="rect" coords="103,224,196,248"/>
+<area href="classline__x.html" alt="line_x" shape="rect" coords="103,280,196,304"/>
+<area href="classmap__object__x.html" alt="map_object_x" shape="rect" coords="103,336,196,360"/>
+<area href="classplayer__x.html" alt="player_x" shape="rect" coords="103,392,196,416"/>
+<area href="classsquare__x.html" alt="square_x" shape="rect" coords="103,448,196,472"/>
+<area href="classtile__x.html" alt="tile_x" shape="rect" coords="103,504,196,528"/>
+</map>
+ </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtime__x.html">time_x</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtime__ticks__x.html">time_ticks_x</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcoord.html">coord</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcoord3d.html">coord3d</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdir.html">dir</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslope.html">slope</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classingame__object.html">ingame_object</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a1ead498d4e9fe1b944b9adeebc170806"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdir.html">dir</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="api__simple_8cc.html#a1ead498d4e9fe1b944b9adeebc170806">coord_to_dir</a> (<a class="el" href="classcoord.html">coord</a> <a class="el" href="classdir.html">dir</a>)</td></tr>
-<tr class="separator:a1ead498d4e9fe1b944b9adeebc170806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a6b0d393ea95417f6cc7d47816f56ca19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classingame__object.html#a6b0d393ea95417f6cc7d47816f56ca19">is_valid</a> ()</td></tr>
+<tr class="separator:a6b0d393ea95417f6cc7d47816f56ca19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>exports simple data types. </p>
+<div class="textblock"><p>Classes to access in-game objects. Creating an instance of such classes will not create an object in the game. Instead, these classes contain data to access the in-game object. If the in-game object disappears, then any access to it via these classes will fail. Use the method  <a class="el" href="classingame__object.html#a6b0d393ea95417f6cc7d47816f56ca19">ingame_object::is_valid</a> to check whether the in-game object is still alive. </p>
 
-<p>Definition in file <a class="el" href="api__simple_8cc_source.html">api_simple.cc</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a1ead498d4e9fe1b944b9adeebc170806"></a>
+<p>Definition at line <a class="el" href="api__simple_8cc_source.html#l00211">211</a> of file <a class="el" href="api__simple_8cc_source.html">api_simple.cc</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a6b0d393ea95417f6cc7d47816f56ca19"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classdir.html">dir</a> coord_to_dir </td>
+          <td class="memname">bool ingame_object::is_valid </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcoord.html">coord</a>&#160;</td>
-          <td class="paramname"><em>dir</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>Helper function to convert direction vector to dir type. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dir</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if in-game object can still be accessed. </dd></dl>
 
 </div>
 </div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="api__simple_8cc_source.html">api_simple.cc</a></li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
