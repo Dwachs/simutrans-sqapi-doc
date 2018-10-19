@@ -25,7 +25,7 @@ var searchData=
   ['is_5fin_5fdepot',['is_in_depot',['../classconvoy__x.html#aef37eaed1de5aa32aa81820d3020e224',1,'convoy_x']]],
   ['is_5finterchangeable',['is_interchangeable',['../classgood__desc__x.html#aa35dc6b5d61387442fe62cfbb5f205f5',1,'good_desc_x']]],
   ['is_5flongblock_5fsignal',['is_longblock_signal',['../classsign__desc__x.html#ac9df87b7cebc28265c964e8bed65e082',1,'sign_desc_x']]],
-  ['is_5fmarked',['is_marked',['../classmap__object__x.html#abf6333deda1d35b8cc979355a667d495',1,'map_object_x']]],
+  ['is_5fmarked',['is_marked',['../classmap__object__x.html#abf6333deda1d35b8cc979355a667d495',1,'map_object_x::is_marked()'],['../classtile__x.html#a74339b1171d37c21f7731a6605f391ab',1,'tile_x::is_marked()']]],
   ['is_5fmonument',['is_monument',['../classbuilding__x.html#a1218c5442024e6a541a3637e5b7d16f9',1,'building_x']]],
   ['is_5fone_5fway',['is_one_way',['../classsign__desc__x.html#a79be2e05bdbe94a5309216c6c20d6b4a',1,'sign_desc_x']]],
   ['is_5fpre_5fsignal',['is_pre_signal',['../classsign__desc__x.html#a84e1de6913862470c1132ad057403424',1,'sign_desc_x']]],
