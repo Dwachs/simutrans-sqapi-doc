@@ -2,7 +2,7 @@ var searchData=
 [
   ['accepts_5fgood',['accepts_good',['../classhalt__x.html#aea92b4053a792099bcd9a67c0676239d',1,'halt_x']]],
   ['add_5fmessage',['add_message',['../group__scen__only.html#ga15e0556b540bba833e1b1d8fd66fe2c1',1,'gui']]],
-  ['add_5fmessage_5fat',['add_message_at',['../group__scen__only.html#ga03258a8c2561cb0f35f165e7c3ec5196',1,'gui']]],
+  ['add_5fmessage_5fat',['add_message_at',['../group__scen__only.html#ga24b975b6551e4e5db3c034db9e0fb338',1,'gui::add_message_at(player_x text, string position, coord)'],['../group__ai__only.html#ga17b6dafe0c436c5127434f8973f119a2',1,'gui::add_message_at(player_x player, string text, coord position)']]],
   ['allow_5ftool',['allow_tool',['../classrules.html#ae713f8ad39f4cbc1b54b4a19ecd48017',1,'rules']]],
   ['allow_5fway_5ftool',['allow_way_tool',['../classrules.html#aa1b2a8e1779a4837c3cfad4ef6b469ac',1,'rules']]],
   ['allow_5fway_5ftool_5fcube',['allow_way_tool_cube',['../classrules.html#a873e22cec4c9364bb72997c130113d03',1,'rules']]],

@@ -36,6 +36,7 @@ var searchData=
   ['is_5fsame_5fbuilding',['is_same_building',['../classbuilding__x.html#aa0c646087c67cb35d25bc238e86e81f0',1,'building_x']]],
   ['is_5fscenario_5fcompleted',['is_scenario_completed',['../group__scen__skel.html#gacbd2bb976240e0bf782a2eb82acd4f4d',1,'api_skeleton.cc']]],
   ['is_5fschedule_5fallowed',['is_schedule_allowed',['../group__quick__return__func.html#ga0d5799fd17e9149551cf884dba8bc2f8',1,'api_skeleton.cc']]],
+  ['is_5fschedule_5feditor_5fopen',['is_schedule_editor_open',['../classconvoy__x.html#ac5809c2f199c422445b7232e6449ef61',1,'convoy_x']]],
   ['is_5fsignal',['is_signal',['../classsign__desc__x.html#ac97a2fc8679c1fba1ac7dcc879b757c7',1,'sign_desc_x']]],
   ['is_5fsingle',['is_single',['../classdir.html#abdd5a6e881b3fe2fad153f06430573b7',1,'dir']]],
   ['is_5fstraight',['is_straight',['../classdir.html#a12989961a428bc37e964a779420316f1',1,'dir']]],
