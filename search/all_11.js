@@ -53,6 +53,7 @@ var searchData=
   ['tool_5fstop_5fmover',['tool_stop_mover',['../api__const_8cc.html#af4bb3e2d05b95af700484370ad057fe2ae136250d23b2185ae2a5dfd0ead6f71c',1,'api_const.cc']]],
   ['tool_5fswitch_5fplayer',['tool_switch_player',['../api__const_8cc.html#af4bb3e2d05b95af700484370ad057fe2aae9d56741b7f83d02af2894b64130a1c',1,'api_const.cc']]],
   ['townhall',['townhall',['../classbuilding__desc__x.html#aafb87803aef544a5f0b07f8a5db12140aee56bc9879fc765cfbd88573bbdc31d9',1,'building_desc_x']]],
+  ['transformer_5fx',['transformer_x',['../classtransformer__x.html',1,'']]],
   ['translate',['translate',['../api__scenario_8cc.html#a8a329231a844917d360f8ce84d24d636',1,'api_scenario.cc']]],
   ['tree_5fdesc_5fx',['tree_desc_x',['../classtree__desc__x.html',1,'']]],
   ['tree_5fx',['tree_x',['../classtree__x.html',1,'']]],
