@@ -84,6 +84,8 @@ Functions</h2></td></tr>
 <tr class="separator:gac693b51e18a231ccbbb22c0a8a1e7d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac2f8ad18303a3f540f1cdc6a51ce4c68"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scen__only.html#gac2f8ad18303a3f540f1cdc6a51ce4c68">load_language_file</a> (string <a class="el" href="api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a">file</a>)</td></tr>
 <tr class="separator:gac2f8ad18303a3f540f1cdc6a51ce4c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac25b7a3d48f7bddc6a57012b496dde02"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scen__only.html#gac25b7a3d48f7bddc6a57012b496dde02">world::remove_player</a> (<a class="el" href="classplayer__x.html">player_x</a> pl)</td></tr>
+<tr class="separator:gac25b7a3d48f7bddc6a57012b496dde02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>These classes and methods are only available for scripted scenarios. </p>
@@ -237,6 +239,42 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>content of loaded file </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Only available in scenario mode. </dd></dl>
+
+</div>
+</div>
+<a id="gac25b7a3d48f7bddc6a57012b496dde02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac25b7a3d48f7bddc6a57012b496dde02">&#9670;&nbsp;</a></span>remove_player()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool world::remove_player </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classplayer__x.html">player_x</a>&#160;</td>
+          <td class="paramname"><em>pl</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Removes player company: removes all assets. Use with care.</p>
+<p>If pl is the first player (nr == 0) it is restarted immediately. Public player (nr == 1) cannot be removed.</p>
+<p>In network games, there will be a delay between the call to this function and the removal of the player.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pl</td><td>player to be removed</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether operation was successful </dd></dl>
 
 </div>
 </div>

@@ -86,8 +86,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a75d44c3167cdb5cf3460dd43e10aa614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e3e9e942876c69099fee2990cfbb2ef"><td class="memItemLeft" align="right" valign="top">static integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a9e3e9e942876c69099fee2990cfbb2ef">get_season</a> ()</td></tr>
 <tr class="separator:a9e3e9e942876c69099fee2990cfbb2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac25b7a3d48f7bddc6a57012b496dde02"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#ac25b7a3d48f7bddc6a57012b496dde02">remove_player</a> (<a class="el" href="classplayer__x.html">player_x</a> pl)</td></tr>
-<tr class="separator:ac25b7a3d48f7bddc6a57012b496dde02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac25b7a3d48f7bddc6a57012b496dde02"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scen__only.html#gac25b7a3d48f7bddc6a57012b496dde02">remove_player</a> (<a class="el" href="classplayer__x.html">player_x</a> pl)</td></tr>
+<tr class="separator:gac25b7a3d48f7bddc6a57012b496dde02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91ebb110a7599658aa702946d0847fdb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a91ebb110a7599658aa702946d0847fdb">get_player</a> (any_x pl)</td></tr>
 <tr class="separator:a91ebb110a7599658aa702946d0847fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36b9c287660443552fc7438df7d36b11"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classtime__ticks__x.html">time_ticks_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworld.html#a36b9c287660443552fc7438df7d36b11">get_time</a> ()</td></tr>
@@ -1011,42 +1011,6 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if coordinate is valid </dd></dl>
-
-</div>
-</div>
-<a id="ac25b7a3d48f7bddc6a57012b496dde02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac25b7a3d48f7bddc6a57012b496dde02">&#9670;&nbsp;</a></span>remove_player()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool world::remove_player </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classplayer__x.html">player_x</a>&#160;</td>
-          <td class="paramname"><em>pl</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Removes player company: removes all assets. Use with care.</p>
-<p>If pl is the first player (nr == 0) it is restarted immediately. Public player (nr == 1) cannot be removed.</p>
-<p>In network games, there will be a delay between the call to this function and the removal of the player.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pl</td><td>player to be removed </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>whether operation was successful </dd></dl>
 
 </div>
 </div>

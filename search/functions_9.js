@@ -15,6 +15,7 @@ var searchData=
   ['is_5fcoupling_5fallowed',['is_coupling_allowed',['../classvehicle__desc__x.html#a50faf21cc140703d00e9116b459778ab',1,'vehicle_desc_x']]],
   ['is_5fcrossing',['is_crossing',['../classway__x.html#a26bbe58c375fe854c0b11d3243c79524',1,'way_x']]],
   ['is_5fcurve',['is_curve',['../classdir.html#a5c123ab819f6063da8a56d480b11df01',1,'dir']]],
+  ['is_5fdeletable',['is_deletable',['../classfield__x.html#aeaafb79bbd25c2dd10caaf76d868ee01',1,'field_x']]],
   ['is_5felectrified',['is_electrified',['../classway__x.html#a93a90908930a556e431eb53462ad4214',1,'way_x']]],
   ['is_5fempty',['is_empty',['../classsimple__heap__x.html#a04ac913d17a60658b174a354e8549095',1,'simple_heap_x::is_empty()'],['../classtile__x.html#a9ebadebe8bb3737604763d76d680b939',1,'tile_x::is_empty()']]],
   ['is_5fend_5fchoose_5fsignal',['is_end_choose_signal',['../classsign__desc__x.html#abb89f2e8bc9e117b923cfdbb3887bed7',1,'sign_desc_x']]],
