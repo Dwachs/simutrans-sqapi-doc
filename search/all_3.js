@@ -8,6 +8,7 @@ var searchData=
   ['can_5fbe_5flast',['can_be_last',['../classvehicle__desc__x.html#a03d90eb8f941aa3b538477f7e70651d2',1,'vehicle_desc_x']]],
   ['can_5fpass',['can_pass',['../classsign__x.html#a453ed0f181798fbd366efacb0f55ddad',1,'sign_x']]],
   ['can_5fremove_5fall_5fobjects',['can_remove_all_objects',['../classtile__x.html#a05986fa87a0865b29fea807b5e1c791f',1,'tile_x']]],
+  ['can_5fset_5fslope',['can_set_slope',['../classcommand__x.html#a79eee2412e7e61cf48527abac7242f0c',1,'command_x']]],
   ['carunits_5fper_5ftile',['CARUNITS_PER_TILE',['../api__const_8cc.html#a2ff02817760e56a95b3b1bc7cfa1b77bad87904a672a95b648f48d1dcc5d7e1fb',1,'api_const.cc']]],
   ['change_5fschedule',['change_schedule',['../group__game__cmd.html#gaedc1aa66c07c976d5f56d4125e109fe8',1,'line_x']]],
   ['change_5fsize',['change_size',['../group__game__cmd.html#ga36c3f9d7c4ae23024aea82dae17cbd53',1,'city_x']]],

@@ -99,6 +99,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeaeb0a2ae6d635d95f46e251237df212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75a2ba28bbb4ed17b0b89e15d087925e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a75a2ba28bbb4ed17b0b89e15d087925e">obsolete_vehicles_allowed</a> ()</td></tr>
 <tr class="separator:a75a2ba28bbb4ed17b0b89e15d087925e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa46b3c76c71426896bcaa537149c68e4"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#aa46b3c76c71426896bcaa537149c68e4">get_max_road_convoi_length</a> ()</td></tr>
+<tr class="separator:aa46b3c76c71426896bcaa537149c68e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f14849235a3d091bb7c55ef7588fbb7"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a7f14849235a3d091bb7c55ef7588fbb7">get_max_rail_convoi_length</a> ()</td></tr>
+<tr class="separator:a7f14849235a3d091bb7c55ef7588fbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a185fc9720d151c761ba3761ae88dcc9f"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a185fc9720d151c761ba3761ae88dcc9f">get_max_ship_convoi_length</a> ()</td></tr>
+<tr class="separator:a185fc9720d151c761ba3761ae88dcc9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3fdf659c30844cfdc841e8066adb713"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#ae3fdf659c30844cfdc841e8066adb713">get_max_air_convoi_length</a> ()</td></tr>
+<tr class="separator:ae3fdf659c30844cfdc841e8066adb713"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Table with methods to access game settings. </p>
@@ -192,6 +200,78 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>New industries will be spawned if cities grow to over 2^n times this setting. </p><dl class="section return"><dt>Returns</dt><dd>number </dd></dl>
+
+</div>
+</div>
+<a id="ae3fdf659c30844cfdc841e8066adb713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3fdf659c30844cfdc841e8066adb713">&#9670;&nbsp;</a></span>get_max_air_convoi_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_max_air_convoi_length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>max number of vehicles of air convois </dd></dl>
+
+</div>
+</div>
+<a id="a7f14849235a3d091bb7c55ef7588fbb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f14849235a3d091bb7c55ef7588fbb7">&#9670;&nbsp;</a></span>get_max_rail_convoi_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_max_rail_convoi_length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>max number of vehicles of rail convois </dd></dl>
+
+</div>
+</div>
+<a id="aa46b3c76c71426896bcaa537149c68e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa46b3c76c71426896bcaa537149c68e4">&#9670;&nbsp;</a></span>get_max_road_convoi_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_max_road_convoi_length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>max number of vehicles of road convois </dd></dl>
+
+</div>
+</div>
+<a id="a185fc9720d151c761ba3761ae88dcc9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a185fc9720d151c761ba3761ae88dcc9f">&#9670;&nbsp;</a></span>get_max_ship_convoi_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_max_ship_convoi_length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>max number of vehicles of ship convois </dd></dl>
 
 </div>
 </div>

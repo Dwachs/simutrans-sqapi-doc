@@ -94,6 +94,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9644b6acc0736f614668cd9935cd356c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8220190bf84bf9d04bdd84a0bb7d284"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvehicle__desc__x.html#aa8220190bf84bf9d04bdd84a0bb7d284">get_power</a> ()</td></tr>
 <tr class="separator:aa8220190bf84bf9d04bdd84a0bb7d284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeaa1eb2942ca3920828acf21baa46ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvehicle__desc__x.html#afeaa1eb2942ca3920828acf21baa46ba">needs_electrification</a> ()</td></tr>
+<tr class="separator:afeaa1eb2942ca3920828acf21baa46ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affa5de1251b395df4ffb329be06302d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgood__desc__x.html">good_desc_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvehicle__desc__x.html#affa5de1251b395df4ffb329be06302d5">get_freight</a> ()</td></tr>
 <tr class="separator:affa5de1251b395df4ffb329be06302d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cf1cc53bcbe019ef2ac68dcd8e192a5"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvehicle__desc__x.html#a6cf1cc53bcbe019ef2ac68dcd8e192a5">get_capacity</a> ()</td></tr>
@@ -295,7 +297,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>the power of the vehicle (takes power and gear from pak-files into account) </dd></dl>
+<p>Power of the vehicle. This value can be used in <a class="el" href="classconvoy__x.html#a50c454c85d66ae578f85ae98d3e52c05">convoy_x::calc_max_speed</a>. It returns (power of vehicle in kW) * (gear value) * 64, where power and gear are as shown in-game. </p><dl class="section return"><dt>Returns</dt><dd>the total power of the vehicle (takes power and gear from pak-files into account) </dd></dl>
 
 </div>
 </div>
@@ -412,6 +414,24 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if coupling is possible </dd></dl>
+
+</div>
+</div>
+<a id="afeaa1eb2942ca3920828acf21baa46ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeaa1eb2942ca3920828acf21baa46ba">&#9670;&nbsp;</a></span>needs_electrification()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vehicle_desc_x::needs_electrification </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>true if this vehicle needs electrification (and is powered) </dd></dl>
 
 </div>
 </div>
