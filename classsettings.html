@@ -107,6 +107,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a185fc9720d151c761ba3761ae88dcc9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3fdf659c30844cfdc841e8066adb713"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#ae3fdf659c30844cfdc841e8066adb713">get_max_air_convoi_length</a> ()</td></tr>
 <tr class="separator:ae3fdf659c30844cfdc841e8066adb713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c16321d7806c3ee0c80d9ab0683adab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a4c16321d7806c3ee0c80d9ab0683adab">get_drive_on_left</a> ()</td></tr>
+<tr class="separator:a4c16321d7806c3ee0c80d9ab0683adab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6954f86ee1f24cfcb98e61073a798620"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a6954f86ee1f24cfcb98e61073a798620">get_pay_for_total_distance_mode</a> ()</td></tr>
+<tr class="separator:a6954f86ee1f24cfcb98e61073a798620"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Table with methods to access game settings. </p>
@@ -128,6 +132,24 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>freight will not enter convoy if next transfer halt is overcrowded </dd></dl>
+
+</div>
+</div>
+<a id="a4c16321d7806c3ee0c80d9ab0683adab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c16321d7806c3ee0c80d9ab0683adab">&#9670;&nbsp;</a></span>get_drive_on_left()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool settings::get_drive_on_left </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>true, if drive-on-left is on </dd></dl>
 
 </div>
 </div>
@@ -290,6 +312,24 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>passenger factors influences passenger generation in cities </dd></dl>
+
+</div>
+</div>
+<a id="a6954f86ee1f24cfcb98e61073a798620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6954f86ee1f24cfcb98e61073a798620">&#9670;&nbsp;</a></span>get_pay_for_total_distance_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_pay_for_total_distance_mode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Three modes of transfer payment: 0 = pay for travelled Manhattan distance 1 = pay for distance difference to next transfer stop 2 = pay for distance to destination </p>
 
 </div>
 </div>
