@@ -149,6 +149,7 @@ var searchData=
   ['get_5fsystem_5ftype',['get_system_type',['../classway__desc__x.html#a714a440419af86bbcc6e341e174a3e44',1,'way_desc_x']]],
   ['get_5ftext',['get_text',['../classlabel__x.html#a5ab26ebfb088381ab18a1acc1ce070cc',1,'label_x::get_text()'],['../classtile__x.html#abc4b12065b0c1ff80be18ad03bb4833e',1,'tile_x::get_text()']]],
   ['get_5ftile_5fat_5fheight',['get_tile_at_height',['../classsquare__x.html#af6d93fe092d34d6c59d221ecb8e5a2b0',1,'square_x']]],
+  ['get_5ftile_5flength',['get_tile_length',['../classconvoy__x.html#ac8015d2b69ec96b098995688e7c72e76',1,'convoy_x']]],
   ['get_5ftile_5flist',['get_tile_list',['../classfactory__x.html#a59a5d79eac6ae4618c34f382c616b4d3',1,'factory_x::get_tile_list()'],['../classhalt__x.html#a53db36ac0e3b12e5f92729642569dd35',1,'halt_x::get_tile_list()']]],
   ['get_5ftime',['get_time',['../classworld.html#a36b9c287660443552fc7438df7d36b11',1,'world']]],
   ['get_5ftopspeed',['get_topspeed',['../classobj__desc__transport__x.html#a1e6ad221316e87a699416cf7f8ce48fe',1,'obj_desc_transport_x']]],
@@ -187,5 +188,6 @@ var searchData=
   ['get_5fyear_5ftransported_5fgoods',['get_year_transported_goods',['../classworld.html#ad36cfae50d941397ac25962133d5fce3',1,'world']]],
   ['get_5fyear_5ftransported_5fmail',['get_year_transported_mail',['../classcity__x.html#ab6d7a895ffeb2bda32225a4839f2eeb7',1,'city_x']]],
   ['get_5fyear_5ftransported_5fpax',['get_year_transported_pax',['../classcity__x.html#a32a9c6513cec4855efb31e5ef05045ac',1,'city_x']]],
-  ['good_5fdesc_5fx',['good_desc_x',['../classgood__desc__x.html#a3e39633728d7d7cb2cb427a5bd3c18d8',1,'good_desc_x']]]
+  ['good_5fdesc_5fx',['good_desc_x',['../classgood__desc__x.html#a3e39633728d7d7cb2cb427a5bd3c18d8',1,'good_desc_x']]],
+  ['gui_5fneeds_5fupdate',['gui_needs_update',['../classrules.html#a15a1e5e594612ff19ee45068c6a1a008',1,'rules']]]
 ];
