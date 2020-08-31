@@ -2,6 +2,7 @@ var searchData=
 [
   ['include',['include',['../api__include_8cc.html#a3f75a4a361860c91884223aafc12b943',1,'api_include.cc']]],
   ['ingame_5fobject',['ingame_object',['../classingame__object.html',1,'']]],
+  ['init',['init',['../group__tool__skel.html#ga467877e90945e121fda79cc1fbb99333',1,'api_skeleton.cc']]],
   ['input',['input',['../classfactory__x.html#a12ef2a42dc706f5d519f570de1b5d2d7',1,'factory_x']]],
   ['insert',['insert',['../classsimple__heap__x.html#a186b3431c8276916b1d1031bd90d3c3c',1,'simple_heap_x']]],
   ['integer_5fto_5fstring',['integer_to_string',['../api__scenario_8cc.html#a99f50d79f9f644496aaf4867fd6fe5bf',1,'api_scenario.cc']]],
@@ -27,6 +28,7 @@ var searchData=
   ['is_5fheadquarter',['is_headquarter',['../classbuilding__x.html#a5c1522b73cd99ed87a53e6517ba520c1',1,'building_x']]],
   ['is_5fin_5fdepot',['is_in_depot',['../classconvoy__x.html#aef37eaed1de5aa32aa81820d3020e224',1,'convoy_x']]],
   ['is_5finterchangeable',['is_interchangeable',['../classgood__desc__x.html#aa35dc6b5d61387442fe62cfbb5f205f5',1,'good_desc_x']]],
+  ['is_5floading',['is_loading',['../classconvoy__x.html#a2d2eb99784ecb5c4e9288881d02a29eb',1,'convoy_x']]],
   ['is_5flongblock_5fsignal',['is_longblock_signal',['../classsign__desc__x.html#ac9df87b7cebc28265c964e8bed65e082',1,'sign_desc_x']]],
   ['is_5fmarked',['is_marked',['../classmap__object__x.html#abf6333deda1d35b8cc979355a667d495',1,'map_object_x::is_marked()'],['../classtile__x.html#a74339b1171d37c21f7731a6605f391ab',1,'tile_x::is_marked()']]],
   ['is_5fmonument',['is_monument',['../classbuilding__x.html#a1218c5442024e6a541a3637e5b7d16f9',1,'building_x']]],
@@ -52,6 +54,8 @@ var searchData=
   ['is_5ftunnel',['is_tunnel',['../classtile__x.html#a8eea804aee9ae14d4ab9e0a1e576ac54',1,'tile_x']]],
   ['is_5ftwoway',['is_twoway',['../classdir.html#a4ec446fcb6ff3c66821b8a4dbc1976fe',1,'dir']]],
   ['is_5fvalid',['is_valid',['../classfactory__x.html#a51f38cd574627b40ea72d4429507ec29',1,'factory_x::is_valid()'],['../classcity__x.html#a5ac784ba19884725b0d64478fed0dc40',1,'city_x::is_valid()'],['../classconvoy__x.html#ac005ea54578eb51fcaf68190fb6d499f',1,'convoy_x::is_valid()'],['../classhalt__x.html#a9f5fb7036ccd648880c2317d3504e262',1,'halt_x::is_valid()'],['../classline__x.html#afbb2246a432a9926334b8cc5ca63c33f',1,'line_x::is_valid()'],['../classmap__object__x.html#aa758145a1cbe5859cc6f1e99998debed',1,'map_object_x::is_valid()'],['../classobj__desc__x.html#ada014263f2c708f08e0caf75e27bdf8d',1,'obj_desc_x::is_valid()'],['../classplayer__x.html#af5e6323402783561e7e74d21d35d423b',1,'player_x::is_valid()'],['../classingame__object.html#a6b0d393ea95417f6cc7d47816f56ca19',1,'ingame_object::is_valid()'],['../classtile__x.html#ac56a031b8a836c6c3d67425abeb02283',1,'tile_x::is_valid()'],['../classsquare__x.html#a49187dfdc1603c62aa7a505baee11417',1,'square_x::is_valid()']]],
+  ['is_5fvalid_5fpos',['is_valid_pos',['../group__tool__skel.html#gab439c7cd0533a77204c49910ec50851d',1,'api_skeleton.cc']]],
+  ['is_5fwaiting',['is_waiting',['../classconvoy__x.html#a927e344e6ba0ca2647700ba7e6744ae4',1,'convoy_x']]],
   ['is_5fwater',['is_water',['../classtile__x.html#aea808fde64d1d7fb0e8f5e3fb7de0edb',1,'tile_x']]],
   ['is_5fwithdrawn',['is_withdrawn',['../classconvoy__x.html#a398b199b628028421359e494f9a8ee90',1,'convoy_x']]],
   ['is_5fwork_5fallowed_5fhere',['is_work_allowed_here',['../group__quick__return__func.html#ga67f167f50ac44e2affeec9b47fd76093',1,'api_skeleton.cc']]]

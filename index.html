@@ -72,6 +72,10 @@ $(function() {
 </ul>
 </li>
 <li class="level1"><a href="#s_ai_player">Scripted AI players</a></li>
+<li class="level1"><a href="#s_scripted_tools">Scripted tools</a><ul><li class="level2"><a href="#sec_dir_tools">Recommended directory structure</a></li>
+<li class="level2"><a href="#sec_description_tab">The file description.tab</a></li>
+</ul>
+</li>
 <li class="level1"><a href="#s_general_advice">General scripting advice</a><ul><li class="level2"><a href="#sec_data_types">Squirrel data types</a></li>
 <li class="level2"><a href="#sec_coord">Coordinates</a></li>
 <li class="level2"><a href="#sec_network">Network play</a></li>
@@ -121,6 +125,26 @@ Recommended directory structure</h2>
 <p><code> ai/myai/ai.nut </code></p>
 <p>The ai scripts can also be put into</p>
 <p><code> addons/ai/myai/ </code></p>
+<h1><a class="anchor" id="s_scripted_tools"></a>
+Scripted tools</h1>
+<p>See also <a class="el" href="group__tool__skel.html">Tool interface</a> and <a class="el" href="group__tool__only.html">Tool only functions</a>.</p>
+<h2><a class="anchor" id="sec_dir_tools"></a>
+Recommended directory structure</h2>
+<p>The script file (tool.nut) as well as the configuration file (description.tab) go into</p>
+<p><code> pak-something/tool/mytool/ </code></p>
+<p>Related pak-files have to be placed in</p>
+<p><code> pak-something/ </code></p>
+<p>directly.</p>
+<h2><a class="anchor" id="sec_description_tab"></a>
+The file description.tab</h2>
+<p>This is a plain text file with the following entries:<br />
+ <code> title=Name of tool to be shown in tool selection dialog <br />
+ type=one_click or two_click<br />
+ tooltip=Tooltip for the icon in the toolbar<br />
+ restart=Set to 1 if the virtual machine has to be restarted after each call to the work functions.<br />
+ menu=Parameter that can be used to load tools with menuconf.tab<br />
+ icon=Name of cursor object (loaded from some pak-file), used images: 0 = cursor, 1 = icon, 2 = marker image<br />
+ </code></p>
 <h1><a class="anchor" id="s_general_advice"></a>
 General scripting advice</h1>
 <p>Check out the sections on the <a href="modules.html">Modules</a> page. See also <a class="el" href="pitfalls.html">Common pitfalls</a>.</p>
