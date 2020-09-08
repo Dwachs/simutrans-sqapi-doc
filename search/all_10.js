@@ -13,6 +13,7 @@ var searchData=
   ['set_5findustry_5fincrease_5fevery',['set_industry_increase_every',['../classsettings.html#ade3522711290ebdfc09912867f73e1a2',1,'settings']]],
   ['set_5fline',['set_line',['../group__game__cmd.html#ga807d42a9775daabb1976e99006971937',1,'convoy_x']]],
   ['set_5fname',['set_name',['../group__rename__func.html#ga025b1244403015fc7306b176b0b82693',1,'factory_x::set_name()'],['../group__rename__func.html#ga0f227aec1038464210f8609f432634fb',1,'city_x::set_name()'],['../group__rename__func.html#gabedde4f9a4abef0f3b74048a7c9d81ce',1,'convoy_x::set_name()'],['../group__rename__func.html#gaf06106a6f128709e48e21022dd633888',1,'halt_x::set_name()'],['../group__rename__func.html#gae3710e671fd0e0dcd38d6d6f21dfe7ef',1,'line_x::set_name()'],['../group__rename__func.html#ga291b29bcd51118c24dc33838da583b61',1,'player_x::set_name()']]],
+  ['set_5fpause_5fon_5ferror',['set_pause_on_error',['../classdebug.html#ad31089a04d7d4fc06250f659957395d8',1,'debug']]],
   ['set_5fslope',['set_slope',['../classcommand__x.html#af1e09f3baadc144d7b8b40033a19ee41',1,'command_x']]],
   ['set_5ftext',['set_text',['../group__rename__func.html#ga3a06c6f2695d0aec169caa651ade1ee4',1,'label_x']]],
   ['set_5ftraffic_5flevel',['set_traffic_level',['../classsettings.html#afda151bb75bbf96f7758a5d092860323',1,'settings']]],

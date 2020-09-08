@@ -71,13 +71,17 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab4afe4516328a386047d156ac4f3bda5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdebug.html#ab4afe4516328a386047d156ac4f3bda5">pause</a> ()</td></tr>
+<tr class="separator:ab4afe4516328a386047d156ac4f3bda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31089a04d7d4fc06250f659957395d8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdebug.html#ad31089a04d7d4fc06250f659957395d8">set_pause_on_error</a> (bool p)</td></tr>
+<tr class="separator:ad31089a04d7d4fc06250f659957395d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a367be2337f31efa4ccb38058412930d7"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdebug.html#a367be2337f31efa4ccb38058412930d7">get_forbidden_text</a> ()</td></tr>
 <tr class="separator:a367be2337f31efa4ccb38058412930d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Table with methods help debugging. </p><dl class="section note"><dt>Note</dt><dd>Only available in scenario mode. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="api__scenario_8cc_source.html#l00176">176</a> of file <a class="el" href="api__scenario_8cc_source.html">api_scenario.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api__control_8cc_source.html#l00016">16</a> of file <a class="el" href="api__control_8cc_source.html">api_control.cc</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a367be2337f31efa4ccb38058412930d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a367be2337f31efa4ccb38058412930d7">&#9670;&nbsp;</a></span>get_forbidden_text()</h2>
@@ -106,7 +110,66 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a id="ab4afe4516328a386047d156ac4f3bda5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4afe4516328a386047d156ac4f3bda5">&#9670;&nbsp;</a></span>pause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool debug::pause </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pauses game. Does not work in network games. Use with care. </p><dl class="section return"><dt>Returns</dt><dd>true when successful. </dd></dl>
+
+</div>
+</div>
+<a id="ad31089a04d7d4fc06250f659957395d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad31089a04d7d4fc06250f659957395d8">&#9670;&nbsp;</a></span>set_pause_on_error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void debug::set_pause_on_error </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Scripts can pause the game in case of error. Toggle this behavior by parameter <code>p</code>. Does not work in network games. Use with care. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>true if script should make the game pause in case of error </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="api__control_8cc_source.html">api_control.cc</a></li>
 <li><a class="el" href="api__scenario_8cc_source.html">api_scenario.cc</a></li>
 </ul>
 </div><!-- contents -->
