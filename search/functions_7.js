@@ -123,6 +123,7 @@ var searchData=
   ['get_5fpower',['get_power',['../classfactory__x.html#aa6dd7e34546ea80f89fef31f09246a86',1,'factory_x::get_power()'],['../classvehicle__desc__x.html#aa8220190bf84bf9d04bdd84a0bb7d284',1,'vehicle_desc_x::get_power()']]],
   ['get_5fpowerline',['get_powerline',['../classplayer__x.html#a236f72f7ee4e63fe629f30102d31c2ab',1,'player_x']]],
   ['get_5fpredecessors',['get_predecessors',['../classvehicle__desc__x.html#a9644b6acc0736f614668cd9935cd356c',1,'vehicle_desc_x']]],
+  ['get_5fprice',['get_price',['../classtree__desc__x.html#a589a3f79792de64e64510a27ce500132',1,'tree_desc_x']]],
   ['get_5fproduced',['get_produced',['../classfactory__production__x.html#ac7b061baad62bb9f4ce6dab5653c3a47',1,'factory_production_x']]],
   ['get_5fproduction',['get_production',['../classfactory__x.html#ab7dc309a86f98ed9b156b2ca92fe33a3',1,'factory_x']]],
   ['get_5fproduction_5ffactor',['get_production_factor',['../classfactory__production__x.html#a8a08f7e93c1b3bcac1575b037739c7a8',1,'factory_production_x']]],

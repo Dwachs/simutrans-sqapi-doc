@@ -15,6 +15,7 @@ var searchData=
   ['set_5ftraffic_5flevel',['set_traffic_level',['../classsettings.html#afda151bb75bbf96f7758a5d092860323',1,'settings']]],
   ['simple_5fheap_5fx',['simple_heap_x',['../classsimple__heap__x.html#aa354763ca706a29e793d1ca60425c424',1,'simple_heap_x']]],
   ['sleep',['sleep',['../api__control_8cc.html#a14a11029699a982ceb1e798082d611d6',1,'api_control.cc']]],
+  ['slope_5fget_5fprice',['slope_get_price',['../classcommand__x.html#a15bf2f169f54040b540ec0cbf85dea74',1,'command_x']]],
   ['speed_5fto_5ftiles_5fper_5fmonth',['speed_to_tiles_per_month',['../classconvoy__x.html#aa2f2733ad93d70ed33cef774e668ccdb',1,'convoy_x']]],
   ['square_5fx',['square_x',['../classsquare__x.html#ae341317d0782bddd507e84df5bc25089',1,'square_x']]],
   ['start',['start',['../group__scen__skel.html#ga60de64d75454385b23995437f1d72669',1,'start():&#160;api_skeleton.cc'],['../group__ai__skel.html#ga3e366a4f9cad71fb85b134e444690559',1,'start(int pl_num):&#160;api_skeleton.cc']]],

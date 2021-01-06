@@ -24,6 +24,7 @@ var searchData=
   ['simple_5fheap_5fx',['simple_heap_x',['../classsimple__heap__x.html',1,'simple_heap_x'],['../classsimple__heap__x.html#aa354763ca706a29e793d1ca60425c424',1,'simple_heap_x::simple_heap_x()']]],
   ['sleep',['sleep',['../api__control_8cc.html#a14a11029699a982ceb1e798082d611d6',1,'api_control.cc']]],
   ['slope',['slope',['../classslope.html',1,'']]],
+  ['slope_5fget_5fprice',['slope_get_price',['../classcommand__x.html#a15bf2f169f54040b540ec0cbf85dea74',1,'command_x']]],
   ['south',['south',['../classslope.html#a7cccc71b768edf2bbd83222984e8687c',1,'slope']]],
   ['southeast',['southeast',['../classslope.html#a15bc99098169f239b2e28318fd8fa758',1,'slope']]],
   ['southwest',['southwest',['../classslope.html#ab741744af364373a805d7392e5f448c2',1,'slope']]],

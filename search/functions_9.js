@@ -31,6 +31,7 @@ var searchData=
   ['is_5fmarked',['is_marked',['../classmap__object__x.html#abf6333deda1d35b8cc979355a667d495',1,'map_object_x::is_marked()'],['../classtile__x.html#a74339b1171d37c21f7731a6605f391ab',1,'tile_x::is_marked()']]],
   ['is_5fmonument',['is_monument',['../classbuilding__x.html#a1218c5442024e6a541a3637e5b7d16f9',1,'building_x']]],
   ['is_5fone_5fway',['is_one_way',['../classsign__desc__x.html#a79be2e05bdbe94a5309216c6c20d6b4a',1,'sign_desc_x']]],
+  ['is_5fpaused',['is_paused',['../classdebug.html#a49c8d5e007f2d0531803b413126e79ee',1,'debug']]],
   ['is_5fpre_5fsignal',['is_pre_signal',['../classsign__desc__x.html#a84e1de6913862470c1132ad057403424',1,'sign_desc_x']]],
   ['is_5fpriority_5fsignal',['is_priority_signal',['../classsign__desc__x.html#a89239481d3c1ed84efa4f9677ce25972',1,'sign_desc_x']]],
   ['is_5fprivate_5fway',['is_private_way',['../classsign__desc__x.html#a43ef1b5d2eb760c0582b7404777ad0a8',1,'sign_desc_x']]],

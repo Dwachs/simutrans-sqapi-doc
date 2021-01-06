@@ -73,6 +73,8 @@ $(function() {
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4afe4516328a386047d156ac4f3bda5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdebug.html#ab4afe4516328a386047d156ac4f3bda5">pause</a> ()</td></tr>
 <tr class="separator:ab4afe4516328a386047d156ac4f3bda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49c8d5e007f2d0531803b413126e79ee"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdebug.html#a49c8d5e007f2d0531803b413126e79ee">is_paused</a> ()</td></tr>
+<tr class="separator:a49c8d5e007f2d0531803b413126e79ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad31089a04d7d4fc06250f659957395d8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdebug.html#ad31089a04d7d4fc06250f659957395d8">set_pause_on_error</a> (bool p)</td></tr>
 <tr class="separator:ad31089a04d7d4fc06250f659957395d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a367be2337f31efa4ccb38058412930d7"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdebug.html#a367be2337f31efa4ccb38058412930d7">get_forbidden_text</a> ()</td></tr>
@@ -107,6 +109,32 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>text containing all active rules, can be used in <a class="el" href="group__scen__skel.html#gaad826685a2a6868b5d3413739c3c353c">get_debug_text</a> </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Only available in scenario mode. </dd></dl>
+
+</div>
+</div>
+<a id="a49c8d5e007f2d0531803b413126e79ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49c8d5e007f2d0531803b413126e79ee">&#9670;&nbsp;</a></span>is_paused()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool debug::is_paused </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Checks whether game is paused. Note that scripts only run for unpaused games. This can only be used in functions that are called by user actions (e.g., is_*_allowed). </p><dl class="section return"><dt>Returns</dt><dd>true when successful. </dd></dl>
 
 </div>
 </div>
