@@ -11,6 +11,7 @@ var searchData=
   ['build_5fsign_5fat',['build_sign_at',['../classcommand__x.html#a571b3665d2f32d5f83fd8621d260fd64',1,'command_x']]],
   ['build_5fstation',['build_station',['../classcommand__x.html#a8b909f422e0f078fe980b41fb62ac388',1,'command_x']]],
   ['build_5fway',['build_way',['../classcommand__x.html#a1881d81fa6116af1227429b1c7f7699c',1,'command_x']]],
+  ['build_5fwayobj',['build_wayobj',['../classcommand__x.html#a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b',1,'command_x']]],
   ['building_5fdesc_5fx',['building_desc_x',['../classbuilding__desc__x.html',1,'']]],
   ['building_5ftype',['building_type',['../classbuilding__desc__x.html#aafb87803aef544a5f0b07f8a5db12140',1,'building_desc_x']]],
   ['building_5fx',['building_x',['../classbuilding__x.html',1,'']]]

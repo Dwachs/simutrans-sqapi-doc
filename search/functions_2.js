@@ -8,5 +8,6 @@ var searchData=
   ['build_5froad',['build_road',['../classcommand__x.html#a1778b97ba2d87733756db783d2d5711e',1,'command_x']]],
   ['build_5fsign_5fat',['build_sign_at',['../classcommand__x.html#a571b3665d2f32d5f83fd8621d260fd64',1,'command_x']]],
   ['build_5fstation',['build_station',['../classcommand__x.html#a8b909f422e0f078fe980b41fb62ac388',1,'command_x']]],
-  ['build_5fway',['build_way',['../classcommand__x.html#a1881d81fa6116af1227429b1c7f7699c',1,'command_x']]]
+  ['build_5fway',['build_way',['../classcommand__x.html#a1881d81fa6116af1227429b1c7f7699c',1,'command_x']]],
+  ['build_5fwayobj',['build_wayobj',['../classcommand__x.html#a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b',1,'command_x']]]
 ];

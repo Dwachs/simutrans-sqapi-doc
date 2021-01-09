@@ -109,6 +109,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a15bf2f169f54040b540ec0cbf85dea74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a571b3665d2f32d5f83fd8621d260fd64"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcommand__x.html#a571b3665d2f32d5f83fd8621d260fd64">build_sign_at</a> (<a class="el" href="classplayer__x.html">player_x</a> pl, <a class="el" href="classcoord3d.html">coord3d</a> pos, <a class="el" href="classsign__desc__x.html">sign_desc_x</a> sign)</td></tr>
 <tr class="separator:a571b3665d2f32d5f83fd8621d260fd64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcommand__x.html#a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b">build_wayobj</a> (<a class="el" href="classplayer__x.html">player_x</a> pl, <a class="el" href="classcoord3d.html">coord3d</a> <a class="el" href="group__ai__skel.html#ga3e366a4f9cad71fb85b134e444690559">start</a>, <a class="el" href="classcoord3d.html">coord3d</a> end, <a class="el" href="classwayobj__desc__x.html">wayobj_desc_x</a> wayobj)</td></tr>
+<tr class="separator:a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Proof-of-concept to make tools available to scripts.</p>
@@ -534,6 +536,63 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">end</td><td>coordinate, where work ends </td></tr>
     <tr><td class="paramname">way</td><td>type of way to be built </td></tr>
     <tr><td class="paramname">straight</td><td>force building of straight ways, similar as building way with control key pressed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b">&#9670;&nbsp;</a></span>build_wayobj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string command_x::build_wayobj </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classplayer__x.html">player_x</a>&#160;</td>
+          <td class="paramname"><em>pl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwayobj__desc__x.html">wayobj_desc_x</a>&#160;</td>
+          <td class="paramname"><em>wayobj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Build way-object. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pl</td><td>player to pay for the work </td></tr>
+    <tr><td class="paramname">start</td><td>coordinate, where work begins </td></tr>
+    <tr><td class="paramname">end</td><td>coordinate, where work ends </td></tr>
+    <tr><td class="paramname">wayobj</td><td>type of wayobj to be built </td></tr>
   </table>
   </dd>
 </dl>

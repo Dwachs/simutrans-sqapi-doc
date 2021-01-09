@@ -6,6 +6,8 @@ var searchData=
   ['way_5fsystem_5ftypes',['way_system_types',['../api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9',1,'api_const.cc']]],
   ['way_5ftypes',['way_types',['../api__const_8cc.html#a54cfd1fb3beb4607096d5c42809655af',1,'api_const.cc']]],
   ['way_5fx',['way_x',['../classway__x.html',1,'']]],
+  ['wayobj_5fdesc_5fx',['wayobj_desc_x',['../classwayobj__desc__x.html',1,'']]],
+  ['wayobj_5fx',['wayobj_x',['../classwayobj__x.html',1,'']]],
   ['waytype',['waytype',['../classschedule__x.html#abadddf8b9f9e74e27888839c61704aa4',1,'schedule_x']]],
   ['weight',['weight',['../classsimple__heap__x_1_1node__x.html#a65364493826939e22ea83eaa70929a74',1,'simple_heap_x::node_x']]],
   ['west',['west',['../classslope.html#aa81e8df72f647d94ec725f0d8b1e8563',1,'slope']]],
