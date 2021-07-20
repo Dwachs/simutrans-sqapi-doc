@@ -10,7 +10,7 @@ var searchData=
   ['to_5fdir',['to_dir',['../classcoord.html#a46a03145891ad2c80f75ebc8d46bdeb0',1,'coord::to_dir()'],['../classslope.html#a79765670ca24ed5c3ff4e34ec5c20b9c',1,'slope::to_dir()']]],
   ['to_5fslope',['to_slope',['../classdir.html#ae1de7f3d5607444cc70117f65af00435',1,'dir']]],
   ['to_5fstring',['to_string',['../classttext.html#af9c8a67eb9b88fefb6954f85e9783916',1,'ttext']]],
-  ['toggle_5fwithdraw',['toggle_withdraw',['../group__game__cmd.html#gab59711bb4db06a854f026b68336a8717',1,'convoy_x']]],
+  ['toggle_5fwithdraw',['toggle_withdraw',['../group__game__cmd.html#ga2129b273943597e45dfd62e03664d8da',1,'convoy_x']]],
   ['tool_5fadd_5fcity',['tool_add_city',['../api__const_8cc.html#af4bb3e2d05b95af700484370ad057fe2aab98049364b44857816717cc8e179a5a',1,'api_const.cc']]],
   ['tool_5fadd_5fcitycar',['tool_add_citycar',['../api__const_8cc.html#af4bb3e2d05b95af700484370ad057fe2aced77eeef4ed57a8965f93cfc5039bff',1,'api_const.cc']]],
   ['tool_5fbuild_5fbridge',['tool_build_bridge',['../api__const_8cc.html#af4bb3e2d05b95af700484370ad057fe2ae1cfa8b98d5b0e171d97579eaf5c622d',1,'api_const.cc']]],

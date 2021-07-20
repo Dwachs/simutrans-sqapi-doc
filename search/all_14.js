@@ -1,6 +1,7 @@
 var searchData=
 [
   ['wait',['wait',['../classschedule__entry__x.html#a2a5726e37b3a077e99cb70c3a0f433cf',1,'schedule_entry_x']]],
+  ['waiting_5ftime_5fto_5fstring',['waiting_time_to_string',['../classschedule__entry__x.html#a6eafb273c7800047c48a4bd28ed637b4',1,'schedule_entry_x']]],
   ['way_5fdesc_5fx',['way_desc_x',['../classway__desc__x.html',1,'']]],
   ['way_5fplanner_5fx',['way_planner_x',['../classway__planner__x.html',1,'way_planner_x'],['../classway__planner__x.html#acabb98577e457f5061971d2d6a9f5de0',1,'way_planner_x::way_planner_x()']]],
   ['way_5fsystem_5ftypes',['way_system_types',['../api__const_8cc.html#af3c736e35dbdf1b6f3a18c47df7f5dd9',1,'api_const.cc']]],

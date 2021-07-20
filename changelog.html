@@ -69,6 +69,7 @@ $(function() {
 Current trunk</h1>
 <ul>
 <li>Feature: scripted tools</li>
+<li>Added <a class="el" href="classway__x.html#a5d059aba37734d9410d09059e44fefc9">way_x::get_max_speed</a></li>
 <li>Added <a class="el" href="classwayobj__desc__x.html">wayobj_desc_x</a>, <a class="el" href="classwayobj__x.html">wayobj_x</a>, <a class="el" href="classcommand__x.html#a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b">command_x::build_wayobj</a> to work with way-objects</li>
 <li>Added <a class="el" href="classfactory__x.html#a4789d073818bb2a2c324296b9d715018">factory_x::get_raw_name</a></li>
 <li>Added <a class="el" href="classtree__desc__x.html#a589a3f79792de64e64510a27ce500132">tree_desc_x::get_price</a>, <a class="el" href="classcommand__x.html#a15bf2f169f54040b540ec0cbf85dea74">command_x::slope_get_price</a></li>
@@ -87,6 +88,8 @@ Current trunk</h1>
 <li>Added <a class="el" href="classcommand__x.html#a1778b97ba2d87733756db783d2d5711e">command_x::build_road</a></li>
 <li>Added fields: <a class="el" href="classfield__x.html">field_x</a></li>
 <li>Added powerlines: <a class="el" href="classpowerline__x.html">powerline_x</a>, <a class="el" href="classtransformer__x.html">transformer_x</a>, <a class="el" href="classfactory__x.html#a8a245ce738342f68929d876a0fa996bb">factory_x::get_transformer</a>, <a class="el" href="classfactory__x.html#a0ac6c2d05fb76010c90187fead8ef6a8">factory_x::is_transformer_connected</a></li>
+<li>Added <a class="el" href="classway__x.html#a2e876b5678834926468904c93b901559">way_x::get_transported_goods</a>, <a class="el" href="classway__x.html#a0855560921e96e51656466c05a521bed">way_x::get_convoys_passed</a></li>
+<li>Added <a class="el" href="classtile__x.html#a3adc79cb729b16e34a1011c1be3b68cc">tile_x::get_way</a>, <a class="el" href="classtile__x.html#a79d5b63703d99b874261340b8f4a2840">tile_x::get_depot</a></li>
 </ul>
 <h1><a class="anchor" id="api-121"></a>
 Release 120.1</h1>
@@ -111,7 +114,7 @@ Release 120.3</h1>
 <li>Added <a class="el" href="classslope.html">slope</a></li>
 <li>Added functions to build stuff: <a class="el" href="classcommand__x.html#a1881d81fa6116af1227429b1c7f7699c">command_x::build_way</a>, <a class="el" href="classcommand__x.html#ad073cf9de860e5a6b1d122d211847fe2">command_x::build_depot</a>, <a class="el" href="classcommand__x.html#a8b909f422e0f078fe980b41fb62ac388">command_x::build_station</a>, <a class="el" href="classcommand__x.html#a36da06662ec437f617a95812752a5324">command_x::build_bridge</a>, <a class="el" href="classcommand__x.html#a74043c2a6801a099ba185fc6d5365471">command_x::build_bridge_at</a>, <a class="el" href="classcommand__x.html#af1e09f3baadc144d7b8b40033a19ee41">command_x::set_slope</a>, <a class="el" href="classcommand__x.html#a496bdf05e9831fa3267248b9a2108f94">command_x::restore_slope</a></li>
 <li>Added <a class="el" href="classsign__x.html">sign_x</a>, <a class="el" href="classsign__desc__x.html">sign_desc_x</a>, <a class="el" href="classcommand__x.html#a571b3665d2f32d5f83fd8621d260fd64">command_x::build_sign_at</a></li>
-<li>Added <a class="el" href="group__game__cmd.html#gaa94f4914f4b5a8d6ec5d1ab866d63c2a">line_x::destroy</a></li>
+<li>Added <a class="el" href="group__game__cmd.html#ga80dfa29a580650e8fb76f4351ca150de">line_x::destroy</a></li>
 </ul>
 <h1><a class="anchor" id="api-120-2-2"></a>
 Release 120.2.2</h1>
@@ -197,9 +200,9 @@ Release 112.2</h1>
 <ul>
 <li>Added <a class="el" href="classrules.html#a2cc677466356d39162991318718023a9">rules::forbid_way_tool_cube</a>, <a class="el" href="classrules.html#a873e22cec4c9364bb72997c130113d03">rules::allow_way_tool_cube</a></li>
 <li>Added <a class="el" href="classsettings.html#ad8bd41bb4ed297cdf6e1d86d64cc85d3">settings::get_start_time</a></li>
-<li>Added <a class="el" href="group__scen__only.html#gac693b51e18a231ccbbb22c0a8a1e7d6b">player_x::book_cash</a></li>
-<li>Added <a class="el" href="classsettings.html#a6ad7aa03a69fd5097c18c6d19704f17a">settings::get_traffic_level</a>, <a class="el" href="classsettings.html#afda151bb75bbf96f7758a5d092860323">settings::set_traffic_level</a>, tool_set_traffic_level</li>
-<li>Added <a class="el" href="group__scen__only.html#ga15e0556b540bba833e1b1d8fd66fe2c1">gui::add_message</a>, <a class="el" href="group__scen__only.html#ga24b975b6551e4e5db3c034db9e0fb338">gui::add_message_at</a></li>
+<li>Added <a class="el" href="group__scen__only.html#gad9fc88d35e89f0d3cf833bd297165038">player_x::book_cash</a></li>
+<li>Added <a class="el" href="classsettings.html#a6ad7aa03a69fd5097c18c6d19704f17a">settings::get_traffic_level</a>, <a class="el" href="classsettings.html#ac9d196954d09c505ec107137097a6513">settings::set_traffic_level</a>, tool_set_traffic_level</li>
+<li>Added <a class="el" href="group__scen__only.html#ga15e0556b540bba833e1b1d8fd66fe2c1">gui::add_message</a>, <a class="el" href="group__scen__only.html#ga17e0bff8d8217709558990610c122708">gui::add_message_at</a></li>
 <li>Added hyperlinks to scenario window tabs and map positions are accepted in scenario info window</li>
 <li>Added <a class="el" href="api__scenario_8cc.html#a682b94227013fcd47e232a483c39a958">double_to_string</a>, <a class="el" href="api__scenario_8cc.html#a99f50d79f9f644496aaf4867fd6fe5bf">integer_to_string</a>, <a class="el" href="api__scenario_8cc.html#a6007d17017da115f0c18188253860228">money_to_string</a>, <a class="el" href="api__scenario_8cc.html#aa8fb48789107e181c947b8683fa555fa">get_month_name</a></li>
 <li>Added <a class="el" href="classfactory__list__x.html">factory_list_x</a></li>
