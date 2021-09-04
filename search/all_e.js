@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['passenger',['passenger',['../classgood__desc__x.html#ac56d47877b2db53b2f43e9c0a3a2148a',1,'good_desc_x']]],
-  ['pause',['pause',['../classdebug.html#ab4afe4516328a386047d156ac4f3bda5',1,'debug']]],
-  ['persistent',['persistent',['../api__skeleton_8h.html#a48c699ff842c97fffb74ab077b6d4882',1,'api_skeleton.h']]],
-  ['player_5fall',['player_all',['../api__const_8cc.html#a99fb83031ce9923c84392b4e92f956b5a186872cd9a0d90def770c199582be049',1,'api_const.cc']]],
-  ['player_5fx',['player_x',['../classplayer__x.html',1,'player_x'],['../classplayer__x.html#ad83cc3b4b23060ca0e122370baeaac9e',1,'player_x::player_x()']]],
-  ['pop',['pop',['../classsimple__heap__x.html#a222af75bc240414db17571da2b60d516',1,'simple_heap_x']]],
-  ['powerline_5fx',['powerline_x',['../classpowerline__x.html',1,'']]]
+  ['obj_5fdesc_5ftime_5fx',['obj_desc_time_x',['../classobj__desc__time__x.html',1,'']]],
+  ['obj_5fdesc_5ftransport_5fx',['obj_desc_transport_x',['../classobj__desc__transport__x.html',1,'']]],
+  ['obj_5fdesc_5fx',['obj_desc_x',['../classobj__desc__x.html',1,'']]],
+  ['obsolete_5fvehicles_5fallowed',['obsolete_vehicles_allowed',['../classsettings.html#a75a2ba28bbb4ed17b0b89e15d087925e',1,'settings']]],
+  ['open_5finfo_5fwin',['open_info_win',['../classgui.html#a372a35222439055994fc3498b0286139',1,'gui']]],
+  ['open_5finfo_5fwin_5fat',['open_info_win_at',['../classgui.html#abcbbdae94948d29e8b726fba1eb83b2e',1,'gui']]],
+  ['open_5finfo_5fwin_5fclient',['open_info_win_client',['../classgui.html#a407dd8f68eca07a61ddc3f5dd25391e3',1,'gui']]],
+  ['output',['output',['../classfactory__x.html#af68f35c655f0351a50ce6b10c43c7036',1,'factory_x']]]
 ];

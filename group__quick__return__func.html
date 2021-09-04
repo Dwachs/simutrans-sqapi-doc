@@ -84,6 +84,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga0d5799fd17e9149551cf884dba8bc2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac19c629dee5fbff4680ffe0ffde000fd"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__quick__return__func.html#gac19c629dee5fbff4680ffe0ffde000fd">is_convoy_allowed</a> (integer pl, <a class="el" href="classconvoy__x.html">convoy_x</a> convoy, <a class="el" href="classdepot__x.html">depot_x</a> depot)</td></tr>
 <tr class="separator:gac19c629dee5fbff4680ffe0ffde000fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb4b9bcd6c3f84d74ea4190f7eee0f55"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__quick__return__func.html#gadb4b9bcd6c3f84d74ea4190f7eee0f55">jump_to_link_executed</a> (<a class="el" href="classcoord3d.html">coord3d</a> pos)</td></tr>
+<tr class="separator:gadb4b9bcd6c3f84d74ea4190f7eee0f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>These functions are intended to quickly return a result. In network games, it is not allowed to call any map-altering tools from within such a function, see the section on <a class="el" href="group__game__cmd.html">Functions to alter the state of the game and map</a>. </p>
@@ -293,6 +295,32 @@ Functions</h2></td></tr>
     <tr><td class="paramname">pl</td><td>player number </td></tr>
     <tr><td class="paramname">tool_id</td><td>see <a class="el" href="api__const_8cc.html#af4bb3e2d05b95af700484370ad057fe2">tool_ids</a> </td></tr>
     <tr><td class="paramname">pos</td><td>coordinate</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>null if allowed, an error message otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gadb4b9bcd6c3f84d74ea4190f7eee0f55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb4b9bcd6c3f84d74ea4190f7eee0f55">&#9670;&nbsp;</a></span>jump_to_link_executed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string jump_to_link_executed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Called when player click link in scenario windows.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>coordinate go to in link</td></tr>
   </table>
   </dd>
 </dl>

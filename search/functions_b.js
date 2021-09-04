@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['map_5fobject_5fx',['map_object_x',['../classmap__object__x.html#ab16056fc657a7467779556e9a2eca8f9',1,'map_object_x']]],
-  ['mark',['mark',['../classmap__object__x.html#afdb0b45f595c077af17d67aac2ed3c1d',1,'map_object_x::mark()'],['../classtile__x.html#a90150baba1f84491b941064e57a82ddb',1,'tile_x::mark()']]],
-  ['mark_5ftile',['mark_tile',['../group__tool__only.html#ga8cfe6ac7a7470ad1ffb2baea843945e1',1,'api_skeleton.cc']]],
-  ['mark_5ftiles',['mark_tiles',['../group__tool__skel.html#ga149cc8fc949c4103879ef70c97dab4ce',1,'api_skeleton.cc']]],
-  ['money_5fto_5fstring',['money_to_string',['../api__scenario_8cc.html#a6007d17017da115f0c18188253860228',1,'api_scenario.cc']]]
+  ['len',['len',['../classsimple__heap__x.html#aa4249dfe5b61f07153c81a992022bbdc',1,'simple_heap_x']]],
+  ['load_5flanguage_5ffile',['load_language_file',['../group__scen__only.html#gac2f8ad18303a3f540f1cdc6a51ce4c68',1,'api_scenario.cc']]]
 ];
