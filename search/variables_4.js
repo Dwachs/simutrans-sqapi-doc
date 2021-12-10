@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['load',['load',['../classschedule__entry__x.html#a5d402323767da5b4d31181d3fb64bc02',1,'schedule_entry_x']]]
+  ['good',['good',['../classfactory__slot__information__x.html#acc3166b6a4d526e703974ae2ce7c6535',1,'factory_slot_information_x']]]
 ];

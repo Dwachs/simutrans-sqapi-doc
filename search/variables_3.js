@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['input',['input',['../classfactory__x.html#a12ef2a42dc706f5d519f570de1b5d2d7',1,'factory_x']]]
+  ['factor',['factor',['../classfactory__slot__information__x.html#aec8f86b44c48b78b33d97bde4cae092c',1,'factory_slot_information_x']]],
+  ['file',['file',['../api__skeleton_8h.html#ab2c5ab3c7a17f0969cdd40146339903a',1,'api_skeleton.h']]]
 ];
