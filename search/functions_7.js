@@ -87,6 +87,7 @@ var searchData=
   ['get_5flength',['get_length',['../classvehicle__desc__x.html#a1f2ba2328467a38000896d6c116e2a91',1,'vehicle_desc_x']]],
   ['get_5fline',['get_line',['../classconvoy__x.html#ab4d8d606fe5b2340533f29118a2e0567',1,'convoy_x']]],
   ['get_5fline_5flist',['get_line_list',['../classhalt__x.html#a1522cbcb126dc434d70f63c82958e580',1,'halt_x::get_line_list()'],['../classplayer__x.html#a6659200cdd3054aee15257106737c21f',1,'player_x::get_line_list()']]],
+  ['get_5flist',['get_list',['../classfactory__desc__x.html#af772d75f0505e530b295d8095cf4de0e',1,'factory_desc_x']]],
   ['get_5floading_5flevel',['get_loading_level',['../classconvoy__x.html#a6287b291a19052ae81caebf7aaf7c99a',1,'convoy_x']]],
   ['get_5floading_5flimit',['get_loading_limit',['../classconvoy__x.html#a95c60c54d31c3eece24fb7cd5d0619eb',1,'convoy_x']]],
   ['get_5fmail_5farrived',['get_mail_arrived',['../classfactory__x.html#abfc71323dea72aabfb42e675fee45684',1,'factory_x']]],
