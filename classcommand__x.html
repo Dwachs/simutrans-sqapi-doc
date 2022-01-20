@@ -111,6 +111,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a571b3665d2f32d5f83fd8621d260fd64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcommand__x.html#a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b">build_wayobj</a> (<a class="el" href="classplayer__x.html">player_x</a> pl, <a class="el" href="classcoord3d.html">coord3d</a> <a class="el" href="group__ai__skel.html#ga3e366a4f9cad71fb85b134e444690559">start</a>, <a class="el" href="classcoord3d.html">coord3d</a> end, <a class="el" href="classwayobj__desc__x.html">wayobj_desc_x</a> wayobj)</td></tr>
 <tr class="separator:a96e7f0c5bcbc8f7ba3fc9754a2a3cf1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe1edc67dfe85bc0392e9e895195cc4e"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcommand__x.html#abe1edc67dfe85bc0392e9e895195cc4e">change_climate_at</a> (<a class="el" href="classplayer__x.html">player_x</a> pl, <a class="el" href="classcoord3d.html">coord3d</a> pos, integer climate)</td></tr>
+<tr class="separator:abe1edc67dfe85bc0392e9e895195cc4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Proof-of-concept to make tools available to scripts.</p>
@@ -647,6 +649,56 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>null (if allowed) or an error message otherwise </dd></dl>
+
+</div>
+</div>
+<a id="abe1edc67dfe85bc0392e9e895195cc4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe1edc67dfe85bc0392e9e895195cc4e">&#9670;&nbsp;</a></span>change_climate_at()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string command_x::change_climate_at </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classplayer__x.html">player_x</a>&#160;</td>
+          <td class="paramname"><em>pl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcoord3d.html">coord3d</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>climate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Change climate of tile </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pl</td><td>player to pay for the work </td></tr>
+    <tr><td class="paramname">pos</td><td>coordinate of tile </td></tr>
+    <tr><td class="paramname">climate</td><td>new climate, possible values see <a class="el" href="api__const_8cc.html#a97fbf403f6c108df8703d4022409e844">climates</a> </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
