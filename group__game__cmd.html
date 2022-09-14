@@ -86,6 +86,8 @@ Functions</h2></td></tr>
 <tr class="separator:gae93cd3745587d7ac4d03910b0ff84e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf843f18d0cd0725aa57f92d56e2e996e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game__cmd.html#gaf843f18d0cd0725aa57f92d56e2e996e">line_x::change_schedule</a> (<a class="el" href="classplayer__x.html">player_x</a>, <a class="el" href="classschedule__x.html">schedule_x</a>)</td></tr>
 <tr class="separator:gaf843f18d0cd0725aa57f92d56e2e996e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0431f57cbacdf751b3ce6ba8e06cfc8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game__cmd.html#ga0431f57cbacdf751b3ce6ba8e06cfc8f">convoy_x::change_schedule</a> (<a class="el" href="classplayer__x.html">player_x</a>, <a class="el" href="classschedule__x.html">schedule_x</a>)</td></tr>
+<tr class="separator:ga0431f57cbacdf751b3ce6ba8e06cfc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga36c3f9d7c4ae23024aea82dae17cbd53"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game__cmd.html#ga36c3f9d7c4ae23024aea82dae17cbd53">city_x::change_size</a> (integer delta)</td></tr>
 <tr class="separator:ga36c3f9d7c4ae23024aea82dae17cbd53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga54a82cd7bbe9e98f649ba51da9849e1d"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game__cmd.html#ga54a82cd7bbe9e98f649ba51da9849e1d">label_x::create</a> (<a class="el" href="classcoord.html">coord</a> pos, <a class="el" href="classplayer__x.html">player_x</a> pl, string text)</td></tr>
@@ -156,7 +158,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="gaf843f18d0cd0725aa57f92d56e2e996e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf843f18d0cd0725aa57f92d56e2e996e">&#9670;&nbsp;</a></span>change_schedule()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf843f18d0cd0725aa57f92d56e2e996e">&#9670;&nbsp;</a></span>change_schedule() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,7 +182,36 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Change schedule of line </p>
+<p>Change schedule of line. Schedule should not contain doubled entries and more than two entries. </p>
+
+</div>
+</div>
+<a id="ga0431f57cbacdf751b3ce6ba8e06cfc8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0431f57cbacdf751b3ce6ba8e06cfc8f">&#9670;&nbsp;</a></span>change_schedule() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void convoy_x::change_schedule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classplayer__x.html">player_x</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classschedule__x.html">schedule_x</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Change schedule of convoy. Schedule should not contain doubled entries and more than two entries. This might make the convoy lose its line. </p>
 
 </div>
 </div>

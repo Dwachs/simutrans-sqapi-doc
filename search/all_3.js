@@ -12,7 +12,7 @@ var searchData=
   ['capacity',['capacity',['../classfactory__slot__information__x.html#adc5792c17b6a34fb27f6b22e410ef82f',1,'factory_slot_information_x']]],
   ['carunits_5fper_5ftile',['CARUNITS_PER_TILE',['../api__const_8cc.html#a2ff02817760e56a95b3b1bc7cfa1b77bad87904a672a95b648f48d1dcc5d7e1fb',1,'api_const.cc']]],
   ['change_5fclimate_5fat',['change_climate_at',['../classcommand__x.html#abe1edc67dfe85bc0392e9e895195cc4e',1,'command_x']]],
-  ['change_5fschedule',['change_schedule',['../group__game__cmd.html#gaf843f18d0cd0725aa57f92d56e2e996e',1,'line_x']]],
+  ['change_5fschedule',['change_schedule',['../group__game__cmd.html#ga0431f57cbacdf751b3ce6ba8e06cfc8f',1,'convoy_x::change_schedule()'],['../group__game__cmd.html#gaf843f18d0cd0725aa57f92d56e2e996e',1,'line_x::change_schedule()']]],
   ['change_5fsize',['change_size',['../group__game__cmd.html#ga36c3f9d7c4ae23024aea82dae17cbd53',1,'city_x']]],
   ['changelog',['Changelog',['../changelog.html',1,'']]],
   ['changelog_2eh',['changelog.h',['../changelog_8h.html',1,'']]],

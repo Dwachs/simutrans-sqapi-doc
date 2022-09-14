@@ -10,7 +10,7 @@ var searchData=
   ['can_5fremove_5fall_5fobjects',['can_remove_all_objects',['../classtile__x.html#a05986fa87a0865b29fea807b5e1c791f',1,'tile_x']]],
   ['can_5fset_5fslope',['can_set_slope',['../classcommand__x.html#a79eee2412e7e61cf48527abac7242f0c',1,'command_x']]],
   ['change_5fclimate_5fat',['change_climate_at',['../classcommand__x.html#abe1edc67dfe85bc0392e9e895195cc4e',1,'command_x']]],
-  ['change_5fschedule',['change_schedule',['../group__game__cmd.html#gaf843f18d0cd0725aa57f92d56e2e996e',1,'line_x']]],
+  ['change_5fschedule',['change_schedule',['../group__game__cmd.html#ga0431f57cbacdf751b3ce6ba8e06cfc8f',1,'convoy_x::change_schedule()'],['../group__game__cmd.html#gaf843f18d0cd0725aa57f92d56e2e996e',1,'line_x::change_schedule()']]],
   ['change_5fsize',['change_size',['../group__game__cmd.html#ga36c3f9d7c4ae23024aea82dae17cbd53',1,'city_x']]],
   ['city_5fx',['city_x',['../classcity__x.html#a8dc3f7930c7a1705e0b2932d0191ff83',1,'city_x']]],
   ['clear',['clear',['../classsimple__heap__x.html#a693b798b1a29f10e512193579fdc0874',1,'simple_heap_x::clear()'],['../classrules.html#af3283dba16a9bda9435430300b4d5a16',1,'rules::clear()']]],
