@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['generate_5fgoods',['generate_goods',['../group__scen__only.html#gad0003cc529879cbb9f3f1f9b8d386581',1,'world']]],
   ['get_5fabout_5ftext',['get_about_text',['../group__scen__skel.html#ga6922ff4b1be417e1d2ca655018a67306',1,'api_skeleton.cc']]],
   ['get_5fage',['get_age',['../classtree__x.html#a7bd10cdc338e9982ce503fe70cfc980f',1,'tree_x']]],
   ['get_5fapi_5fversion',['get_api_version',['../group__quick__return__func.html#gab3933c2368305e7b98f2ee83b2131e1c',1,'api_skeleton.cc']]],
@@ -175,6 +176,7 @@ var searchData=
   ['get_5ftransported_5fpax',['get_transported_pax',['../classcity__x.html#add541632de65b3edc2f6efa3284da859',1,'city_x::get_transported_pax()'],['../classplayer__x.html#a0f54942825a441d9c7e1d1ad37f5a2de',1,'player_x::get_transported_pax()']]],
   ['get_5ftraveled_5fdistance',['get_traveled_distance',['../classconvoy__x.html#a5320a221ee5d03715ee0d58f40bc5442',1,'convoy_x::get_traveled_distance()'],['../classline__x.html#a094c35e3248ea932606f6308f5a4c6e9',1,'line_x::get_traveled_distance()']]],
   ['get_5ftype',['get_type',['../classmap__object__x.html#af41d6fc621f40feeb37724c38376d914',1,'map_object_x::get_type()'],['../classbuilding__desc__x.html#acb2cc663bb18c4a1eb2214d2fca7a323',1,'building_desc_x::get_type()'],['../classplayer__x.html#abdcce04a4e23398b3ee553a2ceb1c421',1,'player_x::get_type()']]],
+  ['get_5funderground_5fview_5flevel',['get_underground_view_level',['../classsettings.html#a50e890fb52bc619114d3bc8d0b787fe9',1,'settings']]],
   ['get_5funhappy',['get_unhappy',['../classhalt__x.html#a60d1f12cb591b2bf4febde556eaf8418',1,'halt_x']]],
   ['get_5fvehicle_5fmaint',['get_vehicle_maint',['../classplayer__x.html#ab2d4d88a5de435eba2d29d90cd6285b5',1,'player_x']]],
   ['get_5fvehicles',['get_vehicles',['../classconvoy__x.html#a5cb3abfddf3629528f4e01f726c68ca7',1,'convoy_x']]],

@@ -101,6 +101,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5f19d6b659820b9a6cc1080a024311c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ad7aa03a69fd5097c18c6d19704f17a"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a6ad7aa03a69fd5097c18c6d19704f17a">get_traffic_level</a> ()</td></tr>
 <tr class="separator:a6ad7aa03a69fd5097c18c6d19704f17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e890fb52bc619114d3bc8d0b787fe9"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a50e890fb52bc619114d3bc8d0b787fe9">get_underground_view_level</a> ()</td></tr>
+<tr class="separator:a50e890fb52bc619114d3bc8d0b787fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c65e3d1c40acfda67fa2b876b23c257"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a5c65e3d1c40acfda67fa2b876b23c257">no_routing_over_overcrowding</a> ()</td></tr>
 <tr class="separator:a5c65e3d1c40acfda67fa2b876b23c257"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75a2ba28bbb4ed17b0b89e15d087925e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings.html#a75a2ba28bbb4ed17b0b89e15d087925e">obsolete_vehicles_allowed</a> ()</td></tr>
@@ -384,6 +386,24 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Get traffic level. </p>
+
+</div>
+</div>
+<a id="a50e890fb52bc619114d3bc8d0b787fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e890fb52bc619114d3bc8d0b787fe9">&#9670;&nbsp;</a></span>get_underground_view_level()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer settings::get_underground_view_level </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns current view mode and underground view level. Possible return values: -128 == full underground view +127 == normal view other values == sliced view at the given value </p>
 
 </div>
 </div>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['accepts_5fgood',['accepts_good',['../classhalt__x.html#aea92b4053a792099bcd9a67c0676239d',1,'halt_x']]],
   ['add_5fmessage',['add_message',['../group__scen__only.html#ga15e0556b540bba833e1b1d8fd66fe2c1',1,'gui']]],
-  ['add_5fmessage_5fat',['add_message_at',['../group__scen__only.html#ga3a060cc5265084e08c8dfe19620fb329',1,'gui::add_message_at(string text, coord position)'],['../group__ai__only.html#ga73f889a1634ff49f6039193f6c6c5eae',1,'gui::add_message_at(player_x player, string text, coord position)']]],
+  ['add_5fmessage_5fat',['add_message_at',['../group__scen__only.html#ga48681c9f89cea57119b0288e96228f88',1,'gui::add_message_at(string text, coord3d position)'],['../group__ai__only.html#gae8c4f3c4999f90ed83f37f21ccb54aa9',1,'gui::add_message_at(player_x player, string text, coord3d position)']]],
   ['ai_20only_20functions',['AI only functions',['../group__ai__only.html',1,'']]],
   ['ai_20interface',['AI interface',['../group__ai__skel.html',1,'']]],
   ['all_5fdown_5fslope',['all_down_slope',['../classslope.html#ae9f01698404f57eea862708e55143174',1,'slope']]],
