@@ -33,5 +33,6 @@ var searchData=
   ['coord_5fto_5fstring',['coord_to_string',['../api__scenario_8cc.html#a97216b980ac0adf622444cf6fcb19380',1,'api_scenario.cc']]],
   ['create',['create',['../group__game__cmd.html#ga54a82cd7bbe9e98f649ba51da9849e1d',1,'label_x']]],
   ['create_5fline',['create_line',['../group__game__cmd.html#ga6bdb1e5983d19f6ac97dcc609ea7d7d7',1,'player_x']]],
+  ['current',['current',['../classschedule__x.html#a77a13cf26403fdd681625e8d87894958',1,'schedule_x']]],
   ['common_20pitfalls',['Common pitfalls',['../pitfalls.html',1,'']]]
 ];

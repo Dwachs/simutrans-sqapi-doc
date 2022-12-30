@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Simutrans-Squirrel-API: attraction_list_x Class Reference</title>
+<title>Simutrans-Squirrel-API: label_list_x Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,31 +64,31 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="classattraction__list__x-members.html">List of all members</a>  </div>
+<a href="classlabel__list__x-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">attraction_list_x Class Reference</div>  </div>
+<div class="title">label_list_x Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0e856f42d925e76de0c0025a1c6d0d63"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classattraction__list__x.html#a0e856f42d925e76de0c0025a1c6d0d63">get_count</a> ()</td></tr>
-<tr class="separator:a0e856f42d925e76de0c0025a1c6d0d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b2c24ce16bf022e21473b98bdf7b49"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlabel__list__x.html#ab1b2c24ce16bf022e21473b98bdf7b49">get_count</a> ()</td></tr>
+<tr class="separator:ab1b2c24ce16bf022e21473b98bdf7b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a348068e565db60dd0eca4fd1fe429f33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbuilding__x.html">building_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classattraction__list__x.html#a348068e565db60dd0eca4fd1fe429f33">_get</a> (integer)</td></tr>
-<tr class="separator:a348068e565db60dd0eca4fd1fe429f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9265da5aebc29358b2aeb8181ccd72b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classattraction__list__x.html#a9265da5aebc29358b2aeb8181ccd72b1">_nexti</a> ()</td></tr>
-<tr class="separator:a9265da5aebc29358b2aeb8181ccd72b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619e28327a56758e65fe9588a7b6e027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlabel__x.html">label_x</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlabel__list__x.html#a619e28327a56758e65fe9588a7b6e027">_get</a> (integer)</td></tr>
+<tr class="separator:a619e28327a56758e65fe9588a7b6e027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cccd0723049c5ee8da4f9cbd9b0ddeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlabel__list__x.html#a9cccd0723049c5ee8da4f9cbd9b0ddeb">_nexti</a> ()</td></tr>
+<tr class="separator:a9cccd0723049c5ee8da4f9cbd9b0ddeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Implements iterator to iterate through the list of all attractions on the map.</p>
-<p>Usage: </p><div class="fragment"><div class="line">local list = <a class="code" href="classworld.html">world</a>.<a class="code" href="classworld.html#ad5db3d1d57155f67ee7ac42672dbf6d4">get_attraction_list</a>()</div><div class="line"><span class="comment">// list is now of type attraction_list_x</span></div><div class="line"><span class="keywordflow">foreach</span>(att <span class="keywordflow">in</span> list) {</div><div class="line">    ... <span class="comment">// att is an instance of the building_x class</span></div><div class="line">}</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="api__world_8cc_source.html#l00225">225</a> of file <a class="el" href="api__world_8cc_source.html">api_world.cc</a>.</p>
+<div class="textblock"><p>Implements iterator to iterate through the list of all labels on the map.</p>
+<p>Usage: </p><div class="fragment"><div class="line">local list = <a class="code" href="classworld.html">world</a>.<a class="code" href="classworld.html#a41d6d7a3067cbc980d9db42e3599b7a1">get_label_list</a>()</div><div class="line"><span class="comment">// list is now of type label_list_x</span></div><div class="line"><span class="keywordflow">foreach</span>(label <span class="keywordflow">in</span> list) {</div><div class="line">    ... <span class="comment">// label is an instance of the label_x class</span></div><div class="line">}</div></div><!-- fragment --> 
+<p class="definition">Definition at line <a class="el" href="api__world_8cc_source.html#l00256">256</a> of file <a class="el" href="api__world_8cc_source.html">api_world.cc</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a348068e565db60dd0eca4fd1fe429f33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a348068e565db60dd0eca4fd1fe429f33">&#9670;&nbsp;</a></span>_get()</h2>
+<a id="a619e28327a56758e65fe9588a7b6e027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619e28327a56758e65fe9588a7b6e027">&#9670;&nbsp;</a></span>_get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -97,7 +97,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classbuilding__x.html">building_x</a> attraction_list_x::_get </td>
+          <td class="memname"><a class="el" href="classlabel__x.html">label_x</a> label_list_x::_get </td>
           <td>(</td>
           <td class="paramtype">integer&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -110,12 +110,12 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Meta-method to be used in foreach loops to loop over all attractions on the map. Do not call it directly. </p>
+<p>Meta-method to be used in foreach loops to loop over all labels on the map. Do not call it directly. </p>
 
 </div>
 </div>
-<a id="a9265da5aebc29358b2aeb8181ccd72b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9265da5aebc29358b2aeb8181ccd72b1">&#9670;&nbsp;</a></span>_nexti()</h2>
+<a id="a9cccd0723049c5ee8da4f9cbd9b0ddeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cccd0723049c5ee8da4f9cbd9b0ddeb">&#9670;&nbsp;</a></span>_nexti()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -124,7 +124,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void attraction_list_x::_nexti </td>
+          <td class="memname">void label_list_x::_nexti </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -136,25 +136,25 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Meta-method to be used in foreach loops to loop over all attractions on the map. Do not call it directly. </p>
+<p>Meta-method to be used in foreach loops to loop over all labels on the map. Do not call it directly. </p>
 
 </div>
 </div>
-<a id="a0e856f42d925e76de0c0025a1c6d0d63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e856f42d925e76de0c0025a1c6d0d63">&#9670;&nbsp;</a></span>get_count()</h2>
+<a id="ab1b2c24ce16bf022e21473b98bdf7b49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b2c24ce16bf022e21473b98bdf7b49">&#9670;&nbsp;</a></span>get_count()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">integer attraction_list_x::get_count </td>
+          <td class="memname">integer label_list_x::get_count </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns number of attractions in the list. </p>
+<p>Returns number of labels in the list. </p>
 
 </div>
 </div>

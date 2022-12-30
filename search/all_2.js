@@ -4,6 +4,7 @@ var searchData=
   ['book_5fcash',['book_cash',['../group__scen__only.html#gad9fc88d35e89f0d3cf833bd297165038',1,'player_x']]],
   ['bridge_5fdesc_5fx',['bridge_desc_x',['../classbridge__desc__x.html',1,'']]],
   ['bridge_5fplanner_5fx',['bridge_planner_x',['../classbridge__planner__x.html',1,'']]],
+  ['bridge_5fx',['bridge_x',['../classbridge__x.html',1,'']]],
   ['build_5fbridge',['build_bridge',['../classcommand__x.html#a36da06662ec437f617a95812752a5324',1,'command_x']]],
   ['build_5fbridge_5fat',['build_bridge_at',['../classcommand__x.html#a74043c2a6801a099ba185fc6d5365471',1,'command_x']]],
   ['build_5fdepot',['build_depot',['../classcommand__x.html#ad073cf9de860e5a6b1d122d211847fe2',1,'command_x']]],

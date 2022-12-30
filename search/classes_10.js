@@ -9,5 +9,6 @@ var searchData=
   ['tree_5fx',['tree_x',['../classtree__x.html',1,'']]],
   ['ttext',['ttext',['../classttext.html',1,'']]],
   ['ttextfile',['ttextfile',['../classttextfile.html',1,'']]],
-  ['tunnel_5fdesc_5fx',['tunnel_desc_x',['../classtunnel__desc__x.html',1,'']]]
+  ['tunnel_5fdesc_5fx',['tunnel_desc_x',['../classtunnel__desc__x.html',1,'']]],
+  ['tunnel_5fx',['tunnel_x',['../classtunnel__x.html',1,'']]]
 ];
